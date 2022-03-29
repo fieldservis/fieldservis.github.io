@@ -1,0 +1,132 @@
+html,
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.design-dots {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 600px) {
+    .design-dots {
+        visibility: hidden;
+    }
+
+    .mb-small-2 {
+      margin-bottom:2px;  
+    }
+
+    .nav-segment:not(.nav-fill){
+        display: block;
+    }
+    
+    .nav-segment.nav-pills{
+        border-radius: 0 !important;
+    }
+
+    .sm-p-1{
+        padding: 1rem;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .design-dots {
+        visibility: hidden;
+    }
+}
+
+/* Medium devices (la   ndscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .design-dots {
+        visibility: hidden;
+    }
+    .md-mt-2 {
+        margin-top:2rem
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .design-dots {
+        visibility: visible;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+.navbar-expand-lg .navbar-brand > img {
+    width: 200px;
+}
+
+.bg-footer2 {
+    background-color: #622457;
+}
+
+.footer-btn {
+    background-color: #520043;
+    border-color: #520043;
+    color: #FFF;
+}
+
+.bg-primary-gradient {
+    background: linear-gradient(
+0deg
+, rgba(2,0,36,1) 0%, rgba(255,242,253,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.bg-primary-light {
+    background: #fff7fd;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+}
+
+/* body p {
+    font-family: "Open Sans", sans-serif;
+} */
+
+.display-4 {
+    font-size: 3.2rem;
+}
+.lead {
+    font-size: 1.1rem;
+}
+
+.btn {
+    font-weight: 400;
+}
+
+.bg-main {
+    background: url(../../assets/img/byz/07.png), #fdfdfd;
+    background-size: 600px 600px,auto;
+}
+
+.bg-gradient-signup {
+    background: url(../../assets/svg/components/abstract-shapes-20.svg),linear-gradient(
+45deg
+,#21325b,#21325b 35%,#21224d 53%,#067EED);
+    background-size: 600px 600px,auto;
+}
+
+.bg-footer-gradient {
+    background-color: #534350 !important;
+    /* background: linear-gradient( 
+13deg
+ , rgba(0,45,83,1) 0%, rgba(112,41,99,1) 57%); */
+}
+
+.bg-dark-overlay-dotted {
+    background-image: radial-gradient(#19191c 10%, transparent 0), radial-gradient(#19191c 10%, transparent 0);
+    background-size: 7px 5px;
+    background-position: 11px 13px, 0px 6px;
+    opacity: 0.3;
+}
