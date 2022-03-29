@@ -22,8 +22,18 @@
 
   <style>
     a.text-red-hover.text-muted:hover {
-      color:#E3929E !important;
+      color:#59b654 !important;
     }
+    .btn-primary:not(label.btn), .btn-primary:not(label.btn):not([href]):not(:disabled):not(.disabled), .btn-primary:not([href]), .btn-primary:not([href]):not([href]):not(:disabled):not(.disabled) {
+    background-color: #59b654;
+    border-color: #59b654;
+    }
+    .form-control:focus {
+    border-color: #59b654;
+    }
+    .text-muted[href]:hover, .text-body[href]:hover {
+    color: #59b654 !important;
+   }
   </style>
 </head>
 <body>
@@ -33,7 +43,7 @@
       <div id="logoAndNav" class="container">
         <nav class="navbar">
           <a class="navbar-brand" href="#" aria-label="Front">
-            <img src="assets/img/fly/logo.png" alt="Logo" style="width: 250px;">
+            <img src="assets/img/fly/logo.svg" alt="Logo" style="width: 250px;">
           </a>
         </nav>
       </div>
@@ -63,7 +73,7 @@
               <form action="https://formspree.io/f/mpzkgrbk" method="POST">
                 <div class="row">
                   <div class="col-8">
-                    <input type="email" class="form-control float-left" placeholder="Email Address" name="Bonafied-cloud_subscription_Email" aria-label="Email" required>
+                    <input type="email" class="form-control float-left" placeholder="Email Address" name="FieldServis_subscription_Email" aria-label="Email" required>
                   </div>
                   <div class="col-4">
                     <button type="submit" class="btn btn-primary float-left"  data-loading-text="Sending">Subscribe</button>
@@ -75,7 +85,7 @@
 
           </div>
           <div class="col-lg-6 mb-5 mb-lg-0">
-            <img class="img-fluid" src="assets/img/fly/cloud.svg" alt="SVG Illustration">
+            <img class="img-fluid" src="assets/img/fly/engineer.svg" alt="SVG Illustration">
           </div>
 
           
@@ -91,7 +101,7 @@
     <div class="container">
       <div class="d-flex justify-content-center align-items-center space-1">
         <!-- Copyright -->
-        <p class="small text-muted mb-0">&copy;2021 <a href="javascript:;" class="text-muted"> Bonafied.cloud</a></p>
+        <p class="small text-muted mb-0">&copy;2022 <a href="javascript:;" class="text-muted"> FieldServis.com</a></p>
         <!-- End Copyright -->
 
       </div>
