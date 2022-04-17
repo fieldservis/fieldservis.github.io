@@ -6,25 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title -->
-  <title>Header (Navbar) style - Snippets | Space - Multipurpose Responsive Template</title>
+  <title>Header (Navbar) style - Snippets | Front - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="../favicon.ico">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/css/vendor.min.css">
   <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
-  <!-- CSS Space Template -->
-  <link rel="stylesheet" href="../assets/css/theme.min.css">
-  <link rel="stylesheet" href="../assets/css/snippets.min.css">
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../assets/css/theme.min.css?v=1.0">
 </head>
 
-<body class="navbar-sidebar-aside-lg bg-light">
+<body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand navbar-fixed navbar-right navbar-light navbar-sticky-lg-top bg-white">
+  <header id="header" class="navbar navbar-expand navbar-fixed navbar-end navbar-light navbar-sticky-lg-top bg-white">
     <div class="container-fluid">
       <nav class="navbar-nav-wrap">
         <div class="row flex-grow-1">
@@ -34,7 +34,7 @@
               <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <a href="../documentation/changelog.html">
-              <span class="badge bg-soft-primary text-primary">v2.0</span>
+              <span class="badge bg-soft-primary text-primary">v4.0</span>
             </a>
           </div>
           <!-- End Default Logo -->
@@ -57,7 +57,7 @@
                       <i class="bi-search"></i>
                     </div>
 
-                    <input type="search" class="search form-control" placeholder="Search in snippets" aria-label="Search in snippets">
+                    <input type="search" class="search form-control form-control-sm" placeholder="Search in snippets" aria-label="Search in snippets">
 
                     <a class="input-group-append input-group-text" href="javascript:;">
                       <i id="clearSearchResultsIcon" class="bi-x" style="display: none;"></i>
@@ -84,8 +84,8 @@
                 <div class="d-none">
                   <div id="searchTemplate" class="dropdown-item">
                     <a class="d-block link" href="#">
-                      <span class="category d-block text-muted mb-1"></span>
-                      <span class="component fw-bold text-dark"></span>
+                      <span class="category d-block fw-normal text-muted mb-1"></span>
+                      <span class="component text-dark"></span>
                     </a>
                   </div>
                 </div>
@@ -95,12 +95,12 @@
               <!-- Navbar -->
               <ul class="navbar-nav p-0">
                 <li class="nav-item">
-                  <a class="btn btn-ghost-secondary" href="https://htmlstream.com/contact-us" target="_blank">
+                  <a class="btn btn-ghost-secondary btn-sm" href="https://htmlstream.com/contact-us" target="_blank">
                     Get Support <i class="bi-box-arrow-up-right ms-1"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="btn btn-primary" href="../index.html">
+                  <a class="btn btn-primary btn-sm" href="../index.html">
                     <i class="bi-eye me-1"></i> Preview Demo
                   </a>
                 </li>
@@ -152,7 +152,7 @@
               <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <a class="navbar-brand-badge" href="../documentation/changelog.html">
-              <span class="badge bg-soft-primary text-primary ms-2">v2.0</span>
+              <span class="badge bg-soft-primary text-primary ms-2">v4.0</span>
             </a>
           </div>
           <!-- End Default Logo -->
@@ -196,11 +196,11 @@
             <li class="nav-item my-2 my-lg-5"></li>
 
             <li class="nav-item">
-              <span class="nav-subtitle">Foundations</span>
+              <span class="nav-subtitle">Content</span>
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavFeaturesCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavFeaturesCollapse">Features</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavFeaturesCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavFeaturesCollapse">Features</a>
 
               <div id="snippetsSidebarNavFeaturesCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="features-general.html">General</a>
@@ -215,10 +215,20 @@
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavCardsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavCardsCollapse">Cards</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavCardsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavCardsCollapse">Cards</a>
 
               <div id="snippetsSidebarNavCardsCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="cards-grid.html">Grid</a>
+                <a class="nav-link " href="cards-list.html">List</a>
+              </div>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavDirectoryCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavDirectoryCollapse">Directory</a>
+
+              <div id="snippetsSidebarNavDirectoryCollapse" class="nav-collapse collapse ">
+                <a class="nav-link " href="directory-grid.html">Grid</a>
+                <a class="nav-link " href="directory-list.html">List</a>
               </div>
             </li>
 
@@ -227,7 +237,7 @@
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavBlogsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavBlogsCollapse">Blogs</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavBlogsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavBlogsCollapse">Blogs</a>
 
               <div id="snippetsSidebarNavBlogsCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="blogs-grid.html">Grid</a>
@@ -236,11 +246,23 @@
             </li>
 
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/tables.html">Tables</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/ecommerce.html">E-commerce</a>
+            </li>
+
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/pricing.html">Pricing</a>
             </li>
         
             <li class="nav-item">
               <a class="nav-link " href="../snippets/team-sections.html">Team Sections</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/breadcrumb.html">Breadcrumb</a>
             </li>
         
             <li class="nav-item">
@@ -264,6 +286,10 @@
             </li>
         
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/countdown.html">Countdown</a>
+            </li>
+        
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/faq.html">FAQ</a>
             </li>
         
@@ -272,7 +298,15 @@
             </li>
         
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/collapse-accordion.html">Collapse/Accordion</a>
+            </li>
+        
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/comments.html">Comments</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/feedback-and-reviews.html">Feedback &amp; Reviews</a>
             </li>
         
             <li class="nav-item">
@@ -280,11 +314,19 @@
             </li>
         
             <li class="nav-item">
-              <a class="nav-link " href="sidebar-examples.html">Sidebar Nav Examples</a>
+              <a class="nav-link " href="sidebar-examples.html">Sidebar Examples</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="../snippets/content-sections.html">Content Sections</a>
+              <a class="nav-link " href="calendar-view.html">Calendar View</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="notification.html">Notification</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="content-sections.html">Content Sections</a>
             </li>
 
             <li class="nav-item my-2 my-lg-5"></li>
@@ -292,29 +334,37 @@
             <li class="nav-item">
               <small class="nav-subtitle">Forms</small>
             </li>
-          
-            <li class="nav-item">
-              <a class="nav-link " href="form-layouts-authentication.html">Authentication</a>
-            </li>
 
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-feedback.html">Feedback</a>
+              <a class="nav-link " href="forms-authentication.html">Authentication</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-filters.html">Filters</a>
+              <a class="nav-link " href="forms-feedback.html">Feedback</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-search.html">Search</a>
+              <a class="nav-link " href="forms-filters.html">Filters</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-directory.html">Directory</a>
+              <a class="nav-link " href="forms-search.html">Search</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-subscribe.html">Subscribe</a>
+              <a class="nav-link " href="forms-directory.html">Directory</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-subscribe.html">Subscribe</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-account.html">Account</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-wizard-and-steps.html">Wizard &amp; Steps</a>
             </li>
 
             <li class="nav-item my-2 my-lg-5"></li>
@@ -377,60 +427,105 @@
                 <td>Bootstrap only Dropdowns</td>
                 <td><a class="link" href="../snippets/navbar-bs-only-dropdowns.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
-
+              
               <tr>
                 <td>Transparent</td>
                 <td><a class="link" href="../snippets/navbar-transparent.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
-
+              
               <tr>
                 <td>Light</td>
                 <td><a class="link" href="../snippets/navbar-light.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
-
+              
               <tr>
-                <td>Default</td>
-                <td><a class="link" href="../snippets/navbar-default.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
+                <td>With Topbar</td>
+                <td><a class="link" href="../snippets/navbar-with-topbar.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
-
+              
               <tr>
                 <td>Absolute Top</td>
                 <td><a class="link" href="../snippets/navbar-absolute-top.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
-
+              
               <tr>
                 <td>Absolute Top Light</td>
                 <td><a class="link" href="../snippets/navbar-absolute-top-light.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
-
+              
               <tr>
                 <td>Absolute Top Slide</td>
                 <td><a class="link" href="../snippets/navbar-absolute-top-slide.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
-
+              
               <tr>
                 <td>Absolute Top Light Slide</td>
                 <td><a class="link" href="../snippets/navbar-absolute-top-light-slide.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
-
+              
               <tr>
                 <td>Sticky Top</td>
                 <td><a class="link" href="../snippets/navbar-sticky-top.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
-
+              
               <tr>
                 <td>Sticky Top Light</td>
                 <td><a class="link" href="../snippets/navbar-sticky-top-light.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
-
+              
               <tr>
                 <td>Sticky Top Toggle</td>
                 <td><a class="link" href="../snippets/navbar-sticky-top-toggle.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
-
+              
               <tr>
                 <td>Sticky Top Light Toggle</td>
                 <td><a class="link" href="../snippets/navbar-sticky-top-light-toggle.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
+              </tr>
+              
+              <tr>
+                <td>Floating</td>
+                <td><a class="link" href="../snippets/navbar-floating.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
+              </tr>
+              
+              <tr>
+                <td>Fullscreen</td>
+                <td><a class="link" href="../snippets/navbar-fullscreen.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
+              </tr>
+              
+              <tr>
+                <td>Demo - Shop</td>
+                <td><a class="link" href="../snippets/navbar-demo-shop.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
+              </tr>
+              
+              <tr>
+                <td>Demo - Real Estate</td>
+                <td><a class="link" href="../snippets/navbar-demo-real-estate.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
+              </tr>
+              
+              <tr>
+                <td>Demo - Jobs</td>
+                <td><a class="link" href="../snippets/navbar-demo-jobs.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
+              </tr>
+              
+              <tr>
+                <td>Demo - Course (Main)</td>
+                <td><a class="link" href="../snippets/navbar-demo-course-main.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
+              </tr>
+              
+              <tr>
+                <td>Demo - Course (Inner)</td>
+                <td><a class="link" href="../snippets/navbar-demo-course-inner.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
+              </tr>
+              
+              <tr>
+                <td>Demo - Help Desk</td>
+                <td><a class="link" href="../snippets/navbar-demo-help-desk.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
+              </tr>
+              
+              <tr>
+                <td>Demo - App Marketplace</td>
+                <td><a class="link" href="../snippets/navbar-demo-app-marketplace.html" target="_blank">See in action <i class="bi-box-arrow-up-right small ms-1"></i></a></td>
               </tr>
             </tbody>
           </table>
@@ -534,16 +629,11 @@
   </a>
   <!-- ========== END SECONDARY CONTENTS ========== -->
 
-  <!-- JS Global Compulsory  -->
-  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="../assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="../assets/vendor/list.js/dist/list.min.js"></script>
-  <script src="../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="../assets/vendor/prism/prism.js"></script>
+  <script src="../assets/js/vendor.min.js"></script>
 
-  <!-- JS Space -->
+  <!-- JS Front -->
   <script src="../assets/js/theme.min.js"></script>
 
   <!-- JS Plugins Init. -->
@@ -556,7 +646,8 @@
 
       // INITIALIZATION OF LISTJS COMPONENT
       // =======================================================
-      const snippetsSearch = HSCore.components.HSList.init('#snippetsSearch');
+      HSCore.components.HSList.init('#snippetsSearch')
+      const snippetsSearch = HSCore.components.HSList.getItem('snippetsSearch')
 
 
       // GET JSON FILE RESULTS
@@ -564,7 +655,7 @@
       fetch('../assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
-        snippetsSearch.getItem(0).add(data)
+        snippetsSearch.add(data)
       })
 
 

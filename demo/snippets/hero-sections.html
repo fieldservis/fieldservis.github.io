@@ -6,25 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title -->
-  <title>Hero Sections - Snippets | Space - Multipurpose Responsive Template</title>
+  <title>Hero Sections - Snippets | Front - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="../favicon.ico">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/css/vendor.min.css">
   <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
-  <!-- CSS Space Template -->
-  <link rel="stylesheet" href="../assets/css/theme.min.css">
-  <link rel="stylesheet" href="../assets/css/snippets.min.css">
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../assets/css/theme.min.css?v=1.0">
 </head>
 
-<body class="navbar-sidebar-aside-lg bg-light">
+<body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand navbar-fixed navbar-right navbar-light navbar-sticky-lg-top bg-white">
+  <header id="header" class="navbar navbar-expand navbar-fixed navbar-end navbar-light navbar-sticky-lg-top bg-white">
     <div class="container-fluid">
       <nav class="navbar-nav-wrap">
         <div class="row flex-grow-1">
@@ -34,7 +34,7 @@
               <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <a href="../documentation/changelog.html">
-              <span class="badge bg-soft-primary text-primary">v2.0</span>
+              <span class="badge bg-soft-primary text-primary">v4.0</span>
             </a>
           </div>
           <!-- End Default Logo -->
@@ -57,7 +57,7 @@
                       <i class="bi-search"></i>
                     </div>
 
-                    <input type="search" class="search form-control" placeholder="Search in snippets" aria-label="Search in snippets">
+                    <input type="search" class="search form-control form-control-sm" placeholder="Search in snippets" aria-label="Search in snippets">
 
                     <a class="input-group-append input-group-text" href="javascript:;">
                       <i id="clearSearchResultsIcon" class="bi-x" style="display: none;"></i>
@@ -84,8 +84,8 @@
                 <div class="d-none">
                   <div id="searchTemplate" class="dropdown-item">
                     <a class="d-block link" href="#">
-                      <span class="category d-block text-muted mb-1"></span>
-                      <span class="component fw-bold text-dark"></span>
+                      <span class="category d-block fw-normal text-muted mb-1"></span>
+                      <span class="component text-dark"></span>
                     </a>
                   </div>
                 </div>
@@ -95,12 +95,12 @@
               <!-- Navbar -->
               <ul class="navbar-nav p-0">
                 <li class="nav-item">
-                  <a class="btn btn-ghost-secondary" href="https://htmlstream.com/contact-us" target="_blank">
+                  <a class="btn btn-ghost-secondary btn-sm" href="https://htmlstream.com/contact-us" target="_blank">
                     Get Support <i class="bi-box-arrow-up-right ms-1"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="btn btn-primary" href="../index.html">
+                  <a class="btn btn-primary btn-sm" href="../index.html">
                     <i class="bi-eye me-1"></i> Preview Demo
                   </a>
                 </li>
@@ -152,7 +152,7 @@
               <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <a class="navbar-brand-badge" href="../documentation/changelog.html">
-              <span class="badge bg-soft-primary text-primary ms-2">v2.0</span>
+              <span class="badge bg-soft-primary text-primary ms-2">v4.0</span>
             </a>
           </div>
           <!-- End Default Logo -->
@@ -196,11 +196,11 @@
             <li class="nav-item my-2 my-lg-5"></li>
 
             <li class="nav-item">
-              <span class="nav-subtitle">Foundations</span>
+              <span class="nav-subtitle">Content</span>
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavFeaturesCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavFeaturesCollapse">Features</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavFeaturesCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavFeaturesCollapse">Features</a>
 
               <div id="snippetsSidebarNavFeaturesCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="features-general.html">General</a>
@@ -215,10 +215,20 @@
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavCardsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavCardsCollapse">Cards</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavCardsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavCardsCollapse">Cards</a>
 
               <div id="snippetsSidebarNavCardsCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="cards-grid.html">Grid</a>
+                <a class="nav-link " href="cards-list.html">List</a>
+              </div>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavDirectoryCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavDirectoryCollapse">Directory</a>
+
+              <div id="snippetsSidebarNavDirectoryCollapse" class="nav-collapse collapse ">
+                <a class="nav-link " href="directory-grid.html">Grid</a>
+                <a class="nav-link " href="directory-list.html">List</a>
               </div>
             </li>
 
@@ -227,7 +237,7 @@
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavBlogsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavBlogsCollapse">Blogs</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavBlogsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavBlogsCollapse">Blogs</a>
 
               <div id="snippetsSidebarNavBlogsCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="blogs-grid.html">Grid</a>
@@ -236,11 +246,23 @@
             </li>
 
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/tables.html">Tables</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/ecommerce.html">E-commerce</a>
+            </li>
+
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/pricing.html">Pricing</a>
             </li>
         
             <li class="nav-item">
               <a class="nav-link " href="../snippets/team-sections.html">Team Sections</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/breadcrumb.html">Breadcrumb</a>
             </li>
         
             <li class="nav-item">
@@ -264,6 +286,10 @@
             </li>
         
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/countdown.html">Countdown</a>
+            </li>
+        
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/faq.html">FAQ</a>
             </li>
         
@@ -272,7 +298,15 @@
             </li>
         
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/collapse-accordion.html">Collapse/Accordion</a>
+            </li>
+        
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/comments.html">Comments</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/feedback-and-reviews.html">Feedback &amp; Reviews</a>
             </li>
         
             <li class="nav-item">
@@ -280,11 +314,19 @@
             </li>
         
             <li class="nav-item">
-              <a class="nav-link " href="sidebar-examples.html">Sidebar Nav Examples</a>
+              <a class="nav-link " href="sidebar-examples.html">Sidebar Examples</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="../snippets/content-sections.html">Content Sections</a>
+              <a class="nav-link " href="calendar-view.html">Calendar View</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="notification.html">Notification</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="content-sections.html">Content Sections</a>
             </li>
 
             <li class="nav-item my-2 my-lg-5"></li>
@@ -292,29 +334,37 @@
             <li class="nav-item">
               <small class="nav-subtitle">Forms</small>
             </li>
-          
-            <li class="nav-item">
-              <a class="nav-link " href="form-layouts-authentication.html">Authentication</a>
-            </li>
 
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-feedback.html">Feedback</a>
+              <a class="nav-link " href="forms-authentication.html">Authentication</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-filters.html">Filters</a>
+              <a class="nav-link " href="forms-feedback.html">Feedback</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-search.html">Search</a>
+              <a class="nav-link " href="forms-filters.html">Filters</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-directory.html">Directory</a>
+              <a class="nav-link " href="forms-search.html">Search</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-subscribe.html">Subscribe</a>
+              <a class="nav-link " href="forms-directory.html">Directory</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-subscribe.html">Subscribe</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-account.html">Account</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-wizard-and-steps.html">Wizard &amp; Steps</a>
             </li>
 
             <li class="nav-item my-2 my-lg-5"></li>
@@ -353,9 +403,9 @@
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
           <a class="card card-transition" href="../snippets/hero-landing-corporate.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img5.jpg" alt="Image Description">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img1.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Landing Corporate</h6>
+              <h5 class="card-text text-inherit">Landing Corporate</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -364,10 +414,46 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-landing-agency.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img1.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-landing-analytics.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img2.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Landing Agency</h6>
+              <h5 class="card-text text-inherit">Landing Analytics</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-landing-studio.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img3.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">Landing Studio</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-landing-marketing.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img4.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">Landing Marketing</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-landing-advertisement.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img5.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">Landing Advertisement</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -377,9 +463,9 @@
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
           <a class="card card-transition" href="../snippets/hero-landing-consulting.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img3.jpg" alt="Image Description">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img6.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Landing Consulting</h6>
+              <h5 class="card-text text-inherit">Landing Consulting</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -388,10 +474,22 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-landing-services.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img4.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-landing-portfolio.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img7.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Landing Services</h6>
+              <h5 class="card-text text-inherit">Landing Portfolio</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-landing-software.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img8.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">Landing Software</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -401,9 +499,9 @@
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
           <a class="card card-transition" href="../snippets/hero-landing-business.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img2.jpg" alt="Image Description">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img9.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Landing Business</h6>
+              <h5 class="card-text text-inherit">Landing Business</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -412,10 +510,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-landing-growth.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img6.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-landing-app-ui-kit.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img10.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Landing Growth</h6>
+              <h5 class="card-text text-inherit">Landing App UI Kit</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -424,10 +522,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-landing-saas.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img7.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-landing-app-saas.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img11.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Landing SaaS</h6>
+              <h5 class="card-text text-inherit">Landing App SaaS</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -436,10 +534,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-landing-wallet.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img8.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-landing-app-workflow.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img12.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Landing Wallet</h6>
+              <h5 class="card-text text-inherit">Landing App Workflow</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -448,10 +546,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-landing-api.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img9.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-landing-app-payment.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img13.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Landing API</h6>
+              <h5 class="card-text text-inherit">Landing App Payment</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -460,10 +558,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-about.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img10.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-landing-app-tool.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img14.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">About</h6>
+              <h5 class="card-text text-inherit">Landing App Tool</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -472,10 +570,22 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-services.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img11.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-landing-onepage-corporate.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img15.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Services</h6>
+              <h5 class="card-text text-inherit">Landing Onepage Corporate</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-landing-onepage-saas.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img16.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">Landing Onepage SaaS</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -485,9 +595,9 @@
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
           <a class="card card-transition" href="../snippets/hero-customer-stories.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img12.jpg" alt="Image Description">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img17.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Customer Stories</h6>
+              <h5 class="card-text text-inherit">Customer Stories</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -496,10 +606,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-single-customer-story.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img13.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-contacts-agency.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img18.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Single Customer Story</h6>
+              <h5 class="card-text text-inherit">Contacts: Agency</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -508,10 +618,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-help-center.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img14.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-faq.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img19.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Help Center</h6>
+              <h5 class="card-text text-inherit">FAQ</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -520,10 +630,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-careers.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img15.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-blog-journal.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img20.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Careers</h6>
+              <h5 class="card-text text-inherit">Blog Journal</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -532,10 +642,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-careers-single.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img16.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-blog-metro.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img21.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Careers Single</h6>
+              <h5 class="card-text text-inherit">Blog Metro</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -544,10 +654,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-hire-us.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img17.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-portfolio-case-studies-branding.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img22.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Hire Us</h6>
+              <h5 class="card-text text-inherit">Portfolio Case Studies: Branding</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -556,10 +666,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-contacts.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img18.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-portfolio-case-studies-branding-video-block.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img23.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Contacts</h6>
+              <h5 class="card-text text-inherit">Portfolio Case Studies: Branding - Video Block</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -568,10 +678,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-portfolio-modern.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img19.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-portfolio-case-studies-product-video-block.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img24.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Portfolio Modern</h6>
+              <h5 class="card-text text-inherit">Portfolio Case Studies: Product - Video Block</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -580,10 +690,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-portfolio-case-study.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img20.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-portfolio-case-studies-product-slider.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img25.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Portfolio - Case Study</h6>
+              <h5 class="card-text text-inherit">Portfolio Case Studies: Product - Slider</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -592,10 +702,10 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-coming-soon.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img21.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-real-estate-demo.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img26.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Coming Soon</h6>
+              <h5 class="card-text text-inherit">Real Estate</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -604,10 +714,94 @@
 
         <div class="col-sm-6 col-md-4 mb-5">
           <!-- Card -->
-          <a class="card card-transition" href="../snippets/hero-blog-classic.html" target="_blank">
-            <img class="card-img-top p-1" src="../assets/img/900x545/img22.jpg" alt="Image Description">
+          <a class="card card-transition" href="../snippets/hero-jobs-demo.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img27.jpg" alt="Image Description">
             <div class="card-body">
-              <h6 class="card-text text-inherit">Blog Classic</h6>
+              <h5 class="card-text text-inherit">Jobs</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-course-demo.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img28.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">Course</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-course-demo-course-overview.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img29.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">Course Overview</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-shop-demo.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img30.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">Shop</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-shop-demo-promotion.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img31.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">Shop: Promotion</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-shop-demo-categories.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img32.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">Shop: Categories</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-app-marketplace-demo.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img33.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">App Marketplace</h5>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-sm-6 col-md-4 mb-5">
+          <!-- Card -->
+          <a class="card card-transition" href="../snippets/hero-help-desk-demo.html" target="_blank">
+            <img class="card-img-top p-1" src="../assets/img/900x460/img34.jpg" alt="Image Description">
+            <div class="card-body">
+              <h5 class="card-text text-inherit">Help Desk</h5>
             </div>
           </a>
           <!-- End Card -->
@@ -641,16 +835,11 @@
   </a>
   <!-- ========== END SECONDARY CONTENTS ========== -->
 
-  <!-- JS Global Compulsory  -->
-  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="../assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="../assets/vendor/list.js/dist/list.min.js"></script>
-  <script src="../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="../assets/vendor/prism/prism.js"></script>
+  <script src="../assets/js/vendor.min.js"></script>
 
-  <!-- JS Space -->
+  <!-- JS Front -->
   <script src="../assets/js/theme.min.js"></script>
 
   <!-- JS Plugins Init. -->
@@ -663,7 +852,8 @@
 
       // INITIALIZATION OF LISTJS COMPONENT
       // =======================================================
-      const snippetsSearch = HSCore.components.HSList.init('#snippetsSearch');
+      HSCore.components.HSList.init('#snippetsSearch')
+      const snippetsSearch = HSCore.components.HSList.getItem('snippetsSearch')
 
 
       // GET JSON FILE RESULTS
@@ -671,7 +861,7 @@
       fetch('../assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
-        snippetsSearch.getItem(0).add(data)
+        snippetsSearch.add(data)
       })
 
 

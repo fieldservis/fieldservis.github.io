@@ -7,45 +7,10 @@
   {
     "component": "Navbar",
     "category": "Navbar / Hero Sections",
-    "link": "./navbar-default.html"
+    "link": "./navbar.html"
   },
   {
     "component": "Bootstrap only Dropdowns",
-    "category": "Navbar / Hero Sections",
-    "link": "./navbar-bs-only-dropdowns.html"
-  },
-  {
-    "component": "Transparent",
-    "category": "Navbar / Hero Sections",
-    "link": "./navbar-transparent.html"
-  },
-  {
-    "component": "Navbar Light",
-    "category": "Navbar / Hero Sections",
-    "link": "./navbar-light.html"
-  },
-  {
-    "component": "Navbar Absolute Top",
-    "category": "Navbar / Hero Sections",
-    "link": "./navbar-absolute-top.html"
-  },
-  {
-    "component": "Navbar Absolute Top Slide",
-    "category": "Navbar / Hero Sections",
-    "link": "./navbar-absolute-top-slide.html"
-  },
-  {
-    "component": "Navbar Absolute Top Light",
-    "category": "Navbar / Hero Sections",
-    "link": "./navbar-absolute-top-light.html"
-  },
-  {
-    "component": "Navbar Absolute Top Light Slide",
-    "category": "Navbar / Hero Sections",
-    "link": "./navbar-absolute-top-light-slide.html"
-  },
-  {
-    "component": "Hero Sections",
     "category": "Navbar / Hero Sections",
     "link": "./hero-sections.html"
   },
@@ -80,14 +45,49 @@
     "link": "./cards-grid.html"
   },
   {
-    "component": "Blogs - Grid",
+    "component": "Cards List",
+    "category": "Content",
+    "link": "./cards-list.html"
+  },
+  {
+    "component": "Blogs Grid",
     "category": "Content",
     "link": "./blogs-grid.html"
   },
   {
-    "component": "Blogs - List",
+    "component": "Blogs List",
     "category": "Content",
     "link": "./blogs-list.html"
+  },
+  {
+    "component": "Directory Grid",
+    "category": "Content",
+    "link": "./directory-grid.html"
+  },
+  {
+    "component": "Directory List",
+    "category": "Content",
+    "link": "./directory-list.html"
+  },
+  {
+    "component": "Pricing",
+    "category": "Content",
+    "link": "./pricing.html"
+  },
+  {
+    "component": "Testimonials",
+    "category": "Content",
+    "link": "./testimonials.html"
+  },
+  {
+    "component": "Tables",
+    "category": "Content",
+    "link": "./tables.html"
+  },
+  {
+    "component": "E-commerce",
+    "category": "Content",
+    "link": "./ecommerce.html"
   },
   {
     "component": "Pricing",
@@ -98,6 +98,16 @@
     "component": "Team Sections",
     "category": "Content",
     "link": "./team-sections.html"
+  },
+  {
+    "component": "Call-to-Action (CTA)",
+    "category": "Content",
+    "link": "./cta.html"
+  },
+  {
+    "component": "Breadcrumb",
+    "category": "Content",
+    "link": "./breadcrumb.html"
   },
   {
     "component": "Call-to-Action (CTA)",
@@ -125,6 +135,11 @@
     "link": "./clients.html"
   },
   {
+    "component": "Countdown",
+    "category": "Content",
+    "link": "./countdown.html"
+  },
+  {
     "component": "FAQ",
     "category": "Content",
     "link": "./faq.html"
@@ -133,6 +148,11 @@
     "component": "Lists",
     "category": "Content",
     "link": "./lists.html"
+  },
+  {
+    "component": "Collapse/Accordion",
+    "category": "Content",
+    "link": "./collapse-accordion.html"
   },
   {
     "component": "Comments",
@@ -150,48 +170,68 @@
     "link": "./sidebar-examples.html"
   },
   {
+    "component": "Calendar View",
+    "category": "Content",
+    "link": "./calendar-view.html"
+  },
+  {
+    "component": "Notification",
+    "category": "Content",
+    "link": "./notification.html"
+  },
+  {
     "component": "Content Sections",
     "category": "Content",
     "link": "./content-sections.html"
   },
   {
-    "component": "Form Layouts - Authentication",
+    "component": "Form - Authentication",
     "category": "Content",
-    "link": "./form-layouts-authentication.html"
+    "link": "./forms-authentication.html"
   },
   {
-    "component": "Form Layouts - Feedback",
+    "component": "Form - Feedback",
     "category": "Content",
-    "link": "./form-layouts-feedback.html"
+    "link": "./forms-feedback.html"
   },
   {
-    "component": "Form Layouts - Filters",
+    "component": "Form - Filters",
     "category": "Content",
-    "link": "./form-layouts-filters.html"
+    "link": "./forms-filters.html"
   },
   {
-    "component": "Form Layouts - Search",
+    "component": "Form - Search",
     "category": "Content",
-    "link": "./form-layouts-search.html"
+    "link": "./forms-search.html"
   },
   {
-    "component": "Form Layouts - Directory",
+    "component": "Form - Directory",
     "category": "Content",
-    "link": "./form-layouts-directory.html"
+    "link": "./forms-directory.html"
   },
   {
-    "component": "Form Layouts - Subscribe",
+    "component": "Form - Subscribe",
     "category": "Content",
-    "link": "./form-layouts-subscribe.html"
+    "link": "./forms-subscribe.html"
+  },
+  {
+    "component": "Form - Accordion",
+    "category": "Content",
+    "link": "./forms-accordion.html"
+  },
+  {
+    "component": "Form - Wizard &amp; Steps",
+    "category": "Content",
+    "link": "./forms-wizard-and-steps.html"
   },
   {
     "component": "Contact",
-    "category": "Contact Sections / Footer",
+    "category": "Contact / Footer",
     "link": "./contact-sections.html"
   },
   {
     "component": "Footer",
-    "category": "Contact Sections / Footer",
+    "category": "Contact / Footer",
     "link": "./footer.html"
   }
 ]

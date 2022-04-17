@@ -6,34 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title -->
-  <title>Sticky Top Light Toggle - Snippets | Space - Multipurpose Responsive Template</title>
+  <title>Navbar Sticky Top Light Toggle - Snippets | Front - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="../favicon.ico">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/css/vendor.min.css">
   <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
 
-  <!-- CSS Space Template -->
-  <link rel="stylesheet" href="../assets/css/theme.min.css">
-  <link rel="stylesheet" href="../assets/css/snippets.min.css">
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../assets/css/theme.min.css?v=1.0">
 </head>
 
 <body>
   <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand-lg navbar-right navbar-sticky-top navbar-show-hide navbar-dark"
+  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-dark navbar-show-hide navbar-toggle"
           data-hs-header-options='{
-            "fixMoment": 500,
+            "fixMoment": 1000,
             "fixEffect": "slide"
           }'>
     <div class="container">
       <nav class="js-mega-menu navbar-nav-wrap">
         <!-- Default Logo -->
-        <a class="navbar-brand" href="../index.html" aria-label="Space">
+        <a class="navbar-brand" href="../index.html" aria-label="Front">
           <img class="navbar-brand-logo" src="../assets/svg/logos/logo-white.svg" alt="Logo">
         </a>
         <!-- End Default Logo -->
@@ -54,94 +53,144 @@
           <div class="navbar-sticky-top-scroller">
             <ul class="navbar-nav">
               <!-- Landings -->
-              <li class="hs-has-mega-menu nav-item"
-                  data-hs-mega-menu-item-options='{
-                    "desktop": {
-                      "maxWidth": "30rem"
-                    }
-                  }'>
-                <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " aria-current="page" href="#" role="button" aria-expanded="false">Landings</a>
+              <li class="hs-has-mega-menu nav-item">
+                <a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Landings</a>
 
                 <!-- Mega Menu -->
-                <div class="hs-mega-menu hs-position-right-fix dropdown-menu" aria-labelledby="landingsMegaMenu" style="min-width: 30rem;">
-                  <!-- Main Content -->
-                  <div class="navbar-dropdown-menu-inner">
-                    <div class="row">
-                      <div class="col-sm mb-3 mb-sm-0">
-                        <span class="dropdown-header">Classic</span>
-                        <a class="dropdown-item " href="../index.html">Corporate</a>
-                        <a class="dropdown-item " href="../landing-agency.html">Agency</a>
-                        <a class="dropdown-item " href="../landing-consulting.html">Consulting</a>
-                        <a class="dropdown-item " href="../landing-services.html">Services</a>
-                        <a class="dropdown-item " href="../landing-business.html">Business</a>
+                <div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="landingsMegaMenu" style="min-width: 30rem;">
+                  <div class="row">
+                    <div class="col-lg-6 d-none d-lg-block">
+                      <!-- Banner Image -->
+                      <div class="navbar-dropdown-menu-banner" style="background-image: url(../assets/svg/components/shape-3.svg);">
+                        <div class="navbar-dropdown-menu-banner-content">
+                          <div class="mb-4">
+                            <span class="h2 d-block">Branding Works</span>
+                            <p>Experience a level of our quality in both design &amp; customization works.</p>
+                          </div>
+                          <a class="btn btn-primary btn-transition" href="#">Learn more <i class="bi-chevron-right small"></i></a>
+                        </div>
                       </div>
+                      <!-- End Banner Image -->
+                    </div>
+                    <!-- End Col -->
 
-                      <div class="col-sm">
-                        <span class="dropdown-header">Services</span>
-                        <a class="dropdown-item " href="../landing-services-growth.html">Growth</a>
-                        <a class="dropdown-item " href="../landing-services-saas.html">SaaS</a>
-                        <a class="dropdown-item " href="../landing-services-wallet.html">Wallet</a>
-                        <a class="dropdown-item " href="../landing-services-api.html">API</a>
+                    <div class="col-lg-6">
+                      <div class="navbar-dropdown-menu-inner">
+                        <div class="row">
+                          <div class="col-sm mb-3 mb-sm-0">
+                            <span class="dropdown-header">Classic</span>
+                            <a class="dropdown-item " href="../landing-classic-corporate.html">Corporate</a>
+                            <a class="dropdown-item " href="../landing-classic-analytics.html">Analytics <span class="badge bg-primary rounded-pill ms-1">Hot</span></a>
+                            <a class="dropdown-item " href="../landing-classic-studio.html">Studio</a>
+                            <a class="dropdown-item " href="../landing-classic-marketing.html">Marketing</a>
+                            <a class="dropdown-item " href="../landing-classic-advertisement.html">Advertisement</a>
+                            <a class="dropdown-item " href="../landing-classic-consulting.html">Consulting</a>
+                            <a class="dropdown-item " href="../landing-classic-portfolio.html">Portfolio</a>
+                            <a class="dropdown-item " href="../landing-classic-software.html">Software</a>
+                            <a class="dropdown-item " href="../landing-classic-business.html">Business</a>
+                          </div>
+                          <!-- End Col -->
+
+                          <div class="col-sm">
+                            <div class="mb-3">
+                              <span class="dropdown-header">App</span>
+                              <a class="dropdown-item " href="../landing-app-ui-kit.html">UI Kit</a>
+                              <a class="dropdown-item " href="../landing-app-saas.html">SaaS</a>
+                              <a class="dropdown-item " href="../landing-app-workflow.html">Workflow</a>
+                              <a class="dropdown-item " href="../landing-app-payment.html">Payment</a>
+                              <a class="dropdown-item " href="../landing-app-tool.html">Tool</a>
+                            </div>
+
+                            <span class="dropdown-header">Onepage</span>
+                            <a class="dropdown-item " href="../landing-onepage-corporate.html">Corporate</a>
+                            <a class="dropdown-item " href="../landing-onepage-saas.html">SaaS <span class="badge bg-primary rounded-pill ms-1">Hot</span></a>
+                          </div>
+                          <!-- End Col -->
+                        </div>
+                        <!-- End Row -->
                       </div>
                     </div>
-                    <!-- End Row -->
+                    <!-- End Col -->
                   </div>
-                  <!-- End Main Content -->
+                  <!-- End Row -->
                 </div>
                 <!-- End Mega Menu -->
               </li>
               <!-- End Landings -->
 
-              <!-- Pages -->
-              <li class="hs-has-mega-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Pages</a>
+              <!-- Company -->
+              <li class="hs-has-sub-menu nav-item">
+                <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
 
                 <!-- Mega Menu -->
-                <div class="hs-mega-menu hs-position-right dropdown-menu w-100" aria-labelledby="pagesMegaMenu" style="min-width: 42rem;">
-                  <!-- Main Content -->
-                  <div class="navbar-dropdown-menu-inner">
-                    <div class="row">
-                      <div class="col-sm-6 col-md-3">
-                        <span class="dropdown-header">Company</span>
-                        <a class="dropdown-item " href="../page-about.html">About</a>
-                        <a class="dropdown-item " href="../page-services.html">Services</a>
-                        <a class="dropdown-item " href="../page-customer-stories.html">Customer Stories</a>
-                        <a class="dropdown-item " href="../page-customer-story.html">Customer Story</a>
-                        <a class="dropdown-item " href="../page-help-center.html">Help Center</a>
-                        <a class="dropdown-item " href="../page-help-center-categories.html">Help Center: Categories</a>
-                        <a class="dropdown-item " href="../page-help-center-article.html">Help Center: Article</a>
-                      </div>
+                <div class="hs-sub-menu dropdown-menu" aria-labelledby="companyMegaMenu" style="min-width: 14rem;">
+                  <a class="dropdown-item " href="../page-about.html">About</a>
+                  <a class="dropdown-item " href="../page-services.html">Services</a>
+                  <a class="dropdown-item " href="../page-customer-stories.html">Customer Stories</a>
+                  <a class="dropdown-item " href="../page-customer-story.html">Customer Story</a>
+                  <a class="dropdown-item " href="../page-careers.html">Careers</a>
+                  <a class="dropdown-item " href="../page-careers-overview.html">Careers Overview</a>
+                  <a class="dropdown-item " href="../page-hire-us.html">Hire Us</a>
+                  <a class="dropdown-item " href="../page-pricing.html">Pricing</a>
+                  <a class="dropdown-item " href="../page-contacts-agency.html">Contacts: Agency</a>
+                  <a class="dropdown-item " href="../page-contacts-startup.html">Contacts: Startup</a>
+                </div>
+                <!-- End Mega Menu -->
+              </li>
+              <!-- End Company -->
 
-                      <div class="col-sm-6 col-md-3 mb-3 mb-md-0">
-                        <span class="dropdown-header invisible">Company</span>
-                        <a class="dropdown-item " href="../page-careers.html">Careers</a>
-                        <a class="dropdown-item " href="../page-careers-overview.html">Careers: Overview</a>
-                        <a class="dropdown-item " href="../page-hire-us.html">Hire Us</a>
-                        <a class="dropdown-item " href="../page-contacts.html">Contacts</a>
-                        <a class="dropdown-item " href="../page-login.html">Log In</a>
-                        <a class="dropdown-item " href="../page-signup.html">Sign Up</a>
-                        <a class="dropdown-item " href="../page-reset-password.html">Forgot Password</a>
-                      </div>
+              <!-- Account -->
+              <li class="hs-has-sub-menu nav-item">
+                <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
 
-                      <div class="col-sm-6 col-md-3 mb-3 mb-md-0">
-                        <span class="dropdown-header">Portfolio</span>
-                        <a class="dropdown-item " href="../portfolio-modern.html">Modern</a>
-                        <a class="dropdown-item " href="../portfolio-classic.html">Classic</a>
-                        <a class="dropdown-item " href="../portfolio-case-study.html">Case Study</a>
-                      </div>
+                <!-- Mega Menu -->
+                <div class="hs-sub-menu dropdown-menu" aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
+                  <!-- Authentication -->
+                  <div class="hs-has-sub-menu nav-item">
+                    <a id="authenticationMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Authentication</a>
 
-                      <div class="col-sm-6 col-md-3">
-                        <span class="dropdown-header">Specialty pages</span>
-                        <a class="dropdown-item " href="../page-pricing.html">Pricing</a>
-                        <a class="dropdown-item " href="../page-coming-soon.html">Coming Soon</a>
-                        <a class="dropdown-item " href="../page-error-404.html">Error 404</a>
-                        <a class="dropdown-item " href="../page-terms.html">Terms &amp; Conditions</a>
-                        <a class="dropdown-item " href="../page-privacy.html">Privacy &amp; Policy</a>
-                      </div>
+                    <div class="hs-sub-menu dropdown-menu" aria-labelledby="authenticationMegaMenu" style="min-width: 14rem;">
+                      <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Signup Modal</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item " href="../page-login.html">Login</a>
+                      <a class="dropdown-item " href="../page-signup.html">Signup</a>
+                      <a class="dropdown-item " href="../page-reset-password.html">Reset Password</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item " href="../page-login-simple.html">Login Simple</a>
+                      <a class="dropdown-item " href="../page-signup-simple.html">Signup Simple</a>
+                      <a class="dropdown-item " href="../page-reset-password-simple.html">Reset Password Simple</a>
                     </div>
-                    <!-- End Row -->
                   </div>
-                  <!-- End Main Content -->
+                  <!-- End Authentication -->
+    
+                  <a class="dropdown-item " href="../account-overview.html">Personal Info</a>
+                  <a class="dropdown-item " href="../account-security.html">Security</a>
+                  <a class="dropdown-item " href="../account-notifications.html">Notifications</a>
+                  <a class="dropdown-item " href="../account-preferences.html">Preferences</a>
+                  <a class="dropdown-item " href="../account-orders.html">Orders</a>
+                  <a class="dropdown-item " href="../account-wishlist.html">Wishlist</a>
+                  <a class="dropdown-item " href="../account-payments.html">Payments</a>
+                  <a class="dropdown-item " href="../account-address.html">Address</a>
+                  <a class="dropdown-item " href="../account-teams.html">Teams</a>
+                </div>
+                <!-- End Mega Menu -->
+              </li>
+              <!-- End Account -->
+
+              <!-- Pages -->
+              <li class="hs-has-sub-menu nav-item">
+                <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+
+                <!-- Mega Menu -->
+                <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
+                  <a class="dropdown-item " href="../page-faq.html">FAQ</a>
+                  <a class="dropdown-item " href="../page-terms.html">Terms &amp; Conditions</a>
+                  <a class="dropdown-item " href="../page-privacy.html">Privacy &amp; Policy</a>
+                  <a class="dropdown-item " href="../page-coming-soon.html">Coming Soon</a>
+                  <a class="dropdown-item " href="../page-maintenance-mode.html">Maintenance Mode</a>
+                  <a class="dropdown-item " href="../page-status.html">Status</a>
+                  <a class="dropdown-item " href="../page-invoice.html">Invoice</a>
+                  <a class="dropdown-item " href="../page-error-404.html">Error 404</a>
                 </div>
                 <!-- End Mega Menu -->
               </li>
@@ -149,11 +198,14 @@
 
               <!-- Blog -->
               <li class="hs-has-sub-menu nav-item">
-                <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Blog</a>
+                <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
 
                 <!-- Mega Menu -->
-                <div class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 12rem;">
-                  <a class="dropdown-item " href="../blog-classic.html">Classic</a>
+                <div class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 14rem;">
+                  <a class="dropdown-item " href="../blog-journal.html">Journal</a>
+                  <a class="dropdown-item " href="../blog-metro.html">Metro</a>
+                  <a class="dropdown-item " href="../blog-newsroom.html">Newsroom</a>
+                  <div class="dropdown-divider"></div>
                   <a class="dropdown-item " href="../blog-article.html">Article</a>
                   <a class="dropdown-item " href="../blog-author-profile.html">Author Profile</a>
                 </div>
@@ -161,96 +213,26 @@
               </li>
               <!-- End Blog -->
 
-              <!-- Docs -->
-              <li class="hs-has-mega-menu nav-item"
-                  data-hs-mega-menu-item-options='{
-                    "desktop": {
-                      "maxWidth": "20rem"
-                    }
-                  }'>
-                <a id="docsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Docs</a>
+              <!-- Portfolio -->
+              <li class="hs-has-sub-menu nav-item">
+                <a id="portfolioMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
 
                 <!-- Mega Menu -->
-                <div class="hs-mega-menu hs-position-right dropdown-menu" aria-labelledby="docsMegaMenu" style="min-width: 20rem;">
-                  <!-- Link -->
-                  <a class="navbar-dropdown-menu-media-link" href="../documentation/index.html">
-                    <div class="d-flex">
-                      <div class="flex-shrink-0">
-                        <span class="svg-icon svg-icon-sm text-primary">
-                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4.85714 1H11.7364C12.0911 1 12.4343 1.12568 12.7051 1.35474L17.4687 5.38394C17.8057 5.66895 18 6.08788 18 6.5292V19.0833C18 20.8739 17.9796 21 16.1429 21H4.85714C3.02045 21 3 20.8739 3 19.0833V2.91667C3 1.12612 3.02045 1 4.85714 1ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"/>
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85714 3H14.7364C15.0911 3 15.4343 3.12568 15.7051 3.35474L20.4687 7.38394C20.8057 7.66895 21 8.08788 21 8.5292V21.0833C21 22.8739 20.9796 23 19.1429 23H6.85714C5.02045 23 5 22.8739 5 21.0833V4.91667C5 3.12612 5.02045 3 6.85714 3ZM7 13C7 12.4477 7.44772 12 8 12H15C15.5523 12 16 12.4477 16 13C16 13.5523 15.5523 14 15 14H8C7.44772 14 7 13.5523 7 13ZM8 16C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16H8Z" fill="#035A4B"/>
-                          </svg>
-
-                        </span>
-                      </div>
-
-                      <div class="flex-grow-1 ms-3">
-                        <span class="navbar-dropdown-menu-media-title">Documentation <span class="badge bg-primary rounded-pill ms-1">v2.0</span></span>
-                        <p class="navbar-dropdown-menu-media-desc">Development guides for building projects with Space</p>
-                      </div>
-                    </div>
-                  </a>
-                  <!-- End Link -->
-
-                  <div class="dropdown-divider"></div>
-
-                  <!-- Link -->
-                  <a class="navbar-dropdown-menu-media-link" href="../snippets/index.html">
-                    <div class="d-flex">
-                      <div class="flex-shrink-0">
-                        <span class="svg-icon svg-icon-sm text-primary">
-                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.3" d="M21 2H13C12.4 2 12 2.4 12 3V13C12 13.6 12.4 14 13 14H21C21.6 14 22 13.6 22 13V3C22 2.4 21.6 2 21 2ZM15.7 8L14 10.1V5.80005L15.7 8ZM15.1 4H18.9L17 6.40002L15.1 4ZM17 9.59998L18.9 12H15.1L17 9.59998ZM18.3 8L20 5.90002V10.2L18.3 8ZM9 2H3C2.4 2 2 2.4 2 3V21C2 21.6 2.4 22 3 22H9C9.6 22 10 21.6 10 21V3C10 2.4 9.6 2 9 2ZM4.89999 12L4 14.8V9.09998L4.89999 12ZM4.39999 4H7.60001L6 8.80005L4.39999 4ZM6 15.2L7.60001 20H4.39999L6 15.2ZM7.10001 12L8 9.19995V14.9L7.10001 12Z" fill="#035A4B"/>
-                          <path d="M21 18H13C12.4 18 12 17.6 12 17C12 16.4 12.4 16 13 16H21C21.6 16 22 16.4 22 17C22 17.6 21.6 18 21 18ZM19 21C19 20.4 18.6 20 18 20H13C12.4 20 12 20.4 12 21C12 21.6 12.4 22 13 22H18C18.6 22 19 21.6 19 21Z" fill="#035A4B"/>
-                          </svg>
-
-                        </span>
-                      </div>
-
-                      <div class="flex-grow-1 ms-3">
-                        <span class="navbar-dropdown-menu-media-title">Snippets</span>
-                        <p class="navbar-dropdown-menu-media-desc">Move quickly with copy-to-clipboard feature</p>
-                      </div>
-                    </div>
-                  </a>
-                  <!-- End Link -->
+                <div class="hs-sub-menu dropdown-menu" aria-labelledby="portfolioMegaMenu" style="min-width: 14rem;">
+                  <a class="dropdown-item " href="../portfolio-grid.html">Grid</a>
+                  <a class="dropdown-item " href="../portfolio-product-article.html">Product Article</a>
+                  <a class="dropdown-item " href="../portfolio-case-studies-branding.html">Case Studies: Branding</a>
+                  <a class="dropdown-item " href="../portfolio-case-studies-product.html">Case Studies: Product</a>
                 </div>
                 <!-- End Mega Menu -->
               </li>
-              <!-- End Docs -->
+              <!-- End Portfolio -->
 
-              <li class="nav-divider"></li>
-
-              <!-- Log in -->
+              <!-- Button -->
               <li class="nav-item">
-                <a class="js-animation-link btn btn-ghost-light btn-no-focus me-2 me-lg-0" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
-                   data-hs-show-animation-options='{
-                           "targetSelector": "#signupModalFormLogin",
-                           "groupName": "idForm"
-                         }'>Log in</a>
-
-                <a class="js-animation-link d-lg-none btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
-                   data-hs-show-animation-options='{
-                           "targetSelector": "#signupModalFormSignup",
-                           "groupName": "idForm"
-                         }'>
-                  <i class="bi-person-circle me-1"></i> Sign up
-                </a>
+                <a class="btn btn-primary btn-transition" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">Buy now</a>
               </li>
-              <!-- End Log in -->
-
-              <!-- Sign up -->
-              <li class="nav-item">
-                <a class="js-animation-link d-none d-lg-inline-block btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
-                   data-hs-show-animation-options='{
-                           "targetSelector": "#signupModalFormSignup",
-                           "groupName": "idForm"
-                         }'>
-                  <i class="bi-person-circle me-1"></i> Sign up
-                </a>
-              </li>
-              <!-- End Sign up -->
+              <!-- End Button -->
             </ul>
           </div>
         </div>
@@ -258,21 +240,22 @@
       </nav>
     </div>
   </header>
+
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Hero Section -->
-    <div class="bg-primary-dark">
+    <div class="bg-dark">
       <div class="container text-center content-space-3">
-        <h1 class="display-4 text-warning">Sticky Top Light Toggle</h1>
+        <h1 class="display-4 text-white">Navbar Sticky Top Light Toggle</h1>
       </div>
     </div>
     <!-- End Hero Section -->
 
     <div class="container content-space-2">
       <!-- Card -->
-      <div class="card">
+      <div class="card card-nav-tab-content-height">
         <!-- Header -->
         <div class="card-header">
           <!-- Nav -->
@@ -293,20 +276,20 @@
 
         <!-- Tab Content -->
         <div class="tab-content" id="navTabContent1">
-          <div class="tab-pane fade show active" id="nav-html1" role="tabpanel" aria-labelledby="nav-htmlTab1">
+          <div class="tab-pane fade show active" id="nav-html1" role="tabpanel" aria-labelledby="nav-htmlTab1" style="max-height: 100%;">
             <pre>
               <code class="language-markup" data-lang="html">
                 &lt;!-- ========== HEADER ========== --&gt;
-                &lt;header id="header" class="navbar navbar-expand-lg navbar-right navbar-sticky-top navbar-show-hide navbar-dark"
+                &lt;header id="header" class="navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-dark navbar-show-hide navbar-toggle"
                     data-hs-header-options='{
-                      "fixMoment": 500,
+                      "fixMoment": 1000,
                       "fixEffect": "slide"
                     }'&gt;
                   &lt;div class="container"&gt;
                     &lt;nav class="js-mega-menu navbar-nav-wrap"&gt;
                       &lt;!-- Default Logo --&gt;
-                      &lt;a class="navbar-brand" href="#" aria-label="Space"&gt;
-                        &lt;img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Image Description"&gt;
+                      &lt;a class="navbar-brand" href="../index.html" aria-label="Front"&gt;
+                        &lt;img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo"&gt;
                       &lt;/a&gt;
                       &lt;!-- End Default Logo --&gt;
 
@@ -320,464 +303,198 @@
                         &lt;/span&gt;
                       &lt;/button&gt;
                       &lt;!-- End Toggler --&gt;
-
+                  
                       &lt;!-- Collapse --&gt;
                       &lt;div class="collapse navbar-collapse" id="navbarNavDropdown"&gt;
-                        &lt;div class="navbar-sticky-top-scroller"&gt;
-                          &lt;ul class="navbar-nav"&gt;
-                            &lt;!-- Landings --&gt;
-                            &lt;li class="hs-has-mega-menu nav-item"
-                                data-hs-mega-menu-item-options='{
-                                  "desktop": {
-                                    "maxWidth": "30rem"
-                                  }
-                                }'&gt;
-                              &lt;a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" aria-current="page" href="#" role="button" aria-expanded="false"&gt;Landings&lt;/a&gt;
+                        &lt;ul class="navbar-nav"&gt;
+                          &lt;!-- Landings --&gt;
+                          &lt;li class="hs-has-mega-menu nav-item"&gt;
+                            &lt;a id="landingsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;Landings&lt;/a&gt;
 
-                              &lt;!-- Mega Menu --&gt;
-                              &lt;div class="hs-mega-menu hs-position-right-fix dropdown-menu" aria-labelledby="landingsMegaMenu" style="min-width: 30rem;"&gt;
-                                &lt;!-- Main Content --&gt;
-                                &lt;div class="navbar-dropdown-menu-inner"&gt;
-                                  &lt;div class="row"&gt;
-                                    &lt;div class="col-sm mb-3 mb-sm-0"&gt;
-                                      &lt;span class="dropdown-header"&gt;Classic&lt;/span&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Corporate&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Agency&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Consulting&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Services&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Business&lt;/a&gt;
-                                    &lt;/div&gt;
-
-                                    &lt;div class="col-sm"&gt;
-                                      &lt;span class="dropdown-header"&gt;Apps&lt;/span&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Growth&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;SaaS&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Wallet&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;API&lt;/a&gt;
+                            &lt;!-- Mega Menu --&gt;
+                            &lt;div class="hs-mega-menu dropdown-menu w-100" aria-labelledby="landingsMegaMenu" style="min-width: 30rem;"&gt;
+                              &lt;div class="row"&gt;
+                                &lt;div class="col-lg-6 d-none d-lg-block"&gt;
+                                  &lt;!-- Banner Image --&gt;
+                                  &lt;div class="navbar-dropdown-menu-banner" style="background-image: url(../assets/svg/components/shape-3.svg);"&gt;
+                                    &lt;div class="navbar-dropdown-menu-banner-content"&gt;
+                                      &lt;div class="mb-4"&gt;
+                                        &lt;span class="h2 d-block"&gt;Branding Works&lt;/span&gt;
+                                        &lt;p&gt;Experience a level of our quality in both design &amp; customization works.&lt;/p&gt;
+                                      &lt;/div&gt;
+                                      &lt;a class="btn btn-primary btn-transition" href="#"&gt;Learn more &lt;i class="bi-chevron-right small"&gt;&lt;/i&gt;&lt;/a&gt;
                                     &lt;/div&gt;
                                   &lt;/div&gt;
-                                  &lt;!-- End Row --&gt;
+                                  &lt;!-- End Banner Image --&gt;
                                 &lt;/div&gt;
-                                &lt;!-- End Main Content --&gt;
-                              &lt;/div&gt;
-                              &lt;!-- End Mega Menu --&gt;
-                            &lt;/li&gt;
-                            &lt;!-- End Landings --&gt;
+                                &lt;!-- End Col --&gt;
 
-                            &lt;!-- Pages --&gt;
-                            &lt;li class="hs-has-mega-menu nav-item"&gt;
-                              &lt;a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"&gt;Pages&lt;/a&gt;
+                                &lt;div class="col-lg-6"&gt;
+                                  &lt;div class="navbar-dropdown-menu-inner"&gt;
+                                    &lt;div class="row"&gt;
+                                      &lt;div class="col-sm mb-3 mb-sm-0"&gt;
+                                        &lt;span class="dropdown-header"&gt;Classic&lt;/span&gt;
+                                        &lt;a class="dropdown-item" href="#"&gt;Corporate&lt;/a&gt;
+                                        &lt;a class="dropdown-item" href="#"&gt;Analytics &lt;span class="badge bg-primary rounded-pill ms-1"&gt;Hot&lt;/span&gt;&lt;/a&gt;
+                                        &lt;a class="dropdown-item" href="#"&gt;Studio&lt;/a&gt;
+                                        &lt;a class="dropdown-item" href="#"&gt;Marketing&lt;/a&gt;
+                                        &lt;a class="dropdown-item" href="#"&gt;Advertisement&lt;/a&gt;
+                                        &lt;a class="dropdown-item" href="#"&gt;Consulting&lt;/a&gt;
+                                        &lt;a class="dropdown-item" href="#"&gt;Portfolio&lt;/a&gt;
+                                        &lt;a class="dropdown-item" href="#"&gt;Software&lt;/a&gt;
+                                        &lt;a class="dropdown-item" href="#"&gt;Business&lt;/a&gt;
+                                      &lt;/div&gt;
+                                      &lt;!-- End Col --&gt;
 
-                              &lt;!-- Mega Menu --&gt;
-                              &lt;div class="hs-mega-menu hs-position-right dropdown-menu w-100" aria-labelledby="pagesMegaMenu" style="min-width: 42rem;"&gt;
-                                &lt;!-- Main Content --&gt;
-                                &lt;div class="navbar-dropdown-menu-inner"&gt;
-                                  &lt;div class="row"&gt;
-                                    &lt;div class="col-sm-6 col-md"&gt;
-                                      &lt;span class="dropdown-header"&gt;Company&lt;/span&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;About&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Services&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Customer Stories&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Single Customer Story&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Help Center&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Help Center Categories&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Single Help Center&lt;/a&gt;
+                                      &lt;div class="col-sm"&gt;
+                                        &lt;div class="mb-3"&gt;
+                                          &lt;span class="dropdown-header"&gt;App&lt;/span&gt;
+                                          &lt;a class="dropdown-item" href="#"&gt;UI Kit&lt;/a&gt;
+                                          &lt;a class="dropdown-item" href="#"&gt;SaaS&lt;/a&gt;
+                                          &lt;a class="dropdown-item" href="#"&gt;Workflow&lt;/a&gt;
+                                          &lt;a class="dropdown-item" href="#"&gt;Payment&lt;/a&gt;
+                                          &lt;a class="dropdown-item" href="#"&gt;Tool&lt;/a&gt;
+                                        &lt;/div&gt;
+
+                                        &lt;span class="dropdown-header"&gt;Onepage&lt;/span&gt;
+                                        &lt;a class="dropdown-item" href="#"&gt;Corporate&lt;/a&gt;
+                                        &lt;a class="dropdown-item" href="#"&gt;SaaS &lt;span class="badge bg-primary rounded-pill ms-1"&gt;Hot&lt;/span&gt;&lt;/a&gt;
+                                      &lt;/div&gt;
+                                      &lt;!-- End Col --&gt;
                                     &lt;/div&gt;
-
-                                    &lt;div class="col-sm-6 col-md mb-3 mb-md-0"&gt;
-                                      &lt;span class="dropdown-header invisible"&gt;Company&lt;/span&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Careers&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Careers Single&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Hire Us&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Contacts&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Log In&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Sign Up&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Forgot Password&lt;/a&gt;
-                                    &lt;/div&gt;
-
-                                    &lt;div class="col-sm-6 col-md mb-3 mb-md-0"&gt;
-                                      &lt;span class="dropdown-header"&gt;Portfolio&lt;/span&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Modern&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Classic&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Case Study&lt;/a&gt;
-                                    &lt;/div&gt;
-
-                                    &lt;div class="col-sm-6 col-md"&gt;
-                                      &lt;span class="dropdown-header"&gt;Specialty pages&lt;/span&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Pricing&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Coming Soon&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Error 404&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Terms &amp; Conditions&lt;/a&gt;
-                                      &lt;a class="dropdown-item" href="#"&gt;Privacy &amp; Policy&lt;/a&gt;
-                                    &lt;/div&gt;
+                                    &lt;!-- End Row --&gt;
                                   &lt;/div&gt;
-                                  &lt;!-- End Row --&gt;
                                 &lt;/div&gt;
-                                &lt;!-- End Main Content --&gt;
+                                &lt;!-- End Col --&gt;
                               &lt;/div&gt;
-                              &lt;!-- End Mega Menu --&gt;
-                            &lt;/li&gt;
-                            &lt;!-- End Pages --&gt;
+                              &lt;!-- End Row --&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Mega Menu --&gt;
+                          &lt;/li&gt;
+                          &lt;!-- End Landings --&gt;
 
-                            &lt;!-- Blog --&gt;
-                            &lt;li class="hs-has-sub-menu nav-item"&gt;
-                              &lt;a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"&gt;Blog&lt;/a&gt;
+                          &lt;!-- Company --&gt;
+                          &lt;li class="hs-has-sub-menu nav-item"&gt;
+                            &lt;a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;Company&lt;/a&gt;
 
-                              &lt;!-- Mega Menu --&gt;
-                              &lt;div class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 12rem;"&gt;
-                                &lt;a class="dropdown-item" href="#"&gt;Classic&lt;/a&gt;
-                                &lt;a class="dropdown-item" href="#"&gt;Author Profile&lt;/a&gt;
-                                &lt;a class="dropdown-item" href="#"&gt;Single Article&lt;/a&gt;
+                            &lt;!-- Mega Menu --&gt;
+                            &lt;div class="hs-sub-menu dropdown-menu" aria-labelledby="companyMegaMenu" style="min-width: 14rem;"&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;About&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Services&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Customer Stories&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Customer Story&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Careers&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Careers Overview&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Hire Us&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Pricing&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Contacts: Agency&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Contacts: Startup&lt;/a&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Mega Menu --&gt;
+                          &lt;/li&gt;
+                          &lt;!-- End Company --&gt;
+
+                          &lt;!-- Account --&gt;
+                          &lt;li class="hs-has-sub-menu nav-item"&gt;
+                            &lt;a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;Account&lt;/a&gt;
+
+                            &lt;!-- Mega Menu --&gt;
+                            &lt;div class="hs-sub-menu dropdown-menu" aria-labelledby="accountMegaMenu" style="min-width: 14rem;"&gt;
+                              &lt;!-- Authentication --&gt;
+                              &lt;div class="hs-has-sub-menu nav-item"&gt;
+                                &lt;a id="authenticationMegaMenu" class="hs-mega-menu-invoker dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;Authentication&lt;/a&gt;
+
+                                &lt;div class="hs-sub-menu dropdown-menu" aria-labelledby="authenticationMegaMenu" style="min-width: 14rem;"&gt;
+                                  &lt;a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#signupModal"&gt;Signup Modal&lt;/a&gt;
+                                  &lt;div class="dropdown-divider"&gt;&lt;/div&gt;
+                                  &lt;a class="dropdown-item" href="#"&gt;Login&lt;/a&gt;
+                                  &lt;a class="dropdown-item" href="#"&gt;Signup&lt;/a&gt;
+                                  &lt;a class="dropdown-item" href="#"&gt;Reset Password&lt;/a&gt;
+                                  &lt;div class="dropdown-divider"&gt;&lt;/div&gt;
+                                  &lt;a class="dropdown-item" href="#"&gt;Login Simple&lt;/a&gt;
+                                  &lt;a class="dropdown-item" href="#"&gt;Signup Simple&lt;/a&gt;
+                                  &lt;a class="dropdown-item" href="#"&gt;Reset Password Simple&lt;/a&gt;
+                                &lt;/div&gt;
                               &lt;/div&gt;
-                              &lt;!-- End Mega Menu --&gt;
-                            &lt;/li&gt;
-                            &lt;!-- End Blog --&gt;
+                              &lt;!-- End Authentication --&gt;
+                
+                              &lt;a class="dropdown-item" href="#"&gt;Personal Info&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Security&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Notifications&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Preferences&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Orders&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Wishlist&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Payments&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Address&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Teams&lt;/a&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Mega Menu --&gt;
+                          &lt;/li&gt;
+                          &lt;!-- End Account --&gt;
 
-                            &lt;!-- Docs --&gt;
-                            &lt;li class="hs-has-mega-menu nav-item"
-                                data-hs-mega-menu-item-options='{
-                                  "desktop": {
-                                    "maxWidth": "20rem"
-                                  }
-                                }'&gt;
-                              &lt;a id="docsMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"&gt;Docs&lt;/a&gt;
+                          &lt;!-- Pages --&gt;
+                          &lt;li class="hs-has-sub-menu nav-item"&gt;
+                            &lt;a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;Pages&lt;/a&gt;
 
-                              &lt;!-- Mega Menu --&gt;
-                              &lt;div class="hs-mega-menu hs-position-right dropdown-menu" aria-labelledby="docsMegaMenu" style="min-width: 20rem;"&gt;
-                                &lt;!-- Link --&gt;
-                                &lt;a class="navbar-dropdown-menu-media-link" href="#"&gt;
-                                  &lt;div class="d-flex"&gt;
-                                    &lt;div class="flex-shrink-0"&gt;
-                                      &lt;span class="svg-icon svg-icon-sm text-primary"&gt;
-                                        @@include("../../assets/vendor/duotone-icons/gen/gen005.svg")
-                                      &lt;/span&gt;
-                                    &lt;/div&gt;
+                            &lt;!-- Mega Menu --&gt;
+                            &lt;div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;"&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;FAQ&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Terms &amp; Conditions&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Privacy &amp; Policy&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Coming Soon&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Maintenance Mode&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Status&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Invoice&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Error 404&lt;/a&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Mega Menu --&gt;
+                          &lt;/li&gt;
+                          &lt;!-- End Pages --&gt;
 
-                                    &lt;div class="flex-grow-1 ms-3"&gt;
-                                      &lt;span class="navbar-dropdown-menu-media-title"&gt;Documentation &lt;span class="badge bg-primary rounded-pill ms-1"&gt;v1.0&lt;/span&gt;&lt;/span&gt;
-                                      &lt;p class="navbar-dropdown-menu-media-desc"&gt;Development guides for building projects with Space&lt;/p&gt;
-                                    &lt;/div&gt;
-                                  &lt;/div&gt;
-                                &lt;/a&gt;
-                                &lt;!-- End Link --&gt;
+                          &lt;!-- Blog --&gt;
+                          &lt;li class="hs-has-sub-menu nav-item"&gt;
+                            &lt;a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;Blog&lt;/a&gt;
 
-                                &lt;div class="dropdown-divider"&gt;&lt;/div&gt;
+                            &lt;!-- Mega Menu --&gt;
+                            &lt;div class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 14rem;"&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Journal&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Metro&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Newsroom&lt;/a&gt;
+                              &lt;div class="dropdown-divider"&gt;&lt;/div&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Article&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Author Profile&lt;/a&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Mega Menu --&gt;
+                          &lt;/li&gt;
+                          &lt;!-- End Blog --&gt;
 
-                                &lt;!-- Link --&gt;
-                                &lt;a class="navbar-dropdown-menu-media-link" href="#"&gt;
-                                  &lt;div class="d-flex"&gt;
-                                    &lt;div class="flex-shrink-0"&gt;
-                                      &lt;span class="svg-icon svg-icon-sm text-primary"&gt;
-                                        @@include("../../assets/vendor/duotone-icons/cod/cod010.svg")
-                                      &lt;/span&gt;
-                                    &lt;/div&gt;
+                          &lt;!-- Portfolio --&gt;
+                          &lt;li class="hs-has-sub-menu nav-item"&gt;
+                            &lt;a id="portfolioMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"&gt;Portfolio&lt;/a&gt;
 
-                                    &lt;div class="flex-grow-1 ms-3"&gt;
-                                      &lt;span class="navbar-dropdown-menu-media-title"&gt;Snippets&lt;/span&gt;
-                                      &lt;p class="navbar-dropdown-menu-media-desc"&gt;Move quickly with copy-to-clipboard feature&lt;/p&gt;
-                                    &lt;/div&gt;
-                                  &lt;/div&gt;
-                                &lt;/a&gt;
-                                &lt;!-- End Link --&gt;
-                              &lt;/div&gt;
-                              &lt;!-- End Mega Menu --&gt;
-                            &lt;/li&gt;
-                            &lt;!-- End Docs --&gt;
+                            &lt;!-- Mega Menu --&gt;
+                            &lt;div class="hs-sub-menu dropdown-menu" aria-labelledby="portfolioMegaMenu" style="min-width: 14rem;"&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Grid&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Product Article&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Case Studies: Branding&lt;/a&gt;
+                              &lt;a class="dropdown-item" href="#"&gt;Case Studies: Product&lt;/a&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Mega Menu --&gt;
+                          &lt;/li&gt;
+                          &lt;!-- End Portfolio --&gt;
 
-                            &lt;li class="nav-divider"&gt;&lt;/li&gt;
-
-                            &lt;!-- Log in --&gt;
-                            &lt;li class="nav-item"&gt;
-                              &lt;a class="js-animation-link btn btn-ghost-secondary btn-no-focus me-2 me-lg-0" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
-                                 data-hs-show-animation-options='{
-                                         "targetSelector": "#signupModalFormLogin",
-                                         "groupName": "idForm"
-                                       }'&gt;Log in&lt;/a&gt;
-
-                              &lt;a class="js-animation-link d-lg-none btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
-                                 data-hs-show-animation-options='{
-                                         "targetSelector": "#signupModalFormSignup",
-                                         "groupName": "idForm"
-                                       }'&gt;
-                                &lt;i class="bi-person-circle me-1"&gt;&lt;/i&gt; Sign up
-                              &lt;/a&gt;
-                            &lt;/li&gt;
-                            &lt;!-- End Log in --&gt;
-
-                            &lt;!-- Sign up --&gt;
-                            &lt;li class="nav-item"&gt;
-                              &lt;a class="js-animation-link d-none d-lg-inline-block btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
-                                 data-hs-show-animation-options='{
-                                         "targetSelector": "#signupModalFormSignup",
-                                         "groupName": "idForm"
-                                       }'&gt;
-                                &lt;i class="bi-person-circle me-1"&gt;&lt;/i&gt; Sign up
-                              &lt;/a&gt;
-                            &lt;/li&gt;
-                            &lt;!-- End Sign up --&gt;
-                          &lt;/ul&gt;
-                        &lt;/div&gt;
+                          &lt;!-- Button --&gt;
+                          &lt;li class="nav-item"&gt;
+                            &lt;a class="btn btn-primary btn-transition" href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank"&gt;Buy now&lt;/a&gt;
+                          &lt;/li&gt;
+                          &lt;!-- End Button --&gt;
+                        &lt;/ul&gt;
                       &lt;/div&gt;
                       &lt;!-- End Collapse --&gt;
                     &lt;/nav&gt;
                   &lt;/div&gt;
                 &lt;/header&gt;
                 &lt;!-- ========== END HEADER ========== --&gt;
-
-                &lt;!-- ========== SECONDARY CONTENTS ========== --&gt;
-                &lt;div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true"&gt;
-                  &lt;div class="modal-dialog modal-dialog-centered" role="document"&gt;
-                    &lt;div class="modal-content"&gt;
-                      &lt;!-- Header --&gt;
-                      &lt;div class="modal-close"&gt;
-                        &lt;button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"&gt;&lt;/button&gt;
-                      &lt;/div&gt;
-                      &lt;!-- End Header --&gt;
-
-                      &lt;!-- Body --&gt;
-                      &lt;div class="modal-body p-sm-5"&gt;
-                        &lt;!-- Log in --&gt;
-                        &lt;div id="loginModalForm"&gt;
-                          &lt;!-- Heading --&gt;
-                          &lt;div class="text-center mb-7"&gt;
-                            &lt;h4&gt;Log in&lt;/h4&gt;
-                            &lt;p&gt;Don't have an account yet?
-                              &lt;a class="js-animation-link" href="javascript:;" role="button"
-                                 data-hs-show-animation-options='{
-                                       "targetSelector": "#signupModalForm",
-                                       "groupName": "idForm"
-                                     }'&gt;Sign up here&lt;/a&gt;
-                            &lt;/p&gt;
-                          &lt;/div&gt;
-                          &lt;!-- End Heading --&gt;
-
-                          &lt;div class="d-grid gap-2"&gt;
-                            &lt;a class="btn btn-white btn-lg" href="#"&gt;
-                                &lt;span class="d-flex justify-content-center align-items-center"&gt;
-                                  &lt;img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
-                                  Log in with Google
-                                &lt;/span&gt;
-                            &lt;/a&gt;
-
-                            &lt;a class="js-animation-link btn btn-primary btn-lg" href="#"
-                               data-hs-show-animation-options='{
-                                     "targetSelector": "#loginWithEmailModalForm",
-                                     "groupName": "idForm"
-                                   }'&gt;Log in with Email&lt;/a&gt;
-                          &lt;/div&gt;
-                        &lt;/div&gt;
-                        &lt;!-- End Log in --&gt;
-
-                        &lt;!-- Log in with Modal --&gt;
-                        &lt;div id="loginWithEmailModalForm" style="display: none; opacity: 0;"&gt;
-                          &lt;!-- Heading --&gt;
-                          &lt;div class="text-center mb-7"&gt;
-                            &lt;h4&gt;Log in&lt;/h4&gt;
-                            &lt;p&gt;Don't have an account yet?
-                              &lt;a class="js-animation-link" href="javascript:;" role="button"
-                                 data-hs-show-animation-options='{
-                                       "targetSelector": "#signupModalForm",
-                                       "groupName": "idForm"
-                                     }'&gt;Sign up here&lt;/a&gt;
-                            &lt;/p&gt;
-                          &lt;/div&gt;
-                          &lt;!-- End Heading --&gt;
-
-                          &lt;form class="js-validate needs-validation" novalidate&gt;
-                            &lt;!-- Form --&gt;
-                            &lt;div class="mb-3"&gt;
-                              &lt;label class="form-label" for="loginModalFormEmail"&gt;Your email&lt;/label&gt;
-                              &lt;input type="email" class="form-control form-control-lg" name="email" id="loginModalFormEmail" placeholder="email@site.com" aria-label="email@site.com" required&gt;
-                              &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
-                            &lt;/div&gt;
-                            &lt;!-- End Form --&gt;
-
-                            &lt;!-- Form --&gt;
-                            &lt;div class="mb-3"&gt;
-                              &lt;div class="d-flex justify-content-between align-items-center"&gt;
-                                &lt;label class="form-label" for="loginModalFormPassword"&gt;Password&lt;/label&gt;
-
-                                &lt;a class="js-animation-link form-label-link" href="javascript:;"
-                                   data-hs-show-animation-options='{
-                                     "targetSelector": "#forgotPasswordModalForm",
-                                     "groupName": "idForm"
-                                   }'&gt;Forgot Password?&lt;/a&gt;
-                              &lt;/div&gt;
-
-                              &lt;input type="password" class="form-control form-control-lg" name="password" id="loginModalFormPassword" placeholder="8+ characters required" aria-label="8+ characters required" required minlength="8"&gt;
-                              &lt;span class="invalid-feedback"&gt;Please enter a valid password.&lt;/span&gt;
-                            &lt;/div&gt;
-                            &lt;!-- End Form --&gt;
-
-                            &lt;div class="d-grid mb-3"&gt;
-                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Log in&lt;/button&gt;
-                            &lt;/div&gt;
-                          &lt;/form&gt;
-                        &lt;/div&gt;
-                        &lt;!-- End Log in with Modal --&gt;
-
-                        &lt;!-- Sign up --&gt;
-                        &lt;div id="signupModalForm" style="display: none; opacity: 0;"&gt;
-                          &lt;!-- Heading --&gt;
-                          &lt;div class="text-center mb-7"&gt;
-                            &lt;h4&gt;Sign up&lt;/h4&gt;
-                            &lt;p&gt;Already have an account?
-                              &lt;a class="js-animation-link" href="javascript:;" role="button"
-                                 data-hs-show-animation-options='{
-                                       "targetSelector": "#loginModalForm",
-                                       "groupName": "idForm"
-                                     }'&gt;Log in here&lt;/a&gt;
-                            &lt;/p&gt;
-                          &lt;/div&gt;
-                          &lt;!-- End Heading --&gt;
-
-                          &lt;div class="d-grid gap-3"&gt;
-                            &lt;a class="btn btn-white btn-lg" href="#"&gt;
-                                &lt;span class="d-flex justify-content-center align-items-center"&gt;
-                                  &lt;img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
-                                  Sign up with Google
-                                &lt;/span&gt;
-                            &lt;/a&gt;
-
-                            &lt;a class="js-animation-link btn btn-primary btn-lg" href="#"
-                               data-hs-show-animation-options='{
-                                     "targetSelector": "#signupWithEmailModalForm",
-                                     "groupName": "idForm"
-                                   }'&gt;Sign up with Email&lt;/a&gt;
-
-                            &lt;div class="text-center"&gt;
-                              &lt;p class="small mb-0"&gt;By continuing you agree to our &lt;a href="#"&gt;Terms and Conditions&lt;/a&gt;&lt;/p&gt;
-                            &lt;/div&gt;
-                          &lt;/div&gt;
-                        &lt;/div&gt;
-                        &lt;!-- End Sign up --&gt;
-
-                        &lt;!-- Sign up with Modal --&gt;
-                        &lt;div id="signupWithEmailModalForm" style="display: none; opacity: 0;"&gt;
-                          &lt;!-- Heading --&gt;
-                          &lt;div class="text-center mb-7"&gt;
-                            &lt;h4&gt;Sign up&lt;/h4&gt;
-                            &lt;p&gt;Already have an account?
-                              &lt;a class="js-animation-link" href="javascript:;" role="button"
-                                 data-hs-show-animation-options='{
-                                       "targetSelector": "#loginModalForm",
-                                       "groupName": "idForm"
-                                     }'&gt;Log in here&lt;/a&gt;
-                            &lt;/p&gt;
-                          &lt;/div&gt;
-                          &lt;!-- End Heading --&gt;
-
-                          &lt;form class="js-validate need-validate" novalidate&gt;
-                            &lt;!-- Form --&gt;
-                            &lt;div class="mb-3"&gt;
-                              &lt;label class="form-label" for="signupModalFormEmail"&gt;Your email&lt;/label&gt;
-                              &lt;input type="email" class="form-control form-control-lg" name="email" id="signupModalFormEmail" placeholder="email@site.com" aria-label="email@site.com" required&gt;
-                              &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
-                            &lt;/div&gt;
-                            &lt;!-- End Form --&gt;
-
-                            &lt;!-- Form --&gt;
-                            &lt;div class="mb-3"&gt;
-                              &lt;label class="form-label" for="signupModalFormPassword"&gt;Password&lt;/label&gt;
-                              &lt;input type="password" class="form-control form-control-lg" name="password" id="signupModalFormPassword" placeholder="8+ characters required" aria-label="8+ characters required" required&gt;
-                              &lt;span class="invalid-feedback"&gt;Your password is invalid. Please try again.&lt;/span&gt;
-                            &lt;/div&gt;
-                            &lt;!-- End Form --&gt;
-
-                            &lt;!-- Form --&gt;
-                            &lt;div class="mb-3"&gt;
-                              &lt;label class="form-label" for="signupModalFormConfirmPassword"&gt;Confirm password&lt;/label&gt;
-                              &lt;input type="password" class="form-control form-control-lg" name="confirmPassword" id="signupModalFormConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" data-hs-validation-equal-field="#signupModalFormPassword" required&gt;
-                              &lt;span class="invalid-feedback"&gt;Password does not match the confirm password.&lt;/span&gt;
-                            &lt;/div&gt;
-                            &lt;!-- End Form --&gt;
-
-                            &lt;div class="d-grid mb-3"&gt;
-                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Sign up&lt;/button&gt;
-                            &lt;/div&gt;
-
-                            &lt;div class="text-center"&gt;
-                              &lt;p class="small mb-0"&gt;By continuing you agree to our &lt;a href="#"&gt;Terms and Conditions&lt;/a&gt;&lt;/p&gt;
-                            &lt;/div&gt;
-                          &lt;/form&gt;
-                        &lt;/div&gt;
-                        &lt;!-- End Sign up with Modal --&gt;
-
-                        &lt;!-- Forgot Password --&gt;
-                        &lt;div id="forgotPasswordModalForm" style="display: none; opacity: 0;"&gt;
-                          &lt;!-- Heading --&gt;
-                          &lt;div class="text-center mb-7"&gt;
-                            &lt;h4&gt;Forgot password?&lt;/h4&gt;
-                            &lt;p&gt;Enter the email address you used when you joined and we'll send you instructions to reset your password.&lt;/p&gt;
-                          &lt;/div&gt;
-                          &lt;!-- En dHeading --&gt;
-
-                          &lt;form class="js-validate need-validate" novalidate&gt;
-                            &lt;div class="mb-3"&gt;
-                              &lt;!-- Form --&gt;
-                              &lt;div class="d-flex justify-content-between align-items-center"&gt;
-                                &lt;label class="form-label" for="resetPasswordSrEmailModalForm" tabindex="0"&gt;Your email&lt;/label&gt;
-
-                                &lt;a class="js-animation-link form-label-link" href="javascript:;"
-                                   data-hs-show-animation-options='{
-                                       "targetSelector": "#loginModalForm",
-                                       "groupName": "idForm"
-                                     }'&gt;
-                                  &lt;i class="bi-chevron-left small me-1"&gt;&lt;/i&gt; Back to Log in
-                                &lt;/a&gt;
-                              &lt;/div&gt;
-                              &lt;!-- End Form --&gt;
-
-                              &lt;!-- Form --&gt;
-                              &lt;div class="mb-3"&gt;
-                                &lt;input type="email" class="form-control form-control-lg" name="email" id="resetPasswordSrEmailModalForm" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required data-msg="Please enter a valid email address."&gt;
-                              &lt;/div&gt;
-                              &lt;!-- End Form --&gt;
-
-                              &lt;div class="d-grid"&gt;
-                                &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Submit&lt;/button&gt;
-                              &lt;/div&gt;
-                            &lt;/div&gt;
-                          &lt;/form&gt;
-                        &lt;/div&gt;
-                        &lt;!-- End Forgot Password --&gt;
-                      &lt;/div&gt;
-                      &lt;!-- End Body --&gt;
-
-                      &lt;!-- Footer --&gt;
-                      &lt;div class="modal-footer d-block text-center py-sm-5"&gt;
-                        &lt;small class="text-cap mb-4"&gt;Trusted by the world's best teams&lt;/small&gt;
-
-                        &lt;div class="w-85 mx-auto"&gt;
-                          &lt;div class="row justify-content-between"&gt;
-                            &lt;div class="col"&gt;
-                              &lt;img class="img-fluid" src="./assets/svg/brands/gitlab-gray.svg" alt="Logo"&gt;
-                            &lt;/div&gt;
-                            &lt;!-- End Col --&gt;
-
-                            &lt;div class="col"&gt;
-                              &lt;img class="img-fluid" src="./assets/svg/brands/fitbit-gray.svg" alt="Logo"&gt;
-                            &lt;/div&gt;
-                            &lt;!-- End Col --&gt;
-
-                            &lt;div class="col"&gt;
-                              &lt;img class="img-fluid" src="./assets/svg/brands/flow-xo-gray.svg" alt="Logo"&gt;
-                            &lt;/div&gt;
-                            &lt;!-- End Col --&gt;
-
-                            &lt;div class="col"&gt;
-                              &lt;img class="img-fluid" src="./assets/svg/brands/layar-gray.svg" alt="Logo"&gt;
-                            &lt;/div&gt;
-                            &lt;!-- End Col --&gt;
-                          &lt;/div&gt;
-                        &lt;/div&gt;
-                        &lt;!-- End Row --&gt;
-                      &lt;/div&gt;
-                      &lt;!-- End Footer --&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;!-- ========== END SECONDARY CONTENTS ========== --&gt;
               </code>
             </pre>
           </div>
@@ -795,42 +512,24 @@
             <pre>
               <code class="language-markup" data-lang="html">
                 &lt;!-- JS Implementing Plugins --&gt;
-                &lt;script src="../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"&gt;&lt;/script&gt;
-                &lt;script src="../assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"&gt;&lt;/script&gt;
                 &lt;script src="../assets/vendor/hs-header/dist/hs-header.min.js"&gt;&lt;/script&gt;
-
-                &lt;!-- JS Space --&gt;
+                &lt;script src="../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"&gt;&lt;/script&gt;
 
                 &lt;!-- JS Plugins Init. --&gt;
                 &lt;script&gt;
                   (function() {
-                    // INITIALIZATION OF MEGA MENU
-                    // =======================================================
-                    const megaMenu = new HSMegaMenu('.js-mega-menu', {
-                      desktop: {
-                        position: 'left'
-                      }
-                    }).init();
-
-
-                    // INITIALIZATION OF SHOW ANIMATIONS
-                    // =======================================================
-                    new HSShowAnimation('.js-animation-link')
-
-
-                    // INITIALIZATION OF BOOTSTRAP VALIDATION
-                    // =======================================================
-                    HSBsValidation.init('.js-validate', {
-                      onSubmit: data => {
-                        data.event.preventDefault()
-                        alert('Submited')
-                      }
-                    })
-
-
                     // INITIALIZATION OF HEADER
                     // =======================================================
                     new HSHeader('#header').init()
+
+                    
+                    // INITIALIZATION OF MEGA MENU
+                    // =======================================================
+                    new HSMegaMenu('.js-mega-menu', {
+                        desktop: {
+                          position: 'left'
+                        }
+                      })
                   })()
                 &lt;/script&gt;
               </code>
@@ -845,263 +544,6 @@
   <!-- ========== END MAIN CONTENT ========== -->
 
   <!-- ========== SECONDARY CONTENTS ========== -->
-  <!-- Sign Up -->
-  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <!-- Header -->
-        <div class="modal-close">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <!-- End Header -->
-
-        <!-- Body -->
-        <div class="modal-body p-sm-5">
-          <!-- Log in -->
-          <div id="signupModalFormLogin" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h4>Log in</h4>
-              <p>Don't have an account yet?
-                <a class="js-animation-link" href="javascript:;" role="button"
-                   data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormSignup",
-                         "groupName": "idForm"
-                       }'>Sign up here</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <div class="d-grid gap-2">
-              <a class="btn btn-white btn-lg" href="#">
-                  <span class="d-flex justify-content-center align-items-center">
-                    <img class="avatar avatar-xss me-2" src="../assets/svg/brands/google-icon.svg" alt="Image Description">
-                    Log in with Google
-                  </span>
-              </a>
-
-              <a class="js-animation-link btn btn-primary btn-lg" href="#"
-                 data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormLoginWithEmail",
-                       "groupName": "idForm"
-                     }'>Log in with Email</a>
-            </div>
-          </div>
-          <!-- End Log in -->
-
-          <!-- Log in with Modal -->
-          <div id="signupModalFormLoginWithEmail" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h4>Log in</h4>
-              <p>Don't have an account yet?
-                <a class="js-animation-link" href="javascript:;" role="button"
-                   data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormSignup",
-                         "groupName": "idForm"
-                       }'>Sign up here</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <form class="js-validate needs-validation" novalidate>
-              <!-- Form -->
-              <div class="mb-3">
-                <label class="form-label" for="signupModalFormLoginEmail">Your email</label>
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormLoginEmail" placeholder="email@site.com" aria-label="email@site.com" required>
-                <span class="invalid-feedback">Please enter a valid email address.</span>
-              </div>
-              <!-- End Form -->
-
-              <!-- Form -->
-              <div class="mb-3">
-                <div class="d-flex justify-content-between align-items-center">
-                  <label class="form-label" for="signupModalFormLoginPassword">Password</label>
-
-                  <a class="js-animation-link form-label-link" href="javascript:;"
-                     data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormResetPassword",
-                       "groupName": "idForm"
-                     }'>Forgot Password?</a>
-                </div>
-
-                <input type="password" class="form-control form-control-lg" name="password" id="signupModalFormLoginPassword" placeholder="8+ characters required" aria-label="8+ characters required" required minlength="8">
-                <span class="invalid-feedback">Please enter a valid password.</span>
-              </div>
-              <!-- End Form -->
-
-              <div class="d-grid mb-3">
-                <button type="submit" class="btn btn-primary btn-lg">Log in</button>
-              </div>
-            </form>
-          </div>
-          <!-- End Log in with Modal -->
-
-          <!-- Sign up -->
-          <div id="signupModalFormSignup">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h4>Sign up</h4>
-              <p>Already have an account?
-                <a class="js-animation-link" href="javascript:;" role="button"
-                   data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>Log in here</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <div class="d-grid gap-3">
-              <a class="btn btn-white btn-lg" href="#">
-                <span class="d-flex justify-content-center align-items-center">
-                  <img class="avatar avatar-xss me-2" src="../assets/svg/brands/google-icon.svg" alt="Image Description">
-                  Sign up with Google
-                </span>
-              </a>
-
-              <a class="js-animation-link btn btn-primary btn-lg" href="#"
-                 data-hs-show-animation-options='{
-                       "targetSelector": "#signupModalFormSignupWithEmail",
-                       "groupName": "idForm"
-                     }'>Sign up with Email</a>
-
-              <div class="text-center">
-                <p class="small mb-0">By continuing you agree to our <a href="../page-terms.html">Terms and Conditions</a></p>
-              </div>
-            </div>
-          </div>
-          <!-- End Sign up -->
-
-          <!-- Sign up with Modal -->
-          <div id="signupModalFormSignupWithEmail" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h4>Sign up</h4>
-              <p>Already have an account?
-                <a class="js-animation-link" href="javascript:;" role="button"
-                   data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>Log in here</a>
-              </p>
-            </div>
-            <!-- End Heading -->
-
-            <form class="js-validate need-validate" novalidate>
-              <!-- Form -->
-              <div class="mb-3">
-                <label class="form-label" for="signupModalFormSignupEmail">Your email</label>
-                <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormSignupEmail" placeholder="email@site.com" aria-label="email@site.com" required>
-                <span class="invalid-feedback">Please enter a valid email address.</span>
-              </div>
-              <!-- End Form -->
-
-              <!-- Form -->
-              <div class="mb-3">
-                <label class="form-label" for="signupModalFormSignupPassword">Password</label>
-                <input type="password" class="form-control form-control-lg" name="password" id="signupModalFormSignupPassword" placeholder="8+ characters required" aria-label="8+ characters required" required>
-                <span class="invalid-feedback">Your password is invalid. Please try again.</span>
-              </div>
-              <!-- End Form -->
-
-              <!-- Form -->
-              <div class="mb-3" data-hs-validation-validate-class>
-                <label class="form-label" for="signupModalFormSignupConfirmPassword">Confirm password</label>
-                <input type="password" class="form-control form-control-lg" name="confirmPassword" id="signupModalFormSignupConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" required
-                       data-hs-validation-equal-field="#signupModalFormSignupPassword">
-                <span class="invalid-feedback">Password does not match the confirm password.</span>
-              </div>
-              <!-- End Form -->
-
-              <div class="d-grid mb-3">
-                <button type="submit" class="btn btn-primary btn-lg">Sign up</button>
-              </div>
-
-              <div class="text-center">
-                <p class="small mb-0">By continuing you agree to our <a href="#">Terms and Conditions</a></p>
-              </div>
-            </form>
-          </div>
-          <!-- End Sign up with Modal -->
-
-          <!-- Reset Password -->
-          <div id="signupModalFormResetPassword" style="display: none; opacity: 0;">
-            <!-- Heading -->
-            <div class="text-center mb-7">
-              <h4>Forgot password?</h4>
-              <p>Enter the email address you used when you joined and we'll send you instructions to reset your password.</p>
-            </div>
-            <!-- En dHeading -->
-
-            <form class="js-validate need-validate" novalidate>
-              <div class="mb-3">
-                <!-- Form -->
-                <div class="d-flex justify-content-between align-items-center">
-                  <label class="form-label" for="signupModalFormResetPasswordEmail" tabindex="0">Your email</label>
-
-                  <a class="js-animation-link form-label-link" href="javascript:;"
-                     data-hs-show-animation-options='{
-                         "targetSelector": "#signupModalFormLogin",
-                         "groupName": "idForm"
-                       }'>
-                    <i class="bi-chevron-left small me-1"></i> Back to Log in
-                  </a>
-                </div>
-                <!-- End Form -->
-
-                <!-- Form -->
-                <div class="mb-3">
-                  <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required>
-                  <span class="invalid-feedback">Please enter a valid email address.</span>
-                </div>
-                <!-- End Form -->
-
-                <div class="d-grid">
-                  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                </div>
-              </div>
-            </form>
-          </div>
-          <!-- End Reset Password -->
-        </div>
-        <!-- End Body -->
-
-        <!-- Footer -->
-        <div class="modal-footer d-block text-center py-sm-5">
-          <small class="text-cap mb-4">Trusted by the world's best teams</small>
-
-          <div class="w-85 mx-auto">
-            <div class="row justify-content-between">
-              <div class="col">
-                <img class="img-fluid" src="../assets/svg/brands/gitlab-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-
-              <div class="col">
-                <img class="img-fluid" src="../assets/svg/brands/fitbit-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-
-              <div class="col">
-                <img class="img-fluid" src="../assets/svg/brands/flow-xo-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-
-              <div class="col">
-                <img class="img-fluid" src="../assets/svg/brands/layar-gray.svg" alt="Logo">
-              </div>
-              <!-- End Col -->
-            </div>
-          </div>
-          <!-- End Row -->
-        </div>
-        <!-- End Footer -->
-      </div>
-    </div>
-  </div>
-
-
   <!-- Go To -->
   <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;"
      data-hs-go-to-options='{
@@ -1122,17 +564,11 @@
   </a>
   <!-- ========== END SECONDARY CONTENTS ========== -->
 
-  <!-- JS Global Compulsory  -->
-  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="../assets/vendor/prism/prism.js"></script>
-  <script src="../assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
-  <script src="../assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
-  <script src="../assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="../assets/js/vendor.min.js"></script>
 
-  <!-- JS Space -->
+  <!-- JS Front -->
   <script src="../assets/js/theme.min.js"></script>
 
   <!-- JS Plugins Init. -->
@@ -1143,33 +579,18 @@
       new HSGoTo('.js-go-to')
 
 
-      // INITIALIZATION OF MEGA MENU
-      // =======================================================
-      const megaMenu = new HSMegaMenu('.js-mega-menu', {
-        desktop: {
-          position: 'left'
-        }
-      }).init();
-
-
-      // INITIALIZATION OF SHOW ANIMATIONS
-      // =======================================================
-      new HSShowAnimation('.js-animation-link')
-
-
-      // INITIALIZATION OF BOOTSTRAP VALIDATION
-      // =======================================================
-      HSBsValidation.init('.js-validate', {
-        onSubmit: data => {
-          data.event.preventDefault()
-          alert('Submited')
-        }
-      })
-
-
       // INITIALIZATION OF HEADER
       // =======================================================
       new HSHeader('#header').init()
+
+      
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+      new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
     })()
   </script>
 </body>

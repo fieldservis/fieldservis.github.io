@@ -6,25 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title -->
-  <title>Introduction - Snippets | Space - Multipurpose Template + UI KIT</title>
+  <title>Introduction - Snippets | Front - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="../favicon.ico">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/css/vendor.min.css">
   <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
-  <!-- CSS Space Template -->
-  <link rel="stylesheet" href="../assets/css/theme.min.css">
-  <link rel="stylesheet" href="../assets/css/snippets.min.css">
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../assets/css/theme.min.css?v=1.0">
 </head>
 
 <body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand navbar-fixed navbar-right navbar-light navbar-sticky-lg-top bg-white">
+  <header id="header" class="navbar navbar-expand navbar-fixed navbar-end navbar-light navbar-sticky-lg-top bg-white">
     <div class="container-fluid">
       <nav class="navbar-nav-wrap">
         <div class="row flex-grow-1">
@@ -34,7 +34,7 @@
               <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <a href="../documentation/changelog.html">
-              <span class="badge bg-soft-primary text-primary">v2.0</span>
+              <span class="badge bg-soft-primary text-primary">v4.0</span>
             </a>
           </div>
           <!-- End Default Logo -->
@@ -57,7 +57,7 @@
                       <i class="bi-search"></i>
                     </div>
 
-                    <input type="search" class="search form-control" placeholder="Search in snippets" aria-label="Search in snippets">
+                    <input type="search" class="search form-control form-control-sm" placeholder="Search in snippets" aria-label="Search in snippets">
 
                     <a class="input-group-append input-group-text" href="javascript:;">
                       <i id="clearSearchResultsIcon" class="bi-x" style="display: none;"></i>
@@ -84,8 +84,8 @@
                 <div class="d-none">
                   <div id="searchTemplate" class="dropdown-item">
                     <a class="d-block link" href="#">
-                      <span class="category d-block text-muted mb-1"></span>
-                      <span class="component fw-bold text-dark"></span>
+                      <span class="category d-block fw-normal text-muted mb-1"></span>
+                      <span class="component text-dark"></span>
                     </a>
                   </div>
                 </div>
@@ -95,12 +95,12 @@
               <!-- Navbar -->
               <ul class="navbar-nav p-0">
                 <li class="nav-item">
-                  <a class="btn btn-ghost-secondary" href="https://htmlstream.com/contact-us" target="_blank">
+                  <a class="btn btn-ghost-secondary btn-sm" href="https://htmlstream.com/contact-us" target="_blank">
                     Get Support <i class="bi-box-arrow-up-right ms-1"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="btn btn-primary" href="../index.html">
+                  <a class="btn btn-primary btn-sm" href="../index.html">
                     <i class="bi-eye me-1"></i> Preview Demo
                   </a>
                 </li>
@@ -152,7 +152,7 @@
               <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <a class="navbar-brand-badge" href="../documentation/changelog.html">
-              <span class="badge bg-soft-primary text-primary ms-2">v2.0</span>
+              <span class="badge bg-soft-primary text-primary ms-2">v4.0</span>
             </a>
           </div>
           <!-- End Default Logo -->
@@ -196,11 +196,11 @@
             <li class="nav-item my-2 my-lg-5"></li>
 
             <li class="nav-item">
-              <span class="nav-subtitle">Foundations</span>
+              <span class="nav-subtitle">Content</span>
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavFeaturesCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavFeaturesCollapse">Features</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavFeaturesCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavFeaturesCollapse">Features</a>
 
               <div id="snippetsSidebarNavFeaturesCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="features-general.html">General</a>
@@ -215,10 +215,20 @@
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavCardsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavCardsCollapse">Cards</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavCardsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavCardsCollapse">Cards</a>
 
               <div id="snippetsSidebarNavCardsCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="cards-grid.html">Grid</a>
+                <a class="nav-link " href="cards-list.html">List</a>
+              </div>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavDirectoryCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavDirectoryCollapse">Directory</a>
+
+              <div id="snippetsSidebarNavDirectoryCollapse" class="nav-collapse collapse ">
+                <a class="nav-link " href="directory-grid.html">Grid</a>
+                <a class="nav-link " href="directory-list.html">List</a>
               </div>
             </li>
 
@@ -227,7 +237,7 @@
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavBlogsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavBlogsCollapse">Blogs</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavBlogsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavBlogsCollapse">Blogs</a>
 
               <div id="snippetsSidebarNavBlogsCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="blogs-grid.html">Grid</a>
@@ -236,11 +246,23 @@
             </li>
 
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/tables.html">Tables</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/ecommerce.html">E-commerce</a>
+            </li>
+
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/pricing.html">Pricing</a>
             </li>
         
             <li class="nav-item">
               <a class="nav-link " href="../snippets/team-sections.html">Team Sections</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/breadcrumb.html">Breadcrumb</a>
             </li>
         
             <li class="nav-item">
@@ -264,6 +286,10 @@
             </li>
         
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/countdown.html">Countdown</a>
+            </li>
+        
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/faq.html">FAQ</a>
             </li>
         
@@ -272,7 +298,15 @@
             </li>
         
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/collapse-accordion.html">Collapse/Accordion</a>
+            </li>
+        
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/comments.html">Comments</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/feedback-and-reviews.html">Feedback &amp; Reviews</a>
             </li>
         
             <li class="nav-item">
@@ -280,11 +314,19 @@
             </li>
         
             <li class="nav-item">
-              <a class="nav-link " href="sidebar-examples.html">Sidebar Nav Examples</a>
+              <a class="nav-link " href="sidebar-examples.html">Sidebar Examples</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="../snippets/content-sections.html">Content Sections</a>
+              <a class="nav-link " href="calendar-view.html">Calendar View</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="notification.html">Notification</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="content-sections.html">Content Sections</a>
             </li>
 
             <li class="nav-item my-2 my-lg-5"></li>
@@ -292,29 +334,37 @@
             <li class="nav-item">
               <small class="nav-subtitle">Forms</small>
             </li>
-          
-            <li class="nav-item">
-              <a class="nav-link " href="form-layouts-authentication.html">Authentication</a>
-            </li>
 
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-feedback.html">Feedback</a>
+              <a class="nav-link " href="forms-authentication.html">Authentication</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-filters.html">Filters</a>
+              <a class="nav-link " href="forms-feedback.html">Feedback</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-search.html">Search</a>
+              <a class="nav-link " href="forms-filters.html">Filters</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-directory.html">Directory</a>
+              <a class="nav-link " href="forms-search.html">Search</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-subscribe.html">Subscribe</a>
+              <a class="nav-link " href="forms-directory.html">Directory</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-subscribe.html">Subscribe</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-account.html">Account</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-wizard-and-steps.html">Wizard &amp; Steps</a>
             </li>
 
             <li class="nav-item my-2 my-lg-5"></li>
@@ -342,16 +392,16 @@
       <div class="row justify-content-md-between align-items-md-center mb-10">
         <div class="col-md-6 col-xl-5">
           <div class="mb-4">
-            <h1 class="mb-3" style="font-size: 3rem;">Sleek <span class="text-primary text-highlight-warning">components</span> to execute any idea.</h1>
+            <h1 class="display-5 mb-3">Sleek <span class="text-primary text-highlight-warning">components</span> to execute any idea.</h1>
             <p class="lead">Snippets is a collection of elements and combined components that you will find on demo pages.</p>
           </div>
 
-          <span class="badge bg-soft-secondary text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Navbars <span class="d-inline-block bg-soft-secondary p-2 rounded-pill ms-1" style="min-width: 2rem;">17</span></span>
-          <span class="badge bg-soft-secondary text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Hero Sections <span class="d-inline-block bg-soft-secondary p-2 rounded-pill ms-1" style="min-width: 2rem;">22</span></span>
-          <span class="badge bg-soft-secondary text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Content <span class="d-inline-block bg-soft-secondary p-2 rounded-pill ms-1" style="min-width: 2rem;">100+</span></span>
-          <span class="badge bg-soft-secondary text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Forms <span class="d-inline-block bg-soft-secondary p-2 rounded-pill ms-1" style="min-width: 2rem;">9</span></span>
-          <span class="badge bg-soft-secondary text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Footer <span class="d-inline-block bg-soft-secondary p-2 rounded-pill ms-1" style="min-width: 2rem;">3</span></span>
-          <span class="badge bg-soft-secondary text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Contact Sections <span class="d-inline-block bg-soft-secondary p-2 rounded-pill ms-1" style="min-width: 2rem;">3</span></span>
+          <span class="badge bg-soft-dark text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Navbars <span class="d-inline-block bg-soft-dark p-2 rounded-pill ms-1" style="min-width: 2rem;">24</span></span>
+          <span class="badge bg-soft-dark text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Hero Sections <span class="d-inline-block bg-soft-dark p-2 rounded-pill ms-1" style="min-width: 2rem;">36</span></span>
+          <span class="badge bg-soft-dark text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Content <span class="d-inline-block bg-soft-dark p-2 rounded-pill ms-1" style="min-width: 2rem;">175+</span></span>
+          <span class="badge bg-soft-dark text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Forms <span class="d-inline-block bg-soft-dark p-2 rounded-pill ms-1" style="min-width: 2rem;">39</span></span>
+          <span class="badge bg-soft-dark text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Footer <span class="d-inline-block bg-soft-dark p-2 rounded-pill ms-1" style="min-width: 2rem;">15</span></span>
+          <span class="badge bg-soft-dark text-dark rounded-pill ps-3 pe-1 me-1 mb-2">Contact Sections <span class="d-inline-block bg-soft-dark p-2 rounded-pill ms-1" style="min-width: 2rem;">5</span></span>
         </div>
         <!-- End Col -->
 
@@ -364,31 +414,31 @@
 
       <div class="row">
         <div class="col-sm-3 mb-5 mb-sm-0">
-          <h5>Navbar/Hero Sections</h5>
+          <h4>Navbar/Hero Sections</h4>
         </div>
 
         <div class="col-sm-9">
-          <div class="row">
-            <div class="col-sm-6 col-xl-4 mb-4">
+          <div class="row row-cols-sm-2 row-cols-md-3">
+            <div class="col mb-4">
               <!-- Card -->
               <a class="card card-sm card-transition h-100" href="../snippets/navbar.html" data-aos="fade-up">
                 <img class="card-img p-2" src="../assets/svg/design-system/snippets-navbar.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Headers (Navbar)</h6>
-                  <p class="card-text small text-body">17 components</p>
+                  <h5 class="card-title text-inherit">Headers (Navbar)</h5>
+                  <p class="card-text small text-body">26 components</p>
                 </div>
               </a>
               <!-- End Card -->
             </div>
             <!-- End Col -->
 
-            <div class="col-sm-6 col-xl-4 mb-4">
+            <div class="col mb-4">
               <!-- Card -->
               <a class="card card-sm card-transition h-100" href="../snippets/hero-sections.html" data-aos="fade-up">
                 <img class="card-img p-2" src="../assets/svg/design-system/snippets-hero-sections.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Hero Sections</h6>
-                  <p class="card-text small text-body">22 components</p>
+                  <h5 class="card-title text-inherit">Hero Sections</h5>
+                  <p class="card-text small text-body">34 components</p>
                 </div>
               </a>
               <!-- End Card -->
@@ -405,43 +455,43 @@
 
       <div class="row">
         <div class="col-sm-3 mb-5 mb-sm-0">
-          <h5>Content</h5>
+          <h4>Content</h4>
         </div>
 
         <div class="col-sm-9">
-          <div class="row">
-            <div class="col-sm-6 col-xl-4 mb-4">
+          <div class="row row-cols-sm-2 row-cols-md-3">
+            <div class="col mb-4">
               <!-- Card -->
               <a class="card card-sm card-transition h-100" href="../snippets/features-general.html" data-aos="fade-up">
                 <img class="card-img p-2" src="../assets/svg/design-system/snippets-features-general.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Features General</h6>
-                  <p class="card-text small text-body">12 components</p>
+                  <h5 class="card-title text-inherit">Features General</h5>
+                  <p class="card-text small text-body">10 components</p>
                 </div>
               </a>
               <!-- End Card -->
             </div>
             <!-- End Col -->
 
-            <div class="col-sm-6 col-xl-4 mb-4">
+            <div class="col mb-4">
               <!-- Card -->
               <a class="card card-sm card-transition h-100" href="../snippets/features-stats.html" data-aos="fade-up">
                 <img class="card-img p-2" src="../assets/svg/design-system/snippets-features-stats.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Features Stats</h6>
-                  <p class="card-text small text-body">5 components</p>
+                  <h5 class="card-title text-inherit">Features Stats</h5>
+                  <p class="card-text small text-body">6 components</p>
                 </div>
               </a>
               <!-- End Card -->
             </div>
             <!-- End Col -->
 
-            <div class="col-sm-6 col-xl-4 mb-4">
+            <div class="col mb-4">
               <!-- Card -->
               <a class="card card-sm card-transition h-100" href="../snippets/features-step.html" data-aos="fade-up">
                 <img class="card-img p-2" src="../assets/svg/design-system/snippets-features-step.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Features Step</h6>
+                  <h5 class="card-title text-inherit">Features Step</h5>
                   <p class="card-text small text-body">3 components</p>
                 </div>
               </a>
@@ -449,12 +499,51 @@
             </div>
             <!-- End Col -->
 
-            <div class="col-sm-6 col-xl-4 mb-4">
+            <div class="col mb-4">
               <!-- Card -->
               <a class="card card-sm card-transition h-100" href="../snippets/features-navs.html" data-aos="fade-up">
                 <img class="card-img p-2" src="../assets/svg/design-system/snippets-features-navs.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Features Navs (Tabs)</h6>
+                  <h5 class="card-title text-inherit">Features Navs (Tabs)</h5>
+                  <p class="card-text small text-body">3 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/icon-blocks.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-icon-blocks.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Icon Blocks</h5>
+                  <p class="card-text small text-body">11 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/cards-grid.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-cards-grid.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Cards (Grid)</h5>
+                  <p class="card-text small text-body">22 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/cards-list.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-cards-list.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Cards (List)</h5>
                   <p class="card-text small text-body">2 components</p>
                 </div>
               </a>
@@ -462,12 +551,391 @@
             </div>
             <!-- End Col -->
 
-            <div class="col-sm-6 col-xl-4 mb-4">
+            <div class="col mb-4">
               <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/icon-blocks.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-icon-blocks.svg" alt="Image Description">
+              <a class="card card-sm card-transition h-100" href="../snippets/directory-grid.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-directory-grid.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Icon Blocks</h6>
+                  <h5 class="card-title text-inherit">Directory (Grid)</h5>
+                  <p class="card-text small text-body">10 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/directory-list.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-directory-list.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Directory (List)</h5>
+                  <p class="card-text small text-body">6 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/testimonials.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-testimonials.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Testimonials</h5>
+                  <p class="card-text small text-body">13 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/blogs-grid.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-blogs-grid.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Blogs (Grid)</h5>
+                  <p class="card-text small text-body">4 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/blogs-list.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-blogs-list.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Blogs (List)</h5>
+                  <p class="card-text small text-body">3 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/tables.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-tables.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Tables</h5>
+                  <p class="card-text small text-body">1 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/ecommerce.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-ecommerce.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">E-commerce</h5>
+                  <p class="card-text small text-body">4 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/pricing.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-pricing.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Pricing</h5>
+                  <p class="card-text small text-body">7 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/team-sections.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-team-sections.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Team Sections</h5>
+                  <p class="card-text small text-body">2 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/breadcrumb.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-breadcrumb.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Breadcrumb</h5>
+                  <p class="card-text small text-body">3 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/cta.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-cta.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Call-to-Action (CTA)</h5>
+                  <p class="card-text small text-body">6 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/modals.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-modals.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Modals</h5>
+                  <p class="card-text small text-body">2 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/portfolio.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-portfolio.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Portfolio</h5>
+                  <p class="card-text small text-body">25 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/gallery.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-gallery.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Gallery</h5>
+                  <p class="card-text small text-body">5 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/clients.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-clients.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Clients</h5>
+                  <p class="card-text small text-body">6 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/countdown.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-countdown.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Countdown</h5>
+                  <p class="card-text small text-body">1 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/faq.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-faq.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">FAQ</h5>
+                  <p class="card-text small text-body">3 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/lists.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-lists.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Lists</h5>
+                  <p class="card-text small text-body">2 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/collapse-accordion.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-collapse-accordion.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Collapse/Accordion</h5>
+                  <p class="card-text small text-body">1 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/comments.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-comments.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Comments</h5>
+                  <p class="card-text small text-body">2 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/feedback-and-reviews.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-feedback-and-reviews.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Feedback &amp; Reviews</h5>
+                  <p class="card-text small text-body">2 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/user-profile.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-user-profile.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">User Profile</h5>
+                  <p class="card-text small text-body">6 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/sidebar-examples.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-sidebar-examples.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Sidebar Examples</h5>
+                  <p class="card-text small text-body">7 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/calendar-view.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-calendar-view.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Calendar View</h5>
+                  <p class="card-text small text-body">1 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/notification.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-notification.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Notification</h5>
+                  <p class="card-text small text-body">1 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/content-sections.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-content-sections.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Content Sections</h5>
+                  <p class="card-text small text-body">20 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+
+      <hr class="mb-5">
+
+      <div class="row">
+        <div class="col-sm-3 mb-5 mb-sm-0">
+          <h4>Forms</h4>
+        </div>
+
+        <div class="col-sm-9">
+          <div class="row row-cols-sm-2 row-cols-md-3">
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/forms-authentication.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-forms-authentication.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Authentication</h5>
+                  <p class="card-text small text-body">5 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/forms-feedback.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-forms-feedback.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Feedback</h5>
+                  <p class="card-text small text-body">4 components</p>
+                </div>
+              </a>
+              <!-- End Card -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col mb-4">
+              <!-- Card -->
+              <a class="card card-sm card-transition h-100" href="../snippets/forms-filters.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-forms-filters.svg" alt="Image Description">
+                <div class="card-body">
+                  <h5 class="card-title text-inherit">Filters</h5>
                   <p class="card-text small text-body">9 components</p>
                 </div>
               </a>
@@ -475,64 +943,12 @@
             </div>
             <!-- End Col -->
 
-            <div class="col-sm-6 col-xl-4 mb-4">
+            <div class="col mb-4">
               <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/cards-grid.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-cards-grid.svg" alt="Image Description">
+              <a class="card card-sm card-transition h-100" href="../snippets/forms-search.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-forms-search.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Cards (Grid)</h6>
-                  <p class="card-text small text-body">5 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/testimonials.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-testimonials.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Testimonials</h6>
-                  <p class="card-text small text-body">5 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/blogs-grid.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-blogs-grid.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Blogs (Grid)</h6>
-                  <p class="card-text small text-body">4 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/blogs-list.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-blogs-list.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Blogs (List)</h6>
-                  <p class="card-text small text-body">2 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/pricing.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-pricing.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Pricing</h6>
+                  <h5 class="card-title text-inherit">Search</h5>
                   <p class="card-text small text-body">3 components</p>
                 </div>
               </a>
@@ -540,183 +956,12 @@
             </div>
             <!-- End Col -->
 
-            <div class="col-sm-6 col-xl-4 mb-4">
+            <div class="col mb-4">
               <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/team-sections.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-team-sections.svg" alt="Image Description">
+              <a class="card card-sm card-transition h-100" href="../snippets/forms-directory.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-forms-directory.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Team Sections</h6>
-                  <p class="card-text small text-body">1 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/cta.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-cta.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Call-to-Action (CTA)</h6>
-                  <p class="card-text small text-body">4 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/modals.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-modals.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Modals</h6>
-                  <p class="card-text small text-body">1 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/portfolio.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-portfolio.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Portfolio</h6>
-                  <p class="card-text small text-body">2 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/gallery.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-gallery.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Gallery</h6>
-                  <p class="card-text small text-body">2 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/clients.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-clients.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Clients</h6>
-                  <p class="card-text small text-body">4 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/faq.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-faq.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">FAQ</h6>
-                  <p class="card-text small text-body">2 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/lists.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-lists.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Lists</h6>
-                  <p class="card-text small text-body">2 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/comments.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-comments.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Comments</h6>
-                  <p class="card-text small text-body">1 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/user-profile.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-user-profile.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">User Profile</h6>
-                  <p class="card-text small text-body">1 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/sidebar-examples.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-sidebar-examples.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Sidebar Examples</h6>
-                  <p class="card-text small text-body">2 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/content-sections.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-content-sections.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Content Sections</h6>
-                  <p class="card-text small text-body">5 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-          </div>
-          <!-- End Row -->
-        </div>
-        <!-- End Col -->
-      </div>
-      <!-- End Row -->
-
-      <hr class="mb-5">
-
-      <div class="row">
-        <div class="col-sm-3 mb-5 mb-sm-0">
-          <h5>Forms</h5>
-        </div>
-
-        <div class="col-sm-9">
-          <div class="row">
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/form-layouts-authentication.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-form-layouts-authentication.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Authentication</h6>
+                  <h5 class="card-title text-inherit">Directory</h5>
                   <p class="card-text small text-body">3 components</p>
                 </div>
               </a>
@@ -724,64 +969,38 @@
             </div>
             <!-- End Col -->
 
-            <div class="col-sm-6 col-xl-4 mb-4">
+            <div class="col mb-4">
               <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/form-layouts-feedback.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-form-layouts-feedback.svg" alt="Image Description">
+              <a class="card card-sm card-transition h-100" href="../snippets/forms-subscribe.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-forms-subscribe.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Feedback</h6>
-                  <p class="card-text small text-body">1 components</p>
+                  <h5 class="card-title text-inherit">Subscribe</h5>
+                  <p class="card-text small text-body">2 components</p>
                 </div>
               </a>
               <!-- End Card -->
             </div>
             <!-- End Col -->
 
-            <div class="col-sm-6 col-xl-4 mb-4">
+            <div class="col mb-4">
               <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/form-layouts-filters.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-form-layouts-filters.svg" alt="Image Description">
+              <a class="card card-sm card-transition h-100" href="../snippets/forms-account.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-forms-account.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Filters</h6>
-                  <p class="card-text small text-body">1 components</p>
+                  <h5 class="card-title text-inherit">Account</h5>
+                  <p class="card-text small text-body">11 components</p>
                 </div>
               </a>
               <!-- End Card -->
             </div>
             <!-- End Col -->
 
-            <div class="col-sm-6 col-xl-4 mb-4">
+            <div class="col mb-4">
               <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/form-layouts-search.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-form-layouts-search.svg" alt="Image Description">
+              <a class="card card-sm card-transition h-100" href="../snippets/forms-wizard-and-steps.html" data-aos="fade-up">
+                <img class="card-img p-2" src="../assets/svg/design-system/snippets-forms-wizard-and-steps.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Search</h6>
-                  <p class="card-text small text-body">1 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/form-layouts-directory.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-form-layouts-directory.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Directory</h6>
-                  <p class="card-text small text-body">1 components</p>
-                </div>
-              </a>
-              <!-- End Card -->
-            </div>
-            <!-- End Col -->
-
-            <div class="col-sm-6 col-xl-4 mb-4">
-              <!-- Card -->
-              <a class="card card-sm card-transition h-100" href="../snippets/form-layouts-subscribe.html" data-aos="fade-up">
-                <img class="card-img p-2" src="../assets/svg/design-system/snippets-form-layouts-subscribe.svg" alt="Image Description">
-                <div class="card-body">
-                  <h6 class="card-title text-inherit">Subscribe</h6>
+                  <h5 class="card-title text-inherit">Wizard &amp; Steps</h5>
                   <p class="card-text small text-body">2 components</p>
                 </div>
               </a>
@@ -799,31 +1018,31 @@
 
       <div class="row">
         <div class="col-sm-3 mb-5 mb-sm-0">
-          <h5>Contact/Footer</h5>
+          <h4>Contact/Footer</h4>
         </div>
 
         <div class="col-sm-9">
-          <div class="row">
-            <div class="col-sm-6 col-xl-4 mb-4">
+          <div class="row row-cols-sm-2 row-cols-md-3">
+            <div class="col mb-4">
               <!-- Card -->
               <a class="card card-sm card-transition h-100" href="../snippets/contact-sections.html" data-aos="fade-up">
                 <img class="card-img p-2" src="../assets/svg/design-system/snippets-contact-sections.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Contact Sections</h6>
-                  <p class="card-text small text-body">3 components</p>
+                  <h5 class="card-title text-inherit">Contact Sections</h5>
+                  <p class="card-text small text-body">5 components</p>
                 </div>
               </a>
               <!-- End Card -->
             </div>
             <!-- End Col -->
 
-            <div class="col-sm-6 col-xl-4 mb-4">
+            <div class="col mb-4">
               <!-- Card -->
               <a class="card card-sm card-transition h-100" href="../snippets/footer.html" data-aos="fade-up">
                 <img class="card-img p-2" src="../assets/svg/design-system/snippets-footer.svg" alt="Image Description">
                 <div class="card-body">
-                  <h6 class="card-title text-inherit">Footer</h6>
-                  <p class="card-text small text-body">3 components</p>
+                  <h5 class="card-title text-inherit">Footer</h5>
+                  <p class="card-text small text-body">15 components</p>
                 </div>
               </a>
               <!-- End Card -->
@@ -861,16 +1080,11 @@
   </a>
   <!-- ========== END SECONDARY CONTENTS ========== -->
 
-  <!-- JS Global Compulsory  -->
-  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="../assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="../assets/vendor/list.js/dist/list.min.js"></script>
-  <script src="../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="../assets/vendor/prism/prism.js"></script>
+  <script src="../assets/js/vendor.min.js"></script>
 
-  <!-- JS Space -->
+  <!-- JS Front -->
   <script src="../assets/js/theme.min.js"></script>
 
   <!-- JS Plugins Init. -->
@@ -883,7 +1097,8 @@
 
       // INITIALIZATION OF LISTJS COMPONENT
       // =======================================================
-      const snippetsSearch = HSCore.components.HSList.init('#snippetsSearch');
+      HSCore.components.HSList.init('#snippetsSearch')
+      const snippetsSearch = HSCore.components.HSList.getItem('snippetsSearch')
 
 
       // GET JSON FILE RESULTS
@@ -891,7 +1106,7 @@
       fetch('../assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
-        snippetsSearch.getItem(0).add(data)
+        snippetsSearch.add(data)
       })
 
 

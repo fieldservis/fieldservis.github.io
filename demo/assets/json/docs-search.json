@@ -25,38 +25,18 @@
     "link": "./changelog.html"
   },
   {
-    "component": "RTL",
-    "category": "Getting Started",
-    "link": "./rtl.html"
-  },
-  {
-    "component": "Typography",
-    "category": "Content",
-    "link": "./typography.html"
-  },
-  {
-    "component": "Figma",
-    "category": "Design",
-    "link": "./figma.html"
-  },
-  {
-    "component": "Gutters",
-    "category": "Content",
-    "link": "./gutters.html"
-  },
-  {
     "component": "Bootstrap Icons",
-    "category": "Content",
+    "category": "Design & Graphics",
     "link": "./bootstrap-icons.html"
   },
   {
     "component": "Duotone Icons",
-    "category": "Content",
+    "category": "Design & Graphics",
     "link": "./duotone-icons.html"
   },
   {
     "component": "Illustrations",
-    "category": "Content",
+    "category": "Design & Graphics",
     "link": "./illustrations.html"
   },
   {
@@ -78,11 +58,6 @@
     "component": "Badge",
     "category": "Components",
     "link": "./badge.html"
-  },
-  {
-    "component": "Banners",
-    "category": "Components",
-    "link": "./banners.html"
   },
   {
     "component": "Breadcrumb",
@@ -125,6 +100,11 @@
     "link": "./dropdowns.html"
   },
   {
+    "component": "Icons",
+    "category": "Components",
+    "link": "./icons.html"
+  },
+  {
     "component": "List Group",
     "category": "Components",
     "link": "./list-group.html"
@@ -135,6 +115,11 @@
     "link": "./lists.html"
   },
   {
+    "component": "Legend Indicator",
+    "category": "Components",
+    "link": "./legend-indicator.html"
+  },
+  {
     "component": "Modal",
     "category": "Components",
     "link": "./modal.html"
@@ -143,6 +128,11 @@
     "component": "Offcanvas",
     "category": "Components",
     "link": "./offcanvas.html"
+  },
+  {
+    "component": "Page Header",
+    "category": "Components",
+    "link": "./page-header.html"
   },
   {
     "component": "Pagination",
@@ -158,6 +148,11 @@
     "component": "Progress",
     "category": "Components",
     "link": "./progress.html"
+  },
+  {
+    "component": "Profile",
+    "category": "Components",
+    "link": "./profile.html"
   },
   {
     "component": "Shapes",
@@ -185,6 +180,11 @@
     "link": "./tables.html"
   },
   {
+    "component": "Text Highlight",
+    "category": "Components",
+    "link": "./text-highlight.html"
+  },
+  {
     "component": "Toasts",
     "category": "Components",
     "link": "./toasts.html"
@@ -193,6 +193,11 @@
     "component": "Tooltips",
     "category": "Components",
     "link": "./tooltips.html"
+  },
+  {
+    "component": "Typography",
+    "category": "Components",
+    "link": "./typography.html"
   },
   {
     "component": "Navbar",
@@ -245,16 +250,6 @@
     "link": "./colors.html"
   },
   {
-    "component": "Lines",
-    "category": "Utilities",
-    "link": "./lines.html"
-  },
-  {
-    "component": "Colored links",
-    "category": "Utilities",
-    "link": "./links.html"
-  },
-  {
     "component": "Links",
     "category": "Utilities",
     "link": "./links.html"
@@ -290,14 +285,114 @@
     "link": "./z-index.html"
   },
   {
+    "component": "Advanced select",
+    "category": "Advanced forms",
+    "link": "./select.html"
+  },
+  {
+    "component": "File attachments",
+    "category": "Advanced forms",
+    "link": "./file-attachments.html"
+  },
+  {
+    "component": "Drag’ n’ drop file uploads",
+    "category": "Advanced forms",
+    "link": "./dropzone.html"
+  },
+  {
+    "component": "WYSIWYG Editor",
+    "category": "Advanced forms",
+    "link": "./quill.html"
+  },
+  {
+    "component": "Quantity counter",
+    "category": "Advanced forms",
+    "link": "./quantity-counter.html"
+  },
+  {
+    "component": "Input mask",
+    "category": "Advanced forms",
+    "link": "./input-mask.html"
+  },
+  {
+    "component": "Step forms (Wizards)",
+    "category": "Advanced forms",
+    "link": "./step-forms.html"
+  },
+  {
+    "component": "Wizards",
+    "category": "Advanced forms",
+    "link": "./step-forms.html"
+  },
+  {
+    "component": "Range slider (noUiSlider)",
+    "category": "Advanced forms",
+    "link": "./range-slider.html"
+  },
+  {
+    "component": "Add field",
+    "category": "Advanced forms",
+    "link": "./add-field.html"
+  },
+  {
+    "component": "Toggle password",
+    "category": "Advanced forms",
+    "link": "./toggle-password.html"
+  },
+  {
+    "component": "Count characters",
+    "category": "Advanced forms",
+    "link": "./count-characters.html"
+  },
+  {
+    "component": "Toggle switch",
+    "category": "Advanced forms",
+    "link": "./toggle-switch.html"
+  },
+  {
+    "component": "Toggle state",
+    "category": "Advanced forms",
+    "link": "./toggle-state.html"
+  },
+  {
+    "component": "Switch",
+    "category": "Advanced forms",
+    "link": "./switch.html"
+  },
+  {
     "component": "Fullscreen Lightbox",
     "category": "Media",
     "link": "./fslightbox.html"
   },
   {
+    "component": "Video Background",
+    "category": "Media",
+    "link": "./video-bg.html"
+  },
+  {
+    "component": "Video Player",
+    "category": "Media",
+    "link": "./video-player.html"
+  },
+  {
     "component": "Swiper",
     "category": "Media",
     "link": "./swiper.html"
+  },
+  {
+    "component": "Maps (Leaflet)",
+    "category": "Others",
+    "link": "./maps-leaflet.html"
+  },
+  {
+    "component": "Chart.js",
+    "category": "Others",
+    "link": "./chartjs.html"
+  },
+  {
+    "component": "Circles.js (Pie Chart).js",
+    "category": "Others",
+    "link": "./circles.html"
   },
   {
     "component": "Sticky block",
@@ -310,14 +405,14 @@
     "link": "./countdown.html"
   },
   {
+    "component": "Sorting (Shuffle.js)",
+    "category": "Others",
+    "link": "./sorting.html"
+  },
+  {
     "component": "Go To",
     "category": "Others",
     "link": "./go-to.html"
-  },
-  {
-    "component": "Shuffle.js",
-    "category": "Others",
-    "link": "./sorting.html"
   },
   {
     "component": "Show Animation",
@@ -325,7 +420,7 @@
     "link": "./show-animation.html"
   },
   {
-    "component": "Typedjs",
+    "component": "Typed.js",
     "category": "Others",
     "link": "./typedjs.html"
   }

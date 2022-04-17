@@ -6,25 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title -->
-  <title>Blogs List - Snippets | Space - Multipurpose Responsive Template</title>
+  <title>Blogs List - Snippets | Front - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="../favicon.ico">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/css/vendor.min.css">
   <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
-  <!-- CSS Space Template -->
-  <link rel="stylesheet" href="../assets/css/theme.min.css">
-  <link rel="stylesheet" href="../assets/css/snippets.min.css">
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../assets/css/theme.min.css?v=1.0">
 </head>
 
-<body class="navbar-sidebar-aside-lg bg-light">
+<body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand navbar-fixed navbar-right navbar-light navbar-sticky-lg-top bg-white">
+  <header id="header" class="navbar navbar-expand navbar-fixed navbar-end navbar-light navbar-sticky-lg-top bg-white">
     <div class="container-fluid">
       <nav class="navbar-nav-wrap">
         <div class="row flex-grow-1">
@@ -34,7 +34,7 @@
               <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <a href="../documentation/changelog.html">
-              <span class="badge bg-soft-primary text-primary">v2.0</span>
+              <span class="badge bg-soft-primary text-primary">v4.0</span>
             </a>
           </div>
           <!-- End Default Logo -->
@@ -57,7 +57,7 @@
                       <i class="bi-search"></i>
                     </div>
 
-                    <input type="search" class="search form-control" placeholder="Search in snippets" aria-label="Search in snippets">
+                    <input type="search" class="search form-control form-control-sm" placeholder="Search in snippets" aria-label="Search in snippets">
 
                     <a class="input-group-append input-group-text" href="javascript:;">
                       <i id="clearSearchResultsIcon" class="bi-x" style="display: none;"></i>
@@ -84,8 +84,8 @@
                 <div class="d-none">
                   <div id="searchTemplate" class="dropdown-item">
                     <a class="d-block link" href="#">
-                      <span class="category d-block text-muted mb-1"></span>
-                      <span class="component fw-bold text-dark"></span>
+                      <span class="category d-block fw-normal text-muted mb-1"></span>
+                      <span class="component text-dark"></span>
                     </a>
                   </div>
                 </div>
@@ -95,12 +95,12 @@
               <!-- Navbar -->
               <ul class="navbar-nav p-0">
                 <li class="nav-item">
-                  <a class="btn btn-ghost-secondary" href="https://htmlstream.com/contact-us" target="_blank">
+                  <a class="btn btn-ghost-secondary btn-sm" href="https://htmlstream.com/contact-us" target="_blank">
                     Get Support <i class="bi-box-arrow-up-right ms-1"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="btn btn-primary" href="../index.html">
+                  <a class="btn btn-primary btn-sm" href="../index.html">
                     <i class="bi-eye me-1"></i> Preview Demo
                   </a>
                 </li>
@@ -152,7 +152,7 @@
               <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <a class="navbar-brand-badge" href="../documentation/changelog.html">
-              <span class="badge bg-soft-primary text-primary ms-2">v2.0</span>
+              <span class="badge bg-soft-primary text-primary ms-2">v4.0</span>
             </a>
           </div>
           <!-- End Default Logo -->
@@ -196,11 +196,11 @@
             <li class="nav-item my-2 my-lg-5"></li>
 
             <li class="nav-item">
-              <span class="nav-subtitle">Foundations</span>
+              <span class="nav-subtitle">Content</span>
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavFeaturesCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavFeaturesCollapse">Features</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavFeaturesCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavFeaturesCollapse">Features</a>
 
               <div id="snippetsSidebarNavFeaturesCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="features-general.html">General</a>
@@ -215,10 +215,20 @@
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavCardsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavCardsCollapse">Cards</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavCardsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavCardsCollapse">Cards</a>
 
               <div id="snippetsSidebarNavCardsCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="cards-grid.html">Grid</a>
+                <a class="nav-link " href="cards-list.html">List</a>
+              </div>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavDirectoryCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavDirectoryCollapse">Directory</a>
+
+              <div id="snippetsSidebarNavDirectoryCollapse" class="nav-collapse collapse ">
+                <a class="nav-link " href="directory-grid.html">Grid</a>
+                <a class="nav-link " href="directory-list.html">List</a>
               </div>
             </li>
 
@@ -227,7 +237,7 @@
             </li>
 
             <li class="nav-item active">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavBlogsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="snippetsSidebarNavBlogsCollapse">Blogs</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavBlogsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="snippetsSidebarNavBlogsCollapse">Blogs</a>
 
               <div id="snippetsSidebarNavBlogsCollapse" class="nav-collapse collapse show">
                 <a class="nav-link " href="blogs-grid.html">Grid</a>
@@ -236,11 +246,23 @@
             </li>
 
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/tables.html">Tables</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/ecommerce.html">E-commerce</a>
+            </li>
+
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/pricing.html">Pricing</a>
             </li>
         
             <li class="nav-item">
               <a class="nav-link " href="../snippets/team-sections.html">Team Sections</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/breadcrumb.html">Breadcrumb</a>
             </li>
         
             <li class="nav-item">
@@ -264,6 +286,10 @@
             </li>
         
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/countdown.html">Countdown</a>
+            </li>
+        
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/faq.html">FAQ</a>
             </li>
         
@@ -272,7 +298,15 @@
             </li>
         
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/collapse-accordion.html">Collapse/Accordion</a>
+            </li>
+        
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/comments.html">Comments</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/feedback-and-reviews.html">Feedback &amp; Reviews</a>
             </li>
         
             <li class="nav-item">
@@ -280,11 +314,19 @@
             </li>
         
             <li class="nav-item">
-              <a class="nav-link " href="sidebar-examples.html">Sidebar Nav Examples</a>
+              <a class="nav-link " href="sidebar-examples.html">Sidebar Examples</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="../snippets/content-sections.html">Content Sections</a>
+              <a class="nav-link " href="calendar-view.html">Calendar View</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="notification.html">Notification</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="content-sections.html">Content Sections</a>
             </li>
 
             <li class="nav-item my-2 my-lg-5"></li>
@@ -292,29 +334,37 @@
             <li class="nav-item">
               <small class="nav-subtitle">Forms</small>
             </li>
-          
-            <li class="nav-item">
-              <a class="nav-link " href="form-layouts-authentication.html">Authentication</a>
-            </li>
 
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-feedback.html">Feedback</a>
+              <a class="nav-link " href="forms-authentication.html">Authentication</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-filters.html">Filters</a>
+              <a class="nav-link " href="forms-feedback.html">Feedback</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-search.html">Search</a>
+              <a class="nav-link " href="forms-filters.html">Filters</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-directory.html">Directory</a>
+              <a class="nav-link " href="forms-search.html">Search</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-subscribe.html">Subscribe</a>
+              <a class="nav-link " href="forms-directory.html">Directory</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-subscribe.html">Subscribe</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-account.html">Account</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-wizard-and-steps.html">Wizard &amp; Steps</a>
             </li>
 
             <li class="nav-item my-2 my-lg-5"></li>
@@ -367,9 +417,6 @@
             <li class="nav-item">
               <a class="nav-link" id="nav-htmlTab1" href="#nav-html1" data-bs-toggle="pill" data-bs-target="#nav-html1" role="tab" aria-controls="nav-html1" aria-selected="false">HTML</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" id="nav-jsTab1" href="#nav-js1" data-bs-toggle="pill" data-bs-target="#nav-js1" role="tab" aria-controls="nav-js1" aria-selected="false">JS</a>
-            </li>
           </ul>
           <!-- End Nav -->
         </div>
@@ -378,123 +425,197 @@
         <!-- Tab Content -->
         <div class="tab-content" id="navTabContent1">
           <div class="tab-pane fade p-4 show active" id="nav-result1" role="tabpanel" aria-labelledby="nav-resultTab1">
-            <!-- Blog List -->
-            <div class="container content-space-1">
-              <div class="row align-items-md-center">
-                <div class="col-md-6 order-md-2 mb-5 mb-md-0">
-                  <a href="https://www.youtube.com/watch?v=0qisGSwZym4" role="button" data-fslightbox="youtube-video">
-                    <div class="position-relative">
-                      <img class="img-fluid" src="../assets/img/950x950/img2.jpg" alt="Image Description">
+            <div class="d-grid gap-7">
+              <!-- Card -->
+              <div class="card card-flush card-stretched-vertical">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <img class="card-img" src="../assets/img/400x500/img7.jpg" alt="Image Description">
+                  </div>
+                  <!-- End Col -->
 
-                      <div class="position-absolute bottom-0 start-0 p-5">
-                        <!-- Fancybox -->
-                        <div class="d-flex align-items-center">
+                  <div class="col-sm-7">
+                    <!-- Card Body -->
+                    <div class="card-body">
+                      <div class="mb-2">
+                        <a class="card-link" href="#">Business</a>
+                      </div>
+
+                      <h3 class="card-title">
+                        <a class="text-dark" href="../blog-article.html">Front becomes an official Instagram Marketing Partner</a>
+                      </h3>
+                      
+                      <p class="card-text">Great news we're eager to share.</p>
+                      
+                      <!-- Card Footer -->
+                      <div class="card-footer">
+                        <div class="d-flex">
                           <div class="flex-shrink-0">
-                            <span class="btn btn-icon btn-white text-primary">
-                              <i class="bi-play-circle-fill"></i>
-                            </span>
+                            <a class="avatar avatar-circle" href="../blog-author-profile.html">
+                              <img class="avatar-img" src="../assets/img/160x160/img3.jpg" alt="Image Description">
+                            </a>
                           </div>
+                        
                           <div class="flex-grow-1 ms-3">
-                            <span class="text-white">Watch Andrea’s story</span>
+                            <a class="card-link link-dark" href="../blog-author-profile.html">Aaron Larsson</a>
+                            <p class="card-text small">Feb 15, 2021</p>
                           </div>
                         </div>
-                        <!-- End Fancybox -->
                       </div>
+                      <!-- End Card Footer -->
                     </div>
-                  </a>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-md-6">
-                  <div class="pe-md-5">
-                    <span class="text-cap">Featured customers</span>
-                    <h3>Very precise documentation with many features well explained.</h3>
-
-                    <!-- Blockquote -->
-                    <figure class="mb-7">
-                      <blockquote class="blockquote blockquote-sm">“ Now that we’re using Space, everyone involved in a project has visibility into things like changes in scope and other status updates. “</blockquote>
-
-                      <figcaption class="blockquote-footer">
-                        Andrea
-                        <span class="blockquote-footer-source">Director of Sales | MailChimp</span>
-                      </figcaption>
-                    </figure>
-                    <!-- End Blockquote -->
-
-                    <img class="img-fluid" src="../assets/svg/brands/mailchimp-primary.svg" alt="Logo" style="width: 12.5rem;">
+                    <!-- End Card Body -->
                   </div>
+                  <!-- End Col -->
                 </div>
-                <!-- End Col -->
+                <!-- End Row -->
               </div>
-              <!-- End Row -->
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card card-flush card-stretched-vertical">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <img class="card-img" src="../assets/img/400x500/img5.jpg" alt="Image Description">
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-sm-7">
+                    <!-- Card Body -->
+                    <div class="card-body">
+                      <div class="mb-2">
+                        <a class="card-link" href="#">Announcements</a>
+                      </div>
+
+                      <h3 class="card-title">
+                        <a class="text-dark" href="../blog-article.html">Announcing a free plan for small teams</a>
+                      </h3>
+                      
+                      <p class="card-text">At Wake, our mission has always been focused on bringing openness.</p>
+                      
+                      <!-- Card Footer -->
+                      <div class="card-footer">
+                        <div class="d-flex">
+                          <div class="flex-shrink-0">
+                            <a class="avatar avatar-circle" href="../blog-author-profile.html">
+                              <img class="avatar-img" src="../assets/img/160x160/img9.jpg" alt="Image Description">
+                            </a>
+                          </div>
+                        
+                          <div class="flex-grow-1 ms-3">
+                            <a class="card-link link-dark" href="../blog-author-profile.html">Hanna Wolfe</a>
+                            <p class="card-text small">Feb 4, 2021</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Card Footer -->
+                    </div>
+                    <!-- End Card Body -->
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Card -->
             </div>
-            <!-- End Blog List -->
           </div>
 
           <div class="tab-pane fade" id="nav-html1" role="tabpanel" aria-labelledby="nav-htmlTab1">
             <pre>
               <code class="language-markup" data-lang="html">
-                &lt;!-- Blog List --&gt;
-                &lt;div class="container content-space-1"&gt;
-                  &lt;div class="row align-items-md-center"&gt;
-                    &lt;div class="col-md-6 order-md-2 mb-5 mb-md-0"&gt;
-                      &lt;a href="https://www.youtube.com/watch?v=0qisGSwZym4" role="button" data-fslightbox="youtube-video"&gt;
-                        &lt;div class="position-relative"&gt;
-                          &lt;img class="img-fluid" src="../assets/img/950x950/img2.jpg" alt="Image Description"&gt;
+                &lt;div class="d-grid gap-7"&gt;
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card card-flush card-stretched-vertical"&gt;
+                    &lt;div class="row"&gt;
+                      &lt;div class="col-sm-5"&gt;
+                        &lt;img class="card-img" src="../assets/img/400x500/img7.jpg" alt="Image Description"&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Col --&gt;
 
-                          &lt;div class="position-absolute bottom-0 start-0 p-5"&gt;
-                            &lt;!-- Fancybox --&gt;
-                            &lt;div class="d-flex align-items-center"&gt;
+                      &lt;div class="col-sm-7"&gt;
+                        &lt;!-- Card Body --&gt;
+                        &lt;div class="card-body"&gt;
+                          &lt;div class="mb-2"&gt;
+                            &lt;a class="card-link" href="#"&gt;Business&lt;/a&gt;
+                          &lt;/div&gt;
+
+                          &lt;h3 class="card-title"&gt;
+                            &lt;a class="text-dark" href="../blog-article.html"&gt;Front becomes an official Instagram Marketing Partner&lt;/a&gt;
+                          &lt;/h3&gt;
+                          
+                          &lt;p class="card-text"&gt;Great news we're eager to share.&lt;/p&gt;
+                          
+                          &lt;!-- Card Footer --&gt;
+                          &lt;div class="card-footer"&gt;
+                            &lt;div class="d-flex"&gt;
                               &lt;div class="flex-shrink-0"&gt;
-                                &lt;span class="btn btn-icon btn-white text-primary"&gt;
-                                  &lt;i class="bi-play-circle-fill"&gt;&lt;/i&gt;
-                                &lt;/span&gt;
+                                &lt;a class="avatar avatar-circle" href="../blog-author-profile.html"&gt;
+                                  &lt;img class="avatar-img" src="../assets/img/160x160/img3.jpg" alt="Image Description"&gt;
+                                &lt;/a&gt;
                               &lt;/div&gt;
+                            
                               &lt;div class="flex-grow-1 ms-3"&gt;
-                                &lt;span class="text-white"&gt;Watch Andrea’s story&lt;/span&gt;
+                                &lt;a class="card-link link-dark" href="../blog-author-profile.html"&gt;Aaron Larsson&lt;/a&gt;
+                                &lt;p class="card-text small"&gt;Feb 15, 2021&lt;/p&gt;
                               &lt;/div&gt;
                             &lt;/div&gt;
-                            &lt;!-- End Fancybox --&gt;
                           &lt;/div&gt;
+                          &lt;!-- End Card Footer --&gt;
                         &lt;/div&gt;
-                      &lt;/a&gt;
-                    &lt;/div&gt;
-                    &lt;!-- End Col --&gt;
-
-                    &lt;div class="col-md-6"&gt;
-                      &lt;div class="pe-md-5"&gt;
-                        &lt;span class="text-cap"&gt;Featured customers&lt;/span&gt;
-                        &lt;h3&gt;Very precise documentation with many features well explained.&lt;/h3&gt;
-
-                        &lt;!-- Blockquote --&gt;
-                        &lt;figure class="mb-7"&gt;
-                          &lt;blockquote class="blockquote blockquote-sm"&gt;“ Now that we’re using Space, everyone involved in a project has visibility into things like changes in scope and other status updates. “&lt;/blockquote&gt;
-
-                          &lt;figcaption class="blockquote-footer"&gt;
-                            Andrea
-                            &lt;span class="blockquote-footer-source"&gt;Director of Sales | MailChimp&lt;/span&gt;
-                          &lt;/figcaption&gt;
-                        &lt;/figure&gt;
-                        &lt;!-- End Blockquote --&gt;
-
-                        &lt;img class="img-fluid" src="../assets/svg/brands/mailchimp-primary.svg" alt="Logo" style="width: 12.5rem;"&gt;
+                        &lt;!-- End Card Body --&gt;
                       &lt;/div&gt;
+                      &lt;!-- End Col --&gt;
                     &lt;/div&gt;
-                    &lt;!-- End Col --&gt;
+                    &lt;!-- End Row --&gt;
                   &lt;/div&gt;
-                  &lt;!-- End Row --&gt;
-                &lt;/div&gt;
-                &lt;!-- End Blog List --&gt;
-              </code>
-            </pre>
-          </div>
+                  &lt;!-- End Card --&gt;
 
-          <div class="tab-pane fade" id="nav-js1" role="tabpanel" aria-labelledby="nav-jsTab1">
-            <pre>
-              <code class="language-markup" data-lang="html">
-                &lt;!-- JS Implementing Plugins --&gt;
-                &lt;!-- bundlejs:vendor [..] --&gt;
-                &lt;script src="../assets/vendor/fslightbox/index.js"&gt;&lt;/script&gt;
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card card-flush card-stretched-vertical"&gt;
+                    &lt;div class="row"&gt;
+                      &lt;div class="col-sm-5"&gt;
+                        &lt;img class="card-img" src="../assets/img/400x500/img5.jpg" alt="Image Description"&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Col --&gt;
+
+                      &lt;div class="col-sm-7"&gt;
+                        &lt;!-- Card Body --&gt;
+                        &lt;div class="card-body"&gt;
+                          &lt;div class="mb-2"&gt;
+                            &lt;a class="card-link" href="#"&gt;Announcements&lt;/a&gt;
+                          &lt;/div&gt;
+
+                          &lt;h3 class="card-title"&gt;
+                            &lt;a class="text-dark" href="../blog-article.html"&gt;Announcing a free plan for small teams&lt;/a&gt;
+                          &lt;/h3&gt;
+                          
+                          &lt;p class="card-text"&gt;At Wake, our mission has always been focused on bringing openness.&lt;/p&gt;
+                          
+                          &lt;!-- Card Footer --&gt;
+                          &lt;div class="card-footer"&gt;
+                            &lt;div class="d-flex"&gt;
+                              &lt;div class="flex-shrink-0"&gt;
+                                &lt;a class="avatar avatar-circle" href="../blog-author-profile.html"&gt;
+                                  &lt;img class="avatar-img" src="../assets/img/160x160/img9.jpg" alt="Image Description"&gt;
+                                &lt;/a&gt;
+                              &lt;/div&gt;
+                            
+                              &lt;div class="flex-grow-1 ms-3"&gt;
+                                &lt;a class="card-link link-dark" href="../blog-author-profile.html"&gt;Hanna Wolfe&lt;/a&gt;
+                                &lt;p class="card-text small"&gt;Feb 4, 2021&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Card Footer --&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Card Body --&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Col --&gt;
+                    &lt;/div&gt;
+                    &lt;!-- End Row --&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Card --&gt;
+                &lt;/div&gt;
               </code>
             </pre>
           </div>
@@ -529,87 +650,226 @@
         <!-- Tab Content -->
         <div class="tab-content" id="navTabContent2">
           <div class="tab-pane fade p-4 show active" id="nav-result2" role="tabpanel" aria-labelledby="nav-resultTab2">
-            <!-- List - Blog -->
-            <div class="container">
-              <!-- Card -->
-              <div class="card card-sm">
-                <div class="card-body">
-                  <div class="row align-items-md-center">
-                    <div class="col-md-6 mb-3 mb-md-0">
-                      <img class="img-fluid" src="../assets/img/900x700/img8.jpg" alt="Image Description">
-                    </div>
-                    <!-- End Col -->
-
-                    <div class="col-md-6">
-                      <div class="ps-md-5">
-                        <!-- List Separator -->
-                        <ul class="list-inline list-separator mb-3">
-                          <li class="list-inline-item">
-                            <a class="text-cap text-muted mb-0" href="#">Product resources</a>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="text-cap text-muted mb-0">7 min read</span>
-                          </li>
-                        </ul>
-                        <!-- End List Separator -->
-
-                        <h3 class="mb-3 mb-md-5">
-                          <a class="text-dark" href="../blog-article.html">Introduction to marketing and selling payments for SaaS platforms</a>
-                        </h3>
-                        <p>SaaS platforms are often looking for ways to offer complementary services that add extra value for their customers.</p>
-                      </div>
-                    </div>
-                    <!-- End Col -->
-                  </div>
-                  <!-- End Row -->
+            <!-- Card -->
+            <div class="card card-flush">
+              <div class="row align-items-md-center">
+                <div class="col-md-8">
+                  <img class="card-img rounded-2" src="../assets/img/900x450/img1.jpg" alt="Image Description">
                 </div>
+                <!-- End Col -->
+
+                <div class="col-md-4">
+                  <div class="card-body">
+                    <span class="card-subtitle">Business</span>
+                    <h2 class="card-title"><a class="text-dark" href="../blog-article.html">Should Product Owners think like entrepreneurs?</a></h2>
+                    <p class="card-text">Front is a financial technology company. We build products. We do it fast and we do it well.</p>
+                    <a class="card-link" href="#">Read more <i class="bi-chevron-right small ms-1"></i></a>
+                  </div>
+                </div>
+                <!-- End Col -->
               </div>
-              <!-- End Card -->
+              <!-- End Row -->
             </div>
-            <!-- End List - Blog -->
+            <!-- End Card -->
           </div>
 
           <div class="tab-pane fade" id="nav-html2" role="tabpanel" aria-labelledby="nav-htmlTab2">
             <pre>
               <code class="language-markup" data-lang="html">
-                &lt;!-- List - Blog --&gt;
-                &lt;div class="container" style="margin-top: -10rem;"&gt;
-                  &lt;!-- Card --&gt;
-                  &lt;div class="card card-sm"&gt;
-                    &lt;div class="card-body"&gt;
-                      &lt;div class="row align-items-md-center"&gt;
-                        &lt;div class="col-md-6 mb-3 mb-md-0"&gt;
-                          &lt;img class="img-fluid" src="../assets/img/900x700/img8.jpg" alt="Image Description"&gt;
-                        &lt;/div&gt;
-                        &lt;!-- End Col --&gt;
-
-                        &lt;div class="col-md-6"&gt;
-                          &lt;div class="ps-md-5"&gt;
-                            &lt;!-- List Separator --&gt;
-                            &lt;ul class="list-inline list-separator mb-3"&gt;
-                              &lt;li class="list-inline-item"&gt;
-                                &lt;a class="text-cap text-muted mb-0" href="#"&gt;Product resources&lt;/a&gt;
-                              &lt;/li&gt;
-                              &lt;li class="list-inline-item"&gt;
-                                &lt;span class="text-cap text-muted mb-0"&gt;7 min read&lt;/span&gt;
-                              &lt;/li&gt;
-                            &lt;/ul&gt;
-                            &lt;!-- End List Separator --&gt;
-
-                            &lt;h3 class="mb-3 mb-md-5"&gt;
-                              &lt;a class="text-dark" href="../blog-article.html"&gt;Introduction to marketing and selling payments for SaaS platforms&lt;/a&gt;
-                            &lt;/h3&gt;
-                            &lt;p&gt;SaaS platforms are often looking for ways to offer complementary services that add extra value for their customers.&lt;/p&gt;
-                          &lt;/div&gt;
-                        &lt;/div&gt;
-                        &lt;!-- End Col --&gt;
-                      &lt;/div&gt;
-                      &lt;!-- End Row --&gt;
+                &lt;!-- Card --&gt;
+                &lt;div class="card card-flush"&gt;
+                  &lt;div class="row align-items-md-center"&gt;
+                    &lt;div class="col-md-8"&gt;
+                      &lt;img class="card-img rounded-2" src="../assets/img/900x450/img1.jpg" alt="Image Description"&gt;
                     &lt;/div&gt;
+                    &lt;!-- End Col --&gt;
+
+                    &lt;div class="col-md-4"&gt;
+                      &lt;div class="card-body"&gt;
+                        &lt;span class="card-subtitle"&gt;Business&lt;/span&gt;
+                        &lt;h2 class="card-title"&gt;&lt;a class="text-dark" href="../blog-article.html"&gt;Should Product Owners think like entrepreneurs?&lt;/a&gt;&lt;/h2&gt;
+                        &lt;p class="card-text"&gt;Front is a financial technology company. We build products. We do it fast and we do it well.&lt;/p&gt;
+                        &lt;a class="card-link" href="#"&gt;Read more &lt;i class="bi-chevron-right small ms-1"&gt;&lt;/i&gt;&lt;/a&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;!-- End Col --&gt;
+                  &lt;/div&gt;
+                  &lt;!-- End Row --&gt;
+                &lt;/div&gt;
+                &lt;!-- End Card --&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+        <!-- End Tab Content -->
+      </div>
+      <!-- End Card -->
+
+      <!-- Heading -->
+      <h2 id="component-3" class="hs-docs-heading">
+        Component #3 <a class="anchorjs-link" href="#component-3" aria-label="Anchor" data-anchorjs-icon="#"></a>
+      </h2>
+      <!-- End Heading -->
+
+      <!-- Card -->
+      <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+          <!-- Nav -->
+          <ul class="nav nav-segment" id="navTab3" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-resultTab3" href="#nav-result3" data-bs-toggle="pill" data-bs-target="#nav-result3" role="tab" aria-controls="nav-result3" aria-selected="true">Preview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-htmlTab3" href="#nav-html3" data-bs-toggle="pill" data-bs-target="#nav-html3" role="tab" aria-controls="nav-html3" aria-selected="false">HTML</a>
+            </li>
+          </ul>
+          <!-- End Nav -->
+        </div>
+        <!-- End Header -->
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="navTabContent3">
+          <div class="tab-pane fade p-4 show active" id="nav-result3" role="tabpanel" aria-labelledby="nav-resultTab3">
+            <!-- Card Grid -->
+            <div class="container">
+              <!-- Card -->
+              <div class="card card-stretched-vertical">
+                <div class="row gx-0">
+                  <div class="col-lg-8">
+                    <div class="shape-container overflow-hidden">
+                      <img class="card-img" src="../assets/img/900x450/img2.jpg" alt="Image Description">
+                      
+                      <!-- Shape -->
+                      <div class="shape shape-end d-none d-lg-block zi-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100.1 1920" height="101%">
+                          <path fill="#fff" d="M0,1920c0,0,93.4-934.4,0-1920h100.1v1920H0z"/>
+                        </svg>
+                      </div>
+                      <!-- End Shape -->
+                      
+                      <!-- Shape -->
+                      <div class="shape shape-bottom d-lg-none zi-1" style="margin-bottom: -.25rem">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
+                          <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"></path>
+                        </svg>
+                      </div>
+                      <!-- End Shape -->
+                    </div>
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-lg-4">
+                    <!-- Card Body -->
+                    <div class="card-body">
+                      <h3 class="card-title">
+                        <a class="text-dark" href="../blog-article.html">How Google Assistant now helps you record stories for kids</a>
+                      </h3>
+
+                      <p class="card-text">Google is constantly updating its consumer AI, Google Assistant, with new features.</p>
+
+                      <!-- Card Footer -->
+                      <div class="card-footer">
+                        <div class="d-flex align-items-center">
+                          <div class="flex-shrink-0 avatar-group avatar-group-xs">
+                            <a class="avatar avatar-xs avatar-circle" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Aaron Larsson">
+                              <img class="avatar-img" src="../assets/img/160x160/img3.jpg" alt="Image Description">
+                            </a>
+                            <a class="avatar avatar-xs avatar-circle" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="John O'nolan">
+                              <img class="avatar-img" src="../assets/img/160x160/img4.jpg" alt="Image Description">
+                            </a>
+                          </div>
+
+                          <div class="flex-grow-1">
+                            <div class="d-flex justify-content-end">
+                              <p class="card-text">July 15</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Card Footer -->
+                    </div>
+                    <!-- End Card Body -->
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+              <!-- End Card -->
+            </div>
+            <!-- End Card Grid -->
+          </div>
+
+          <div class="tab-pane fade" id="nav-html3" role="tabpanel" aria-labelledby="nav-htmlTab3">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- Card Grid --&gt;
+                &lt;div class="container content-space-2 content-space-lg-3"&gt;
+                  &lt;!-- Card --&gt;
+                  &lt;div class="card card-stretched-vertical"&gt;
+                    &lt;div class="row gx-0"&gt;
+                      &lt;div class="col-lg-8"&gt;
+                        &lt;div class="shape-container overflow-hidden"&gt;
+                          &lt;img class="card-img" src="../assets/img/900x450/img2.jpg" alt="Image Description"&gt;
+                          
+                          &lt;!-- Shape --&gt;
+                          &lt;div class="shape shape-end d-none d-lg-block zi-1"&gt;
+                            &lt;svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 100.1 1920" height="101%"&gt;
+                              &lt;path fill="#fff" d="M0,1920c0,0,93.4-934.4,0-1920h100.1v1920H0z"/&gt;
+                            &lt;/svg&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Shape --&gt;
+                          
+                          &lt;!-- Shape --&gt;
+                          &lt;div class="shape shape-bottom d-lg-none zi-1" style="margin-bottom: -.25rem"&gt;
+                            &lt;svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1"&gt;
+                              &lt;path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"&gt;&lt;/path&gt;
+                            &lt;/svg&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Shape --&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Col --&gt;
+
+                      &lt;div class="col-lg-4"&gt;
+                        &lt;!-- Card Body --&gt;
+                        &lt;div class="card-body"&gt;
+                          &lt;h3 class="card-title"&gt;
+                            &lt;a class="text-dark" href="../blog-article.html"&gt;How Google Assistant now helps you record stories for kids&lt;/a&gt;
+                          &lt;/h3&gt;
+
+                          &lt;p class="card-text"&gt;Google is constantly updating its consumer AI, Google Assistant, with new features.&lt;/p&gt;
+
+                          &lt;!-- Card Footer --&gt;
+                          &lt;div class="card-footer"&gt;
+                            &lt;div class="d-flex align-items-center"&gt;
+                              &lt;div class="flex-shrink-0 avatar-group avatar-group-xs"&gt;
+                                &lt;a class="avatar avatar-xs avatar-circle" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Aaron Larsson"&gt;
+                                  &lt;img class="avatar-img" src="../assets/img/160x160/img3.jpg" alt="Image Description"&gt;
+                                &lt;/a&gt;
+                                &lt;a class="avatar avatar-xs avatar-circle" href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="John O'nolan"&gt;
+                                  &lt;img class="avatar-img" src="../assets/img/160x160/img4.jpg" alt="Image Description"&gt;
+                                &lt;/a&gt;
+                              &lt;/div&gt;
+
+                              &lt;div class="flex-grow-1"&gt;
+                                &lt;div class="d-flex justify-content-end"&gt;
+                                  &lt;p class="card-text"&gt;July 15&lt;/p&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Card Footer --&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Card Body --&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Col --&gt;
+                    &lt;/div&gt;
+                    &lt;!-- End Row --&gt;
                   &lt;/div&gt;
                   &lt;!-- End Card --&gt;
                 &lt;/div&gt;
-                &lt;!-- End List - Blog --&gt;
+                &lt;!-- End Card Grid --&gt;
               </code>
             </pre>
           </div>
@@ -643,18 +903,11 @@
   </a>
   <!-- ========== END SECONDARY CONTENTS ========== -->
 
-  <!-- JS Global Compulsory  -->
-  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="../assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="../assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
-  <script src="../assets/vendor/list.js/dist/list.min.js"></script>
-  <script src="../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="../assets/vendor/prism/prism.js"></script>
-  <script src="../assets/vendor/fslightbox/index.js"></script>
+  <script src="../assets/js/vendor.min.js"></script>
 
-  <!-- JS Space -->
+  <!-- JS Front -->
   <script src="../assets/js/theme.min.js"></script>
 
   <!-- JS Plugins Init. -->
@@ -675,7 +928,8 @@
 
       // INITIALIZATION OF LISTJS COMPONENT
       // =======================================================
-      const snippetsSearch = HSCore.components.HSList.init('#snippetsSearch');
+      HSCore.components.HSList.init('#snippetsSearch')
+      const snippetsSearch = HSCore.components.HSList.getItem('snippetsSearch')
 
 
       // GET JSON FILE RESULTS
@@ -683,7 +937,7 @@
       fetch('../assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
-        snippetsSearch.getItem(0).add(data)
+        snippetsSearch.add(data)
       })
 
 

@@ -6,25 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Title -->
-  <title>Modals - Snippets | Space - Multipurpose Responsive Template</title>
+  <title>Modals - Snippets | Front - Multipurpose Responsive Template</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="../favicon.ico">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/css/vendor.min.css">
   <link rel="stylesheet" href="../assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
 
-  <!-- CSS Space Template -->
-  <link rel="stylesheet" href="../assets/css/theme.min.css">
-  <link rel="stylesheet" href="../assets/css/snippets.min.css">
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../assets/css/theme.min.css?v=1.0">
 </head>
 
-<body class="navbar-sidebar-aside-lg bg-light">
+<body class="navbar-sidebar-aside-lg">
   <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand navbar-fixed navbar-right navbar-light navbar-sticky-lg-top bg-white">
+  <header id="header" class="navbar navbar-expand navbar-fixed navbar-end navbar-light navbar-sticky-lg-top bg-white">
     <div class="container-fluid">
       <nav class="navbar-nav-wrap">
         <div class="row flex-grow-1">
@@ -34,7 +34,7 @@
               <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <a href="../documentation/changelog.html">
-              <span class="badge bg-soft-primary text-primary">v2.0</span>
+              <span class="badge bg-soft-primary text-primary">v4.0</span>
             </a>
           </div>
           <!-- End Default Logo -->
@@ -57,7 +57,7 @@
                       <i class="bi-search"></i>
                     </div>
 
-                    <input type="search" class="search form-control" placeholder="Search in snippets" aria-label="Search in snippets">
+                    <input type="search" class="search form-control form-control-sm" placeholder="Search in snippets" aria-label="Search in snippets">
 
                     <a class="input-group-append input-group-text" href="javascript:;">
                       <i id="clearSearchResultsIcon" class="bi-x" style="display: none;"></i>
@@ -84,8 +84,8 @@
                 <div class="d-none">
                   <div id="searchTemplate" class="dropdown-item">
                     <a class="d-block link" href="#">
-                      <span class="category d-block text-muted mb-1"></span>
-                      <span class="component fw-bold text-dark"></span>
+                      <span class="category d-block fw-normal text-muted mb-1"></span>
+                      <span class="component text-dark"></span>
                     </a>
                   </div>
                 </div>
@@ -95,12 +95,12 @@
               <!-- Navbar -->
               <ul class="navbar-nav p-0">
                 <li class="nav-item">
-                  <a class="btn btn-ghost-secondary" href="https://htmlstream.com/contact-us" target="_blank">
+                  <a class="btn btn-ghost-secondary btn-sm" href="https://htmlstream.com/contact-us" target="_blank">
                     Get Support <i class="bi-box-arrow-up-right ms-1"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="btn btn-primary" href="../index.html">
+                  <a class="btn btn-primary btn-sm" href="../index.html">
                     <i class="bi-eye me-1"></i> Preview Demo
                   </a>
                 </li>
@@ -152,7 +152,7 @@
               <img class="navbar-brand-logo" src="../assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <a class="navbar-brand-badge" href="../documentation/changelog.html">
-              <span class="badge bg-soft-primary text-primary ms-2">v2.0</span>
+              <span class="badge bg-soft-primary text-primary ms-2">v4.0</span>
             </a>
           </div>
           <!-- End Default Logo -->
@@ -196,11 +196,11 @@
             <li class="nav-item my-2 my-lg-5"></li>
 
             <li class="nav-item">
-              <span class="nav-subtitle">Foundations</span>
+              <span class="nav-subtitle">Content</span>
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavFeaturesCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavFeaturesCollapse">Features</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavFeaturesCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavFeaturesCollapse">Features</a>
 
               <div id="snippetsSidebarNavFeaturesCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="features-general.html">General</a>
@@ -215,10 +215,20 @@
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavCardsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavCardsCollapse">Cards</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavCardsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavCardsCollapse">Cards</a>
 
               <div id="snippetsSidebarNavCardsCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="cards-grid.html">Grid</a>
+                <a class="nav-link " href="cards-list.html">List</a>
+              </div>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavDirectoryCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavDirectoryCollapse">Directory</a>
+
+              <div id="snippetsSidebarNavDirectoryCollapse" class="nav-collapse collapse ">
+                <a class="nav-link " href="directory-grid.html">Grid</a>
+                <a class="nav-link " href="directory-list.html">List</a>
               </div>
             </li>
 
@@ -227,7 +237,7 @@
             </li>
 
             <li class="nav-item ">
-              <a class="nav-link dropdown-toggle dropdown-toggle-collapse" href="#snippetsSidebarNavBlogsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavBlogsCollapse">Blogs</a>
+              <a class="nav-link dropdown-toggle" href="#snippetsSidebarNavBlogsCollapse" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="snippetsSidebarNavBlogsCollapse">Blogs</a>
 
               <div id="snippetsSidebarNavBlogsCollapse" class="nav-collapse collapse ">
                 <a class="nav-link " href="blogs-grid.html">Grid</a>
@@ -236,11 +246,23 @@
             </li>
 
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/tables.html">Tables</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/ecommerce.html">E-commerce</a>
+            </li>
+
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/pricing.html">Pricing</a>
             </li>
         
             <li class="nav-item">
               <a class="nav-link " href="../snippets/team-sections.html">Team Sections</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/breadcrumb.html">Breadcrumb</a>
             </li>
         
             <li class="nav-item">
@@ -264,6 +286,10 @@
             </li>
         
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/countdown.html">Countdown</a>
+            </li>
+        
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/faq.html">FAQ</a>
             </li>
         
@@ -272,7 +298,15 @@
             </li>
         
             <li class="nav-item">
+              <a class="nav-link " href="../snippets/collapse-accordion.html">Collapse/Accordion</a>
+            </li>
+        
+            <li class="nav-item">
               <a class="nav-link " href="../snippets/comments.html">Comments</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="../snippets/feedback-and-reviews.html">Feedback &amp; Reviews</a>
             </li>
         
             <li class="nav-item">
@@ -280,11 +314,19 @@
             </li>
         
             <li class="nav-item">
-              <a class="nav-link " href="sidebar-examples.html">Sidebar Nav Examples</a>
+              <a class="nav-link " href="sidebar-examples.html">Sidebar Examples</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="../snippets/content-sections.html">Content Sections</a>
+              <a class="nav-link " href="calendar-view.html">Calendar View</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="notification.html">Notification</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="content-sections.html">Content Sections</a>
             </li>
 
             <li class="nav-item my-2 my-lg-5"></li>
@@ -292,29 +334,37 @@
             <li class="nav-item">
               <small class="nav-subtitle">Forms</small>
             </li>
-          
-            <li class="nav-item">
-              <a class="nav-link " href="form-layouts-authentication.html">Authentication</a>
-            </li>
 
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-feedback.html">Feedback</a>
+              <a class="nav-link " href="forms-authentication.html">Authentication</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-filters.html">Filters</a>
+              <a class="nav-link " href="forms-feedback.html">Feedback</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-search.html">Search</a>
+              <a class="nav-link " href="forms-filters.html">Filters</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-directory.html">Directory</a>
+              <a class="nav-link " href="forms-search.html">Search</a>
             </li>
-
+        
             <li class="nav-item">
-              <a class="nav-link " href="form-layouts-subscribe.html">Subscribe</a>
+              <a class="nav-link " href="forms-directory.html">Directory</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-subscribe.html">Subscribe</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-account.html">Account</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link " href="forms-wizard-and-steps.html">Wizard &amp; Steps</a>
             </li>
 
             <li class="nav-item my-2 my-lg-5"></li>
@@ -378,13 +428,9 @@
         <!-- Tab Content -->
         <div class="tab-content" id="navTabContent1">
           <div class="tab-pane fade p-4 show active" id="nav-result1" role="tabpanel" aria-labelledby="nav-resultTab1">
-            <!-- Modal Trigger -->
-            <a class="btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal">
-              <i class="bi-person-circle me-1"></i> Sign up
-            </a>
-            <!-- End Modal Trigger -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signupModal">Sign up modal</button>
 
-            <!-- ========== SECONDARY CONTENTS ========== -->
+            <!-- Modal -->
             <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -395,28 +441,28 @@
                   <!-- End Header -->
 
                   <!-- Body -->
-                  <div class="modal-body p-sm-5">
+                  <div class="modal-body">
                     <!-- Log in -->
                     <div id="signupModalFormLogin" style="display: none; opacity: 0;">
                       <!-- Heading -->
                       <div class="text-center mb-7">
-                        <h4>Log in</h4>
+                        <h2>Log in</h2>
                         <p>Don't have an account yet?
-                          <a class="js-animation-link" href="javascript:;" role="button"
+                          <a class="js-animation-link link" href="javascript:;" role="button"
                              data-hs-show-animation-options='{
                                    "targetSelector": "#signupModalFormSignup",
                                    "groupName": "idForm"
-                                 }'>Sign up here</a>
+                                 }'>Sign up</a>
                         </p>
                       </div>
                       <!-- End Heading -->
 
                       <div class="d-grid gap-2">
                         <a class="btn btn-white btn-lg" href="#">
-                            <span class="d-flex justify-content-center align-items-center">
-                              <img class="avatar avatar-xss me-2" src="../assets/svg/brands/google-icon.svg" alt="Image Description">
-                              Log in with Google
-                            </span>
+                          <span class="d-flex justify-content-center align-items-center">
+                            <img class="avatar avatar-xss me-2" src="../assets/svg/brands/google-icon.svg" alt="Image Description">
+                            Log in with Google
+                          </span>
                         </a>
 
                         <a class="js-animation-link btn btn-primary btn-lg" href="#"
@@ -432,13 +478,13 @@
                     <div id="signupModalFormLoginWithEmail" style="display: none; opacity: 0;">
                       <!-- Heading -->
                       <div class="text-center mb-7">
-                        <h4>Log in</h4>
+                        <h2>Log in</h2>
                         <p>Don't have an account yet?
-                          <a class="js-animation-link" href="javascript:;" role="button"
+                          <a class="js-animation-link link" href="javascript:;" role="button"
                              data-hs-show-animation-options='{
                                    "targetSelector": "#signupModalFormSignup",
                                    "groupName": "idForm"
-                                 }'>Sign up here</a>
+                                 }'>Sign up</a>
                         </p>
                       </div>
                       <!-- End Heading -->
@@ -470,7 +516,7 @@
                         <!-- End Form -->
 
                         <div class="d-grid mb-3">
-                          <button type="submit" class="btn btn-primary btn-lg">Log in</button>
+                          <button type="submit" class="btn btn-primary form-control-lg">Log in</button>
                         </div>
                       </form>
                     </div>
@@ -480,13 +526,13 @@
                     <div id="signupModalFormSignup">
                       <!-- Heading -->
                       <div class="text-center mb-7">
-                        <h4>Sign up</h4>
+                        <h2>Sign up</h2>
                         <p>Already have an account?
-                          <a class="js-animation-link" href="javascript:;" role="button"
+                          <a class="js-animation-link link" href="javascript:;" role="button"
                              data-hs-show-animation-options='{
                                    "targetSelector": "#signupModalFormLogin",
                                    "groupName": "idForm"
-                                 }'>Log in here</a>
+                                 }'>Log in</a>
                         </p>
                       </div>
                       <!-- End Heading -->
@@ -506,7 +552,7 @@
                                }'>Sign up with Email</a>
 
                         <div class="text-center">
-                          <p class="small mb-0">By continuing you agree to our <a href="../page-terms.html">Terms and Conditions</a></p>
+                          <p class="small mb-0">By continuing you agree to our <a href="#">Terms and Conditions</a></p>
                         </div>
                       </div>
                     </div>
@@ -516,13 +562,13 @@
                     <div id="signupModalFormSignupWithEmail" style="display: none; opacity: 0;">
                       <!-- Heading -->
                       <div class="text-center mb-7">
-                        <h4>Sign up</h4>
+                        <h2>Sign up</h2>
                         <p>Already have an account?
-                          <a class="js-animation-link" href="javascript:;" role="button"
+                          <a class="js-animation-link link" href="javascript:;" role="button"
                              data-hs-show-animation-options='{
                                    "targetSelector": "#signupModalFormLogin",
                                    "groupName": "idForm"
-                                 }'>Log in here</a>
+                                 }'>Log in</a>
                         </p>
                       </div>
                       <!-- End Heading -->
@@ -554,7 +600,7 @@
                         <!-- End Form -->
 
                         <div class="d-grid mb-3">
-                          <button type="submit" class="btn btn-primary btn-lg">Sign up</button>
+                          <button type="submit" class="btn btn-primary form-control-lg">Sign up</button>
                         </div>
 
                         <div class="text-center">
@@ -564,11 +610,11 @@
                     </div>
                     <!-- End Sign up with Modal -->
 
-                    <!-- Forgot Password -->
+                    <!-- Reset Password -->
                     <div id="signupModalFormResetPassword" style="display: none; opacity: 0;">
                       <!-- Heading -->
                       <div class="text-center mb-7">
-                        <h4>Forgot password?</h4>
+                        <h2>Forgot password?</h2>
                         <p>Enter the email address you used when you joined and we'll send you instructions to reset your password.</p>
                       </div>
                       <!-- En dHeading -->
@@ -584,25 +630,21 @@
                                    "targetSelector": "#signupModalFormLogin",
                                    "groupName": "idForm"
                                  }'>
-                              <i class="bi-chevron-left small me-1"></i> Back to Log in
+                              <i class="bi-chevron-left small"></i> Back to Log in
                             </a>
                           </div>
-                          <!-- End Form -->
 
-                          <!-- Form -->
-                          <div class="mb-3">
-                            <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required>
-                            <span class="invalid-feedback">Please enter a valid email address.</span>
-                          </div>
+                          <input type="email" class="form-control form-control-lg" name="email" id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required>
+                          <span class="invalid-feedback">Please enter a valid email address.</span>
                           <!-- End Form -->
-
-                          <div class="d-grid">
-                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                          </div>
+                        </div>
+                        
+                        <div class="d-grid">
+                          <button type="submit" class="btn btn-primary form-control-lg">Submit</button>
                         </div>
                       </form>
                     </div>
-                    <!-- End Forgot Password -->
+                    <!-- End Reset Password -->
                   </div>
                   <!-- End Body -->
 
@@ -639,19 +681,15 @@
                 </div>
               </div>
             </div>
-            <!-- ========== END SECONDARY CONTENTS ========== -->
+            <!-- End Modal -->
           </div>
 
           <div class="tab-pane fade" id="nav-html1" role="tabpanel" aria-labelledby="nav-htmlTab1">
             <pre>
               <code class="language-markup" data-lang="html">
-                &lt;!-- Modal Trigger --&gt;
-                &lt;a class="btn btn-primary" href="javascript:;" role="button" data-bs-toggle="modal" data-bs-target="#signupModal"&gt;
-                  &lt;i class="bi-person-circle me-1"&gt;&lt;/i&gt; Sign up
-                &lt;/a&gt;
-                &lt;!-- End Modal Trigger --&gt;
+                &lt;button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signupModal"&gt;Sign up modal&lt;/button&gt;
 
-                &lt;!-- ========== SECONDARY CONTENTS ========== --&gt;
+                &lt;!-- Modal --&gt;
                 &lt;div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true"&gt;
                   &lt;div class="modal-dialog modal-dialog-centered" role="document"&gt;
                     &lt;div class="modal-content"&gt;
@@ -662,28 +700,28 @@
                       &lt;!-- End Header --&gt;
 
                       &lt;!-- Body --&gt;
-                      &lt;div class="modal-body p-sm-5"&gt;
+                      &lt;div class="modal-body"&gt;
                         &lt;!-- Log in --&gt;
                         &lt;div id="signupModalFormLogin" style="display: none; opacity: 0;"&gt;
                           &lt;!-- Heading --&gt;
                           &lt;div class="text-center mb-7"&gt;
-                            &lt;h4&gt;Log in&lt;/h4&gt;
+                            &lt;h2&gt;Log in&lt;/h2&gt;
                             &lt;p&gt;Don't have an account yet?
-                              &lt;a class="js-animation-link" href="javascript:;" role="button"
+                              &lt;a class="js-animation-link link" href="javascript:;" role="button"
                                  data-hs-show-animation-options='{
                                        "targetSelector": "#signupModalFormSignup",
                                        "groupName": "idForm"
-                                     }'&gt;Sign up here&lt;/a&gt;
+                                     }'&gt;Sign up&lt;/a&gt;
                             &lt;/p&gt;
                           &lt;/div&gt;
                           &lt;!-- End Heading --&gt;
 
                           &lt;div class="d-grid gap-2"&gt;
                             &lt;a class="btn btn-white btn-lg" href="#"&gt;
-                                &lt;span class="d-flex justify-content-center align-items-center"&gt;
-                                  &lt;img class="avatar avatar-xss me-2" src="../assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
-                                  Log in with Google
-                                &lt;/span&gt;
+                              &lt;span class="d-flex justify-content-center align-items-center"&gt;
+                                &lt;img class="avatar avatar-xss me-2" src="../assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
+                                Log in with Google
+                              &lt;/span&gt;
                             &lt;/a&gt;
 
                             &lt;a class="js-animation-link btn btn-primary btn-lg" href="#"
@@ -699,13 +737,13 @@
                         &lt;div id="signupModalFormLoginWithEmail" style="display: none; opacity: 0;"&gt;
                           &lt;!-- Heading --&gt;
                           &lt;div class="text-center mb-7"&gt;
-                            &lt;h4&gt;Log in&lt;/h4&gt;
+                            &lt;h2&gt;Log in&lt;/h2&gt;
                             &lt;p&gt;Don't have an account yet?
-                              &lt;a class="js-animation-link" href="javascript:;" role="button"
+                              &lt;a class="js-animation-link link" href="javascript:;" role="button"
                                  data-hs-show-animation-options='{
                                        "targetSelector": "#signupModalFormSignup",
                                        "groupName": "idForm"
-                                     }'&gt;Sign up here&lt;/a&gt;
+                                     }'&gt;Sign up&lt;/a&gt;
                             &lt;/p&gt;
                           &lt;/div&gt;
                           &lt;!-- End Heading --&gt;
@@ -737,7 +775,7 @@
                             &lt;!-- End Form --&gt;
 
                             &lt;div class="d-grid mb-3"&gt;
-                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Log in&lt;/button&gt;
+                              &lt;button type="submit" class="btn btn-primary form-control-lg"&gt;Log in&lt;/button&gt;
                             &lt;/div&gt;
                           &lt;/form&gt;
                         &lt;/div&gt;
@@ -747,13 +785,13 @@
                         &lt;div id="signupModalFormSignup"&gt;
                           &lt;!-- Heading --&gt;
                           &lt;div class="text-center mb-7"&gt;
-                            &lt;h4&gt;Sign up&lt;/h4&gt;
+                            &lt;h2&gt;Sign up&lt;/h2&gt;
                             &lt;p&gt;Already have an account?
-                              &lt;a class="js-animation-link" href="javascript:;" role="button"
+                              &lt;a class="js-animation-link link" href="javascript:;" role="button"
                                  data-hs-show-animation-options='{
                                        "targetSelector": "#signupModalFormLogin",
                                        "groupName": "idForm"
-                                     }'&gt;Log in here&lt;/a&gt;
+                                     }'&gt;Log in&lt;/a&gt;
                             &lt;/p&gt;
                           &lt;/div&gt;
                           &lt;!-- End Heading --&gt;
@@ -773,7 +811,7 @@
                                    }'&gt;Sign up with Email&lt;/a&gt;
 
                             &lt;div class="text-center"&gt;
-                              &lt;p class="small mb-0"&gt;By continuing you agree to our &lt;a href="../page-terms.html"&gt;Terms and Conditions&lt;/a&gt;&lt;/p&gt;
+                              &lt;p class="small mb-0"&gt;By continuing you agree to our &lt;a href="#"&gt;Terms and Conditions&lt;/a&gt;&lt;/p&gt;
                             &lt;/div&gt;
                           &lt;/div&gt;
                         &lt;/div&gt;
@@ -783,13 +821,13 @@
                         &lt;div id="signupModalFormSignupWithEmail" style="display: none; opacity: 0;"&gt;
                           &lt;!-- Heading --&gt;
                           &lt;div class="text-center mb-7"&gt;
-                            &lt;h4&gt;Sign up&lt;/h4&gt;
+                            &lt;h2&gt;Sign up&lt;/h2&gt;
                             &lt;p&gt;Already have an account?
-                              &lt;a class="js-animation-link" href="javascript:;" role="button"
+                              &lt;a class="js-animation-link link" href="javascript:;" role="button"
                                  data-hs-show-animation-options='{
                                        "targetSelector": "#signupModalFormLogin",
                                        "groupName": "idForm"
-                                     }'&gt;Log in here&lt;/a&gt;
+                                     }'&gt;Log in&lt;/a&gt;
                             &lt;/p&gt;
                           &lt;/div&gt;
                           &lt;!-- End Heading --&gt;
@@ -821,7 +859,7 @@
                             &lt;!-- End Form --&gt;
 
                             &lt;div class="d-grid mb-3"&gt;
-                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Sign up&lt;/button&gt;
+                              &lt;button type="submit" class="btn btn-primary form-control-lg"&gt;Sign up&lt;/button&gt;
                             &lt;/div&gt;
 
                             &lt;div class="text-center"&gt;
@@ -831,11 +869,11 @@
                         &lt;/div&gt;
                         &lt;!-- End Sign up with Modal --&gt;
 
-                        &lt;!-- Forgot Password --&gt;
+                        &lt;!-- Reset Password --&gt;
                         &lt;div id="signupModalFormResetPassword" style="display: none; opacity: 0;"&gt;
                           &lt;!-- Heading --&gt;
                           &lt;div class="text-center mb-7"&gt;
-                            &lt;h4&gt;Forgot password?&lt;/h4&gt;
+                            &lt;h2&gt;Forgot password?&lt;/h2&gt;
                             &lt;p&gt;Enter the email address you used when you joined and we'll send you instructions to reset your password.&lt;/p&gt;
                           &lt;/div&gt;
                           &lt;!-- En dHeading --&gt;
@@ -851,25 +889,21 @@
                                        "targetSelector": "#signupModalFormLogin",
                                        "groupName": "idForm"
                                      }'&gt;
-                                  &lt;i class="bi-chevron-left small me-1"&gt;&lt;/i&gt; Back to Log in
+                                  &lt;i class="bi-chevron-left small"&gt;&lt;/i&gt; Back to Log in
                                 &lt;/a&gt;
                               &lt;/div&gt;
-                              &lt;!-- End Form --&gt;
 
-                              &lt;!-- Form --&gt;
-                              &lt;div class="mb-3"&gt;
-                                &lt;input type="email" class="form-control form-control-lg" name="email" id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required&gt;
-                                &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
-                              &lt;/div&gt;
+                              &lt;input type="email" class="form-control form-control-lg" name="email" id="signupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
                               &lt;!-- End Form --&gt;
-
-                              &lt;div class="d-grid"&gt;
-                                &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Submit&lt;/button&gt;
-                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            
+                            &lt;div class="d-grid"&gt;
+                              &lt;button type="submit" class="btn btn-primary form-control-lg"&gt;Submit&lt;/button&gt;
                             &lt;/div&gt;
                           &lt;/form&gt;
                         &lt;/div&gt;
-                        &lt;!-- End Forgot Password --&gt;
+                        &lt;!-- End Reset Password --&gt;
                       &lt;/div&gt;
                       &lt;!-- End Body --&gt;
 
@@ -906,7 +940,7 @@
                     &lt;/div&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
-                &lt;!-- ========== END SECONDARY CONTENTS ========== --&gt;
+                &lt;!-- End Modal --&gt;
               </code>
             </pre>
           </div>
@@ -915,30 +949,466 @@
             <pre>
               <code class="language-markup" data-lang="html">
                 &lt;!-- JS Implementing Plugins --&gt;
-                &lt;!-- bundlejs:vendor [..] --&gt;
                 &lt;script src="../assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"&gt;&lt;/script&gt;
+                &lt;script src="../assets/vendor/hs-toggle-password/dist/js/hs-toggle-password.js"&gt;&lt;/script&gt;
 
-                &lt;!-- JS Space --&gt;
-                &lt;!-- bundlejs:theme [..] --&gt;
+                &lt;!-- JS Front --&gt;
+                &lt;script src="../assets/js/hs.bs-validation.js"&gt;&lt;/script&gt;
 
                 &lt;!-- JS Plugins Init. --&gt;
                 &lt;script&gt;
                   (function() {
-                    // INITIALIZATION OF SHOW ANIMATIONS
-                    // =======================================================
-                    document.querySelectorAll('.js-animation-link').forEach(item =&gt; {
-                      new HSShowAnimation(item).init()
-                    })
-
-
                     // INITIALIZATION OF BOOTSTRAP VALIDATION
                     // =======================================================
                     HSBsValidation.init('.js-validate', {
-                      onSubmit: data => {
+                      onSubmit: data =&gt; {
                         data.event.preventDefault()
                         alert('Submited')
                       }
                     })
+
+
+                    // INITIALIZATION OF SHOW ANIMATIONS
+                    // =======================================================
+                    new HSShowAnimation('.js-animation-link')
+
+
+                    // INITIALIZATION OF TOGGLE PASSWORD
+                    // =======================================================
+                    new HSTogglePassword('.js-toggle-password')
+                  })()
+                &lt;/script&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+        <!-- End Tab Content -->
+      </div>
+      <!-- End Card -->
+
+      <!-- Heading -->
+      <h2 id="component-2" class="hs-docs-heading">
+        Component #2 <a class="anchorjs-link" href="#component-2" aria-label="Anchor" data-anchorjs-icon="#"></a>
+      </h2>
+      <!-- End Heading -->
+
+      <!-- Card -->
+      <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+          <!-- Nav -->
+          <ul class="nav nav-segment" id="navTab2" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-resultTab2" href="#nav-result2" data-bs-toggle="pill" data-bs-target="#nav-result2" role="tab" aria-controls="nav-result2" aria-selected="true">Preview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-htmlTab2" href="#nav-html2" data-bs-toggle="pill" data-bs-target="#nav-html2" role="tab" aria-controls="nav-html2" aria-selected="false">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-jsTab2" href="#nav-js2" data-bs-toggle="pill" data-bs-target="#nav-js2" role="tab" aria-controls="nav-js2" aria-selected="false">JS</a>
+            </li>
+          </ul>
+          <!-- End Nav -->
+        </div>
+        <!-- End Header -->
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="navTabContent2">
+          <div class="tab-pane fade p-4 show active" id="nav-result2" role="tabpanel" aria-labelledby="nav-resultTab2">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">Log in modal</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <!-- Header -->
+                  <div class="modal-close">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <!-- End Header -->
+
+                  <!-- Body -->
+                  <div class="modal-body">
+                    <!-- Log in -->
+                    <div id="loginModalFormLogin">
+                      <!-- Heading -->
+                      <div class="text-center mb-7">
+                        <h3 class="modal-title">Log in to Front</h3>
+                        <p>Login to manage your account</p>
+                      </div>
+                      <!-- End Heading -->
+
+                      <form class="js-validate needs-validation" novalidate>
+                        <!-- Form -->
+                        <div class="mb-3">
+                          <label class="form-label" for="loginModalFormLoginEmail">Your email</label>
+                          <input type="email" class="form-control" name="email" id="loginModalFormLoginEmail" placeholder="email@site.com" aria-label="email@site.com" required>
+                          <span class="invalid-feedback">Please enter a valid email address.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <!-- Form -->
+                        <div class="mb-3">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <label class="form-label" for="loginModalFormLoginPassword">Password</label>
+
+                            <a class="js-animation-link form-label-link" href="javascript:;"
+                               data-hs-show-animation-options='{
+                                 "targetSelector": "#loginModalFormResetPassword",
+                                 "groupName": "idForm"
+                               }'>Forgot Password?</a>
+                          </div>
+
+                          <input type="password" class="form-control form-control-lg" name="password" id="loginModalFormLoginPassword" placeholder="8+ characters required" aria-label="8+ characters required" required minlength="8">
+                          <span class="invalid-feedback">Please enter a valid password.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <div class="d-grid gap-3 text-center">
+                          <button type="submit" class="btn btn-primary btn-lg">Log in</button>
+                          
+                          <span class="divider-center">OR</span>
+                          
+                          <button type="submit" class="btn btn-ghost-secondary">
+                            <span class="d-flex justify-content-center align-items-center">
+                              <img class="avatar avatar-xss me-2" src="../assets/svg/brands/google-icon.svg" alt="Image Description">
+                              Log in with Google
+                            </span>
+                          </button>
+
+                          <p>Don't have an account yet?
+                            <a class="js-animation-link link" href="javascript:;" role="button"
+                               data-hs-show-animation-options='{
+                                 "targetSelector": "#loginModalFormSignup",
+                                 "groupName": "idForm"
+                               }'>Sign up</a>
+                          </p>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- End Log in -->
+
+                    <!-- Log in -->
+                    <div id="loginModalFormSignup" style="display: none; opacity: 0;">
+                      <!-- Heading -->
+                      <div class="text-center mb-7">
+                        <h3 class="modal-title">Sign up</h3>
+                        <p>Fill out the form to get started</p>
+                      </div>
+                      <!-- End Heading -->
+
+                      <form class="js-validate needs-validation" novalidate>
+                        <!-- Form -->
+                        <div class="mb-3">
+                          <label class="form-label" for="loginModalFormSignupEmail">Your email</label>
+                          <input type="email" class="form-control form-control-lg" name="email" id="loginModalFormSignupEmail" placeholder="email@site.com" aria-label="email@site.com" required>
+                          <span class="invalid-feedback">Please enter a valid email address.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <!-- Form -->
+                        <div class="mb-3">
+                          <label class="form-label" for="loginModalFormSignupPassword">Password</label>
+                          <input type="password" class="form-control form-control-lg" name="password" id="loginModalFormSignupPassword" placeholder="8+ characters required" aria-label="8+ characters required" required>
+                          <span class="invalid-feedback">Your password is invalid. Please try again.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <!-- Form -->
+                        <div class="mb-3" data-hs-validation-validate-class>
+                          <label class="form-label" for="loginModalFormSignupConfirmPassword">Confirm password</label>
+                          <input type="password" class="form-control form-control-lg" name="confirmPassword" id="loginModalFormSignupConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" required
+                                 data-hs-validation-equal-field="#loginModalFormSignupPassword">
+                          <span class="invalid-feedback">Password does not match the confirm password.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <div class="text-center mb-3">
+                          <p class="small mb-0">By continuing you agree to our <a href="#">Terms and Conditions</a></p>
+                        </div>
+
+                        <div class="d-grid gap-3 text-center">
+                          <button type="submit" class="btn btn-primary btn-lg">Sign up</button>
+                          
+                          <span class="divider-center">OR</span>
+                          
+                          <button type="submit" class="btn btn-ghost-secondary">
+                            <span class="d-flex justify-content-center align-items-center">
+                              <img class="avatar avatar-xss me-2" src="../assets/svg/brands/google-icon.svg" alt="Image Description">
+                              Sign up with Google
+                            </span>
+                          </button>
+
+                          <p>Already have an account?
+                            <a class="js-animation-link link" href="javascript:;" role="button"
+                               data-hs-show-animation-options='{
+                                 "targetSelector": "#loginModalFormLogin",
+                                 "groupName": "idForm"
+                               }'>Log in</a>
+                          </p>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- End Log in -->
+
+                    <!-- Reset Password -->
+                    <div id="loginModalFormResetPassword" style="display: none; opacity: 0;">
+                      <!-- Heading -->
+                      <div class="text-center mb-7">
+                        <h3 class="modal-title">Forgot password</h3>
+                        <p>Instructions will be sent to you</p>
+                      </div>
+                      <!-- End Heading -->
+
+                      <form class="js-validate needs-validation" novalidate>
+                        <!-- Form -->
+                        <div class="mb-3">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <label class="form-label" for="loginSignupModalFormResetPasswordEmail" tabindex="0">Your email</label>
+
+                            <a class="js-animation-link form-label-link" href="javascript:;"
+                               data-hs-show-animation-options='{
+                                   "targetSelector": "#loginModalFormLogin",
+                                   "groupName": "idForm"
+                                 }'>
+                              <i class="bi-chevron-left small"></i> Back to Log in
+                            </a>
+                          </div>
+
+                          <input type="email" class="form-control form-control-lg" name="email" id="loginSignupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required>
+                          <span class="invalid-feedback">Please enter a valid email address.</span>
+                        </div>
+                        <!-- End Form -->
+
+                        <div class="d-grid gap-3 text-center">
+                          <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- End Reset Password -->
+                  </div>
+                  <!-- End Body -->
+                </div>
+              </div>
+            </div>
+            <!-- End Modal -->
+          </div>
+
+          <div class="tab-pane fade" id="nav-html2" role="tabpanel" aria-labelledby="nav-htmlTab2">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal"&gt;Log in modal&lt;/button&gt;
+
+                &lt;!-- Modal --&gt;
+                &lt;div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true"&gt;
+                  &lt;div class="modal-dialog modal-sm modal-dialog-centered" role="document"&gt;
+                    &lt;div class="modal-content"&gt;
+                      &lt;!-- Header --&gt;
+                      &lt;div class="modal-close"&gt;
+                        &lt;button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"&gt;&lt;/button&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Header --&gt;
+
+                      &lt;!-- Body --&gt;
+                      &lt;div class="modal-body"&gt;
+                        &lt;!-- Log in --&gt;
+                        &lt;div id="loginModalFormLogin"&gt;
+                          &lt;!-- Heading --&gt;
+                          &lt;div class="text-center mb-7"&gt;
+                            &lt;h3 class="modal-title"&gt;Log in to Front&lt;/h3&gt;
+                            &lt;p&gt;Login to manage your account&lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Heading --&gt;
+
+                          &lt;form class="js-validate needs-validation" novalidate&gt;
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-3"&gt;
+                              &lt;label class="form-label" for="loginModalFormLoginEmail"&gt;Your email&lt;/label&gt;
+                              &lt;input type="email" class="form-control" name="email" id="loginModalFormLoginEmail" placeholder="email@site.com" aria-label="email@site.com" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-3"&gt;
+                              &lt;div class="d-flex justify-content-between align-items-center"&gt;
+                                &lt;label class="form-label" for="loginModalFormLoginPassword"&gt;Password&lt;/label&gt;
+
+                                &lt;a class="js-animation-link form-label-link" href="javascript:;"
+                                   data-hs-show-animation-options='{
+                                     "targetSelector": "#loginModalFormResetPassword",
+                                     "groupName": "idForm"
+                                   }'&gt;Forgot Password?&lt;/a&gt;
+                              &lt;/div&gt;
+
+                              &lt;input type="password" class="form-control form-control-lg" name="password" id="loginModalFormLoginPassword" placeholder="8+ characters required" aria-label="8+ characters required" required minlength="8"&gt;
+                              &lt;span class="invalid-feedback"&gt;Please enter a valid password.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;div class="d-grid gap-3 text-center"&gt;
+                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Log in&lt;/button&gt;
+                              
+                              &lt;span class="divider-center"&gt;OR&lt;/span&gt;
+                              
+                              &lt;button type="submit" class="btn btn-ghost-secondary"&gt;
+                                &lt;span class="d-flex justify-content-center align-items-center"&gt;
+                                  &lt;img class="avatar avatar-xss me-2" src="../assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
+                                  Log in with Google
+                                &lt;/span&gt;
+                              &lt;/button&gt;
+
+                              &lt;p&gt;Don't have an account yet?
+                                &lt;a class="js-animation-link link" href="javascript:;" role="button"
+                                   data-hs-show-animation-options='{
+                                     "targetSelector": "#loginModalFormSignup",
+                                     "groupName": "idForm"
+                                   }'&gt;Sign up&lt;/a&gt;
+                              &lt;/p&gt;
+                            &lt;/div&gt;
+                          &lt;/form&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Log in --&gt;
+
+                        &lt;!-- Log in --&gt;
+                        &lt;div id="loginModalFormSignup" style="display: none; opacity: 0;"&gt;
+                          &lt;!-- Heading --&gt;
+                          &lt;div class="text-center mb-7"&gt;
+                            &lt;h3 class="modal-title"&gt;Sign up&lt;/h3&gt;
+                            &lt;p&gt;Fill out the form to get started&lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Heading --&gt;
+
+                          &lt;form class="js-validate needs-validation" novalidate&gt;
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-3"&gt;
+                              &lt;label class="form-label" for="loginModalFormSignupEmail"&gt;Your email&lt;/label&gt;
+                              &lt;input type="email" class="form-control form-control-lg" name="email" id="loginModalFormSignupEmail" placeholder="email@site.com" aria-label="email@site.com" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-3"&gt;
+                              &lt;label class="form-label" for="loginModalFormSignupPassword"&gt;Password&lt;/label&gt;
+                              &lt;input type="password" class="form-control form-control-lg" name="password" id="loginModalFormSignupPassword" placeholder="8+ characters required" aria-label="8+ characters required" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Your password is invalid. Please try again.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-3" data-hs-validation-validate-class&gt;
+                              &lt;label class="form-label" for="loginModalFormSignupConfirmPassword"&gt;Confirm password&lt;/label&gt;
+                              &lt;input type="password" class="form-control form-control-lg" name="confirmPassword" id="loginModalFormSignupConfirmPassword" placeholder="8+ characters required" aria-label="8+ characters required" required
+                                     data-hs-validation-equal-field="#loginModalFormSignupPassword"&gt;
+                              &lt;span class="invalid-feedback"&gt;Password does not match the confirm password.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;div class="text-center mb-3"&gt;
+                              &lt;p class="small mb-0"&gt;By continuing you agree to our &lt;a href="#"&gt;Terms and Conditions&lt;/a&gt;&lt;/p&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class="d-grid gap-3 text-center"&gt;
+                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Sign up&lt;/button&gt;
+                              
+                              &lt;span class="divider-center"&gt;OR&lt;/span&gt;
+                              
+                              &lt;button type="submit" class="btn btn-ghost-secondary"&gt;
+                                &lt;span class="d-flex justify-content-center align-items-center"&gt;
+                                  &lt;img class="avatar avatar-xss me-2" src="../assets/svg/brands/google-icon.svg" alt="Image Description"&gt;
+                                  Sign up with Google
+                                &lt;/span&gt;
+                              &lt;/button&gt;
+
+                              &lt;p&gt;Already have an account?
+                                &lt;a class="js-animation-link link" href="javascript:;" role="button"
+                                   data-hs-show-animation-options='{
+                                     "targetSelector": "#loginModalFormLogin",
+                                     "groupName": "idForm"
+                                   }'&gt;Log in&lt;/a&gt;
+                              &lt;/p&gt;
+                            &lt;/div&gt;
+                          &lt;/form&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Log in --&gt;
+
+                        &lt;!-- Reset Password --&gt;
+                        &lt;div id="loginModalFormResetPassword" style="display: none; opacity: 0;"&gt;
+                          &lt;!-- Heading --&gt;
+                          &lt;div class="text-center mb-7"&gt;
+                            &lt;h3 class="modal-title"&gt;Forgot password&lt;/h3&gt;
+                            &lt;p&gt;Instructions will be sent to you&lt;/p&gt;
+                          &lt;/div&gt;
+                          &lt;!-- End Heading --&gt;
+
+                          &lt;form class="js-validate needs-validation" novalidate&gt;
+                            &lt;!-- Form --&gt;
+                            &lt;div class="mb-3"&gt;
+                              &lt;div class="d-flex justify-content-between align-items-center"&gt;
+                                &lt;label class="form-label" for="loginSignupModalFormResetPasswordEmail" tabindex="0"&gt;Your email&lt;/label&gt;
+
+                                &lt;a class="js-animation-link form-label-link" href="javascript:;"
+                                   data-hs-show-animation-options='{
+                                       "targetSelector": "#loginModalFormLogin",
+                                       "groupName": "idForm"
+                                     }'&gt;
+                                  &lt;i class="bi-chevron-left small"&gt;&lt;/i&gt; Back to Log in
+                                &lt;/a&gt;
+                              &lt;/div&gt;
+
+                              &lt;input type="email" class="form-control form-control-lg" name="email" id="loginSignupModalFormResetPasswordEmail" tabindex="1" placeholder="Enter your email address" aria-label="Enter your email address" required&gt;
+                              &lt;span class="invalid-feedback"&gt;Please enter a valid email address.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;!-- End Form --&gt;
+
+                            &lt;div class="d-grid gap-3 text-center"&gt;
+                              &lt;button type="submit" class="btn btn-primary btn-lg"&gt;Submit&lt;/button&gt;
+                            &lt;/div&gt;
+                          &lt;/form&gt;
+                        &lt;/div&gt;
+                        &lt;!-- End Reset Password --&gt;
+                      &lt;/div&gt;
+                      &lt;!-- End Body --&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- End Modal --&gt;
+              </code>
+            </pre>
+          </div>
+
+          <div class="tab-pane fade" id="nav-js2" role="tabpanel" aria-labelledby="nav-jsTab2">
+            <pre>
+              <code class="language-markup" data-lang="html">
+                &lt;!-- JS Implementing Plugins --&gt;
+                &lt;script src="../assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"&gt;&lt;/script&gt;
+                &lt;script src="../assets/vendor/hs-toggle-password/dist/js/hs-toggle-password.js"&gt;&lt;/script&gt;
+
+                &lt;!-- JS Front --&gt;
+                &lt;script src="../assets/js/hs.bs-validation.js"&gt;&lt;/script&gt;
+
+                &lt;!-- JS Plugins Init. --&gt;
+                &lt;script&gt;
+                  (function() {
+                    // INITIALIZATION OF BOOTSTRAP VALIDATION
+                    // =======================================================
+                    HSBsValidation.init('.js-validate', {
+                      onSubmit: data =&gt; {
+                        data.event.preventDefault()
+                        alert('Submited')
+                      }
+                    })
+
+
+                    // INITIALIZATION OF SHOW ANIMATIONS
+                    // =======================================================
+                    new HSShowAnimation('.js-animation-link')
+
+
+                    // INITIALIZATION OF TOGGLE PASSWORD
+                    // =======================================================
+                    new HSTogglePassword('.js-toggle-password')
                   })()
                 &lt;/script&gt;
               </code>
@@ -974,18 +1444,11 @@
   </a>
   <!-- ========== END SECONDARY CONTENTS ========== -->
 
-  <!-- JS Global Compulsory  -->
-  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="../assets/vendor/hs-header/dist/hs-header.min.js"></script>
-  <script src="../assets/vendor/hs-nav-scroller/dist/hs-nav-scroller.min.js"></script>
-  <script src="../assets/vendor/list.js/dist/list.min.js"></script>
-  <script src="../assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
-  <script src="../assets/vendor/prism/prism.js"></script>
-  <script src="../assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+  <script src="../assets/js/vendor.min.js"></script>
 
-  <!-- JS Space -->
+  <!-- JS Front -->
   <script src="../assets/js/theme.min.js"></script>
 
   <!-- JS Plugins Init. -->
@@ -1006,7 +1469,8 @@
 
       // INITIALIZATION OF LISTJS COMPONENT
       // =======================================================
-      const snippetsSearch = HSCore.components.HSList.init('#snippetsSearch');
+      HSCore.components.HSList.init('#snippetsSearch')
+      const snippetsSearch = HSCore.components.HSList.getItem('snippetsSearch')
 
 
       // GET JSON FILE RESULTS
@@ -1014,18 +1478,13 @@
       fetch('../assets/json/snippets-search.json')
       .then(response => response.json())
       .then(data => {
-        snippetsSearch.getItem(0).add(data)
+        snippetsSearch.add(data)
       })
 
 
       // INITIALIZATION OF GO TO
       // =======================================================
       new HSGoTo('.js-go-to')
-
-
-      // INITIALIZATION OF SHOW ANIMATIONS
-      // =======================================================
-      new HSShowAnimation('.js-animation-link')
 
 
       // INITIALIZATION OF BOOTSTRAP VALIDATION
@@ -1036,6 +1495,16 @@
           alert('Submited')
         }
       })
+
+
+      // INITIALIZATION OF SHOW ANIMATIONS
+      // =======================================================
+      new HSShowAnimation('.js-animation-link')
+
+
+      // INITIALIZATION OF TOGGLE PASSWORD
+      // =======================================================
+      new HSTogglePassword('.js-toggle-password')
     })()
   </script>
 </body>
