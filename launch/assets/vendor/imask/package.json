@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "imask@6.1.0",
+      "D:\\Atom8\\websites\\tao-demo"
+    ]
+  ],
+  "_from": "imask@6.1.0",
+  "_id": "imask@6.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-IuElVZpc7iuGw+CXfwoUZYpGdoD5H7cGo3S93gZPgjTTWfY5XAXCFL3g3b/ZJBZ18RG2dFF2kxAuuFlXMjq7oQ==",
+  "_location": "/imask",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "imask@6.1.0",
+    "name": "imask",
+    "escapedName": "imask",
+    "rawSpec": "6.1.0",
+    "saveSpec": null,
+    "fetchSpec": "6.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/imask/-/imask-6.1.0.tgz",
+  "_spec": "6.1.0",
+  "_where": "D:\\Atom8\\websites\\tao-demo",
+  "author": {
+    "name": "Alexey Kryazhev"
+  },
+  "bugs": {
+    "url": "https://github.com/uNmAnNeR/imaskjs/issues"
+  },
+  "description": "vanilla javascript input mask",
+  "engines": {
+    "npm": ">=4.0.0"
+  },
+  "gitHead": "d21f437d301b8fb9500774c0804f10d4c6f8b314",
+  "homepage": "https://imask.js.org/",
+  "keywords": [
+    "javascript",
+    "jquery",
+    "input",
+    "mask"
+  ],
+  "license": "MIT",
+  "main": "dist/imask.js",
+  "module": "esm/index.js",
+  "name": "imask",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uNmAnNeR/imaskjs.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "flow": "flow",
+    "lint": "eslint src/",
+    "pretest": "flow check",
+    "test": "cross-env NODE_ENV=test nyc mocha --exit --recursive",
+    "watch": "rollup -c -w"
+  },
+  "types": "index.d.ts",
+  "version": "6.1.0"
+}
