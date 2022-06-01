@@ -19,11 +19,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <link rel="stylesheet" href="./assets/css/vendor.min.css">
   <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+  <link rel="stylesheet" href="./assets/vendor/aos/dist/aos.css">
+  <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
 
   <!-- CSS Front Template -->
-  <link rel="stylesheet" href="./assets/css/theme.min.css?v=1.0">
+  <link rel="stylesheet" href="./assets/css/theme.min.css">
   <style>
     .avatar-lg.avatar-4x3 {
     width: 8.66667rem;
@@ -65,14 +67,14 @@
             <ul class="navbar-nav">
               <!-- Landings -->
               <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#mobile_app">Mobile app</a>
               </li>
 
               <li class="nav-item">
-                  <a class="nav-link" href="#">Partners</a>
+                  <a class="nav-link" href="#integrations">Integrations</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Industries</a>
+                  <a class="nav-link" href="#capabilities">Capabilities</a>
               </li>
 
 
@@ -143,12 +145,15 @@
     </div>
     <!-- End Clients -->
 
+
+
+
     <!-- Portfolio -->
     <div id="caseStudies" class="container content-space-2 content-space-b-lg-3 content-space-t-lg-1">
       <div class="d-grid gap-7 gap-md-10">
 
          <!-- Card -->
-         <div data-aos="fade-up">
+         <div data-aos="fade-up" id="mobile_app">
           <div class="card bg-soft-green shadow-none" href="#">
             <div class="card-body">
               <div class="row">
@@ -156,7 +161,7 @@
                   <!-- Mobile Device -->
                   <figure class="device-mobile mx-auto" style="max-width: 88%;">
                     <div class="device-mobile-frame">
-                      <img class="device-mobile-img" src="./assets/img/field/screen1.jpg" alt="Image Description">
+                      <img id="myImage" class="device-mobile-img" src="./assets/img/field/screen1.jpg" alt="Image Description">
                     </div>
                   </figure>
                   <!-- End Mobile Device -->
@@ -164,14 +169,14 @@
                 <!-- End Col -->
 
                 <div class="col-lg-9">
-                  <div class="mb-0">
+                  <div class="mb-0" onmouseover="document.getElementById('myImage').src='./assets/img/field/screen1.jpg'">
                     <h2 class="card-title h1">Bespoke field technician mobile app</h2>
                     <p>Customize the app for your unique work order flows and processes</p>
                   </div>
 
                   <div class="row">
                     <div class="col-sm-6 mb-3 mb-sm-0 d-flex">
-                      <div class="card shadow-none">
+                      <div class="card shadow-none" onmouseover="document.getElementById('myImage').src='./assets/img/field/screen2.jpg'">
                         <div class="card-body">
                           <h4 class="card-title">Collaboration and remote assistance </h4>
                           <p class="card-text text-body">Real-time communications for technicians to access information by collaborating remotely with the right experts</p>
@@ -181,7 +186,7 @@
                     <!-- End Col -->
 
                     <div class="col-sm-6 d-flex">
-                      <div class="card shadow-none">
+                      <div class="card shadow-none" onmouseover="document.getElementById('myImage').src='./assets/img/field/screen3.jpg'">
                         <div class="card-body">
                       <h4 class="card-title">Lorem ipsum dolor sit</h4>
                       <p class="card-text text-body">Improve Efficiency with mobile capabilities like using QR codes, image capture, voice, video, and GPS in the workflows</p>
@@ -194,7 +199,7 @@
                   <!-- End Row -->
                   <div class="row mt-4">
                     <div class="col-sm-6 mb-3 mb-sm-0 d-flex">
-                      <div class="card shadow-none w-100">
+                      <div class="card shadow-none w-100" onmouseover="document.getElementById('myImage').src='./assets/img/field/screen4.jpg'">
                         <div class="card-body">
                           <h4 class="card-title">Lorem ipsum dolor sit </h4>
                           <p class="card-text text-body">Timesheet, Punch-in, Punch-out</p>
@@ -204,7 +209,7 @@
                     <!-- End Col -->
 
                     <div class="col-sm-6 d-flex">
-                      <div class="card shadow-none w-100">
+                      <div class="card shadow-none w-100" onmouseover="document.getElementById('myImage').src='./assets/img/field/screen5.jpg'">
                         <div class="card-body">
                       <h4 class="card-title">Lorem ipsum dolor sit</h4>
                       <p class="card-text text-body">Offline ready for improved productivity</p>
@@ -226,7 +231,7 @@
     
 
         <!-- Card -->
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" id="integrations">
           <div class="card bg-soft-warning shadow-none" href="#">
             <div class="card-body">
               <div class="row">
@@ -286,7 +291,7 @@
         <!-- End Card -->
 
         <!-- Card -->
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" id="capabilities">
           <div class="card bg-soft-green shadow-none" href="#">
             <div class="card-body">
               <div class="row align-items-center d-flex">
@@ -822,9 +827,17 @@
   </a>
   <!-- ========== END SECONDARY CONTENTS ========== -->
 
+  <!-- JS Global Compulsory  -->
+  <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="./assets/js/vendor.min.js"></script>
+  <script src="./assets/vendor/hs-header/dist/hs-header.min.js"></script>
+  <script src="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+  <script src="./assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
+  <script src="./assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+  <script src="./assets/vendor/aos/dist/aos.js"></script>
+  <script src="./assets/vendor/typed.js/lib/typed.min.js"></script>
+  <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- JS Front -->
   <script src="./assets/js/theme.min.js"></script>
