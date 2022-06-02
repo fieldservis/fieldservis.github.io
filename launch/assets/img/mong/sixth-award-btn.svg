@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 251 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,0.259498,-5.81387)">
+        <g transform="matrix(1.01529,0,0,0.849016,-0.295838,5.27058)">
+            <path d="M246.764,5.045C246.764,2.939 245.334,1.229 243.573,1.229L3.719,1.229C1.958,1.229 0.528,2.939 0.528,5.045L0.528,61.016C0.528,63.122 1.958,64.832 3.719,64.832L243.573,64.832C245.334,64.832 246.764,63.122 246.764,61.016L246.764,5.045Z" style="fill:rgb(249,249,249);stroke:rgb(232,232,232);stroke-width:1.07px;"/>
+        </g>
+        <g>
+            <g transform="matrix(1,0,0,1,-19.8466,25.2566)">
+                <text x="84.994px" y="25.111px" style="font-family:'MicrosoftYaHeiLight', 'Microsoft YaHei', sans-serif;font-weight:290;font-size:13.333px;fill:rgb(119,119,119);">S<tspan x="92.416px 99.955px 108.288px 112.832px 120.371px 132.473px 140.806px 148.345px 153.364px 157.576px 165.258px 172.94px 176.404px 180.616px 188.298px 195.98px 203.662px " y="25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px ">eptember 06, 2020</tspan></text>
+            </g>
+            <g transform="matrix(1,0,0,1,-19.1337,1.84102)">
+                <text x="84.994px" y="25.111px" style="font-family:'MicrosoftYaHei', 'Microsoft YaHei', sans-serif;font-size:15px;fill:rgb(119,119,119);">#<tspan x="94.717px 103.663px 108.252px 117.579px 123.244px 132.93px 142.675px 152.068px 159.74px 165.479px 170.067px 179.46px 184.81px 189.399px 195.137px 204.523px 213.184px 217.772px 229.348px 237.789px " y="25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px 25.111px ">6 Product of the Day</tspan></text>
+            </g>
+            <g transform="matrix(1.26414,0,0,1.26414,23.9381,12.9461)">
+                <path d="M4.33,16.364L0.328,24.9C0.202,25.158 0.335,25.32 0.755,25.24L4.013,24.532C4.039,24.523 4.066,24.518 4.094,24.518C4.205,24.518 4.303,24.594 4.33,24.702L5.797,27.709C5.937,28.033 6.099,28.099 6.225,27.842L10.485,18.908L4.33,16.364ZM16.67,16.364L20.672,24.9C20.805,25.158 20.665,25.32 20.245,25.24L16.987,24.532C16.962,24.523 16.935,24.519 16.908,24.519C16.797,24.519 16.698,24.594 16.67,24.702L15.203,27.709C15.063,28.033 14.908,28.099 14.775,27.842L10.515,18.908L16.67,16.364Z" style="fill:rgb(222,120,24);fill-rule:nonzero;"/>
+                <path d="M9.298,21.392C9.298,21.399 9.284,21.392 9.269,21.392C7.036,21.144 4.942,20.182 3.299,18.65C3.291,18.642 3.269,18.635 3.276,18.627L3.46,18.237C3.468,18.222 3.482,18.259 3.49,18.267C5.067,19.733 7.257,20.655 9.497,20.927C9.505,20.927 9.52,20.927 9.52,20.935L9.298,21.392Z" style="fill:rgb(179,84,84);fill-rule:nonzero;"/>
+                <circle cx="10.5" cy="10.489" r="10.489" style="fill:rgb(240,205,10);"/>
+                <circle cx="10.5" cy="10.489" r="9.045" style="fill:rgb(210,179,9);"/>
+                <circle cx="10.75" cy="10.75" r="8.75" style="fill:rgb(227,193,1);"/>
+                <path d="M12.97,3.089C16.381,3.904 18.806,6.978 18.806,10.485C18.806,13.858 16.562,16.846 13.323,17.787C15.358,16.232 16.707,13.578 16.707,10.563C16.707,7.379 15.203,4.6 12.969,3.089L12.97,3.089Z" style="fill:white;fill-opacity:0.2;fill-rule:nonzero;"/>
+                <path d="M11.702,21.392C11.709,21.399 11.724,21.392 11.731,21.392C14.024,21.104 16.131,20.182 17.717,18.664C17.724,18.657 17.746,18.65 17.739,18.642L17.554,18.252C17.547,18.237 17.532,18.274 17.524,18.281C15.947,19.748 13.751,20.655 11.503,20.927C11.495,20.927 11.48,20.927 11.48,20.935L11.702,21.392Z" style="fill:rgb(179,84,84);fill-rule:nonzero;"/>
+                <g transform="matrix(1,0,0,1,-25.7416,-6.05204)">
+                    <text x="31.976px" y="21.419px" style="font-family:'MicrosoftYaHei-Bold', 'Microsoft YaHei', sans-serif;font-weight:700;font-size:12px;fill:rgb(255,242,181);">6</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
